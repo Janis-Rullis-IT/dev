@@ -11,9 +11,3 @@ specify them anywhere else in the system. For example, You can ignore systemwide
 
 ## Tell git to use it
 `git config --global core.excludesfile ~/.gitignore_global`
-
-## That's it!
-
----------------------------------
-
-Started in Jan 2018
