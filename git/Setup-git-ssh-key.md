@@ -3,7 +3,7 @@
 One of the cases when this can happen is when You are trying to clone a repo
 from github using SSH but haven't added Your SSH key to your github account.
 
-![image](/images/fix-permission-denied-publickey/error.png)
+![image](images/fix-permission-denied-publickey/error.png)
 
 ## Solution - add the SSH key
 
@@ -16,13 +16,13 @@ There should be the `id_rsa.pub` file.
 ## Generate the SSH key if You don't have it
 In my case there is only `known_hosts` file. 
 
-![image](/images/fix-permission-denied-publickey/ls-ssh.png)
+![image](images/fix-permission-denied-publickey/ls-ssh.png)
 
 So we need to generate the key.
 
 `ssh-keygen`
 
-![image](/images/fix-permission-denied-publickey/ssh-keygen.png)
+![image](images/fix-permission-denied-publickey/ssh-keygen.png)
 
 ## Get the SSH key
 
@@ -31,7 +31,7 @@ So we need to generate the key.
 This will print out a long string that starts with `ssh-rsa` and ends with
 the name of Your computer and the username which in my case is `j@x16`.
 
-![image](/images/fix-permission-denied-publickey/cat-id-rsa-pub.png)
+![image](images/fix-permission-denied-publickey/cat-id-rsa-pub.png)
 
 Copy this string exactly from the start of the `ssh-rsa` till the end of `j@x16`.
 
