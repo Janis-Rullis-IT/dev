@@ -1,2 +1,2 @@
 # dev
-Notes related with development - configs, setups, GIT, IDE, SSH, Web servers, etc.
+Notes related with development - configs, setups, GIT, IDE, SSH, Composer, Web servers, etc.
