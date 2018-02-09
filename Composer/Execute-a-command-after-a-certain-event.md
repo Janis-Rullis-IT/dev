@@ -2,6 +2,13 @@
 
 * [List of events](https://getcomposer.org/doc/articles/scripts.md#what-is-a-script-).
 
+### Difference between `post-install-cmd` and `post-update-cmd`
+
+When `composer install` is called the `post-install-cmd` won't execute the scripts
+for the first time when the `.lock` file is not generated yet but `post-update-cmd`
+will.
+
+
 ### Include custom Smarty plugins after composer has installed all packages
 
 Include by copying custom plugins into the Smarty's plugin directory.
@@ -18,7 +25,7 @@ Include by copying custom plugins into the Smarty's plugin directory.
                 "smarty/smarty": "3.1.13"
         },
         "scripts": {
-                "post-install-cmd": [
+                "post-update-cmd": [
                         "cp -u $PWD/smarty-custom-plugins/* vendor/smarty/smarty/libs/plugins/","
                 ]
         }
@@ -35,7 +42,7 @@ This is useful if have multiple commands.
                 "smarty/smarty": "3.1.13"
         },
         "scripts": {
-                "post-install-cmd": [
+                "post-update-cmd": [
                         "./build.sh"
                 ]
         }
