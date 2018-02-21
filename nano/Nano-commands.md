@@ -9,3 +9,4 @@
 * `Ctrl + B` - move cursor *B*ackward.
 * `Ctrl + ^` / `Ctrl + Shift + 6` - start marking then move with arrows. 
 Stop with the same command.
+* `Alt + ^` - Copy the text.
