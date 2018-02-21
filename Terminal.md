@@ -1,3 +1,3 @@
 # Terminal]
 
-* Close tab - `Ctrl + D`.
+* Close tab - `Ctrl + Shift + D`.
