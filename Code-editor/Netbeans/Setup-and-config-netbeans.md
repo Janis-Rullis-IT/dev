@@ -1,4 +1,4 @@
-# Adjust Netbeans
+# Setup and configure Netbeans
 
 ## Enable dark theme
 * Tools/Plugins/Available plugins/Darcula LAF theme.
