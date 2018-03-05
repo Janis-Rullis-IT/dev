@@ -2,7 +2,10 @@
 
 ## [Shortcuts](http://gimptips.com/articles/gimp-keyboard-shortcuts)
 * R - Rectangle Select.
-* Shift+C - Crop.
+* Shift + C - Crop.
+
+## Separating an Object From Its Background
+* [4.10. Separating an Object From Its Background](https://docs.gimp.org/en/gimp-tutorial-quickie-separate.html).
 
 ## [Grafika](https://lv.wikipedia.org/wiki/Grafika)
 intaglio, drypoint, [etching](http://www.paintshopprotutorials.co.uk/html/etching_photo_effect_gimp_.html), mezzotint, engrave, woodcut, aquatint.
