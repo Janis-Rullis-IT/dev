@@ -4,10 +4,8 @@
 * R - Rectangle Select.
 * Shift + C - Crop.
 * Ctrl + Shift + E - Export the image.
-* Ctrl + N - New layer.
-* Ctrl + Shift + N - New image.
-* Ctrl + C - Copy the current selection.
-* Ctrl + Shift + C - Copy the visible.
+* Ctrl + N - New image.
+* Ctrl + Shift + N - New layer.
 
 ## Toolbar went missing?
 * Tab - Hide Docks has been enabled.
@@ -16,3 +14,6 @@
 ```bash
 gimp image.jpg
 ```
+## Move across the image
+* Left / Right - Shift + Scroll.
+* Up / Down - Scroll.
