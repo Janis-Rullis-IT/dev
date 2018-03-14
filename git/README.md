@@ -21,4 +21,8 @@ git config --global user.email "john.doe@example.com"
 git config --global push.default simple
 ```
 
-### [Fix `Permission denied (publickey).` when cloning from the github](Setup-git-ssh-key.md)
+## Change repo's URL and keep the commit history
+Update `url` in `.git/config`.
+
+
+## [Fix `Permission denied (publickey).` when cloning from the github](Setup-git-ssh-key.md)
