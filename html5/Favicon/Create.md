@@ -1,5 +1,7 @@
 # Create multiple size favicons
 
+[Favicon cheatsheet (audreyr/favicon-cheat-sheet)](https://github.com/audreyr/favicon-cheat-sheet).
+
 ## Create PNGs
 
 > An .ico file is a container for multiple .bmp or .png icons of different sizes. In favicon.ico, create at least these:
