@@ -4,7 +4,7 @@
 
 ## Create 
 
-[Create multiple size favicons](create.md)
+[Create multiple size favicons](Create.md)
 
 ## Test sizes
 

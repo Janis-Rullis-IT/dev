@@ -49,7 +49,7 @@ the ones I bundlded.
 
 ### HTML5 syntax to include them all
 
-```html5
+```html
 <link rel="icon" type="image/png" href="https://cdn.yourwebsite.com/favicon-16x16.png" sizes="16x16">
 <link rel="icon" type="image/png" href="https://cdn.yourwebsite.com/favicon-96x96.png" sizes="96x96">
 ```
