@@ -6,6 +6,10 @@
 ## Add MD support
 * Markdown Support https://github.com/madflow/flow-netbeans-markdown
 
+## Add Bash / C++
+* https://stackoverflow.com/a/1641335
+* C++ Plugin.
+
 ## Enable [PSR-2 formatting](http://www.php-fig.org/psr/psr-2/) in Netbeans 8.2
 * https://github.com/allebb/netbeans-psr-formatting#installation
 
