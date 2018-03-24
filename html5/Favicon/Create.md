@@ -30,6 +30,8 @@
 
 > For the main favicon itself, it's best for cross-browser compatibility not to use any HTML. Just name the file favicon.ico and place it in the root of your domain.
 
+> Won't work in sub-site case, like https://janis-rullis.github.io/kaijas/.
+
 ```bash
 convert favicon-16.png favicon-32.png favicon-64.png favicon-96.png favicon-128.png favicon-256.png favicon.ico
 ```
