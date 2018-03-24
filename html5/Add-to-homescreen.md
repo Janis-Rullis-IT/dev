@@ -34,8 +34,12 @@ Chrome Dev Tools -> Application -> Manifest.
 > Requires HTTPS to test 'Add to homescreen'.
 > Site cannot be installed: a 144px square icon is required, but no supplied icon meets this requirement.
 
-## Hide adressbar
+## Hide adressbar keep nav
 ```json
   "display": "standalone",
 ```
 
+## hide address and nav
+```json
+  "display": "standalone",
+```
