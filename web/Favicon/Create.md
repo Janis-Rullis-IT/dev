@@ -1,5 +1,7 @@
 # Create multiple size favicons
 
+> Use [favicon.sh](https://github.com/janis-rullis/shell-scripts/blob/master/favicon.sh) generator.
+
 [Favicon cheatsheet (audreyr/favicon-cheat-sheet)](https://github.com/audreyr/favicon-cheat-sheet).
 
 ## Create PNGs
