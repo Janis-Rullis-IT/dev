@@ -1,6 +1,19 @@
 # HTTP statuses
 
 * [HTTP statuses](https://httpstatuses.com/).
+* [restfulapi.net/http-status-codes](https://restfulapi.net/http-status-codes/).
+
+## [What to return if request params are incorrect?](https://stackoverflow.com/a/10323055)
+* 400 - is the generic client-side error status, used when no other 4xx error code is appropriate.
+
+### Server does not undesrstand the content type (requires JSON).
+* 415 - Unsupported Media Type.
+
+### Server understand the content type
+but was unable to process the contained instructions.
+
+* 422 (Unprocessable Entity).
+
 
 ## 2×× Success
 * 200 OK
