@@ -25,11 +25,11 @@
 * 410 Gone
 
 ## 5×× Server Error
-500 Internal Server Error
-501 Not Implemented
-502 Bad Gateway
-503 Service Unavailable
-504 Gateway Timeout
-507 Insufficient Storage
-511 Network Authentication Required
-599 Network Connect Timeout Error
+* 500 Internal Server Error
+* 501 Not Implemented
+* 502 Bad Gateway
+* 503 Service Unavailable
+* 504 Gateway Timeout
+* 507 Insufficient Storage
+* 511 Network Authentication Required
+* 599 Network Connect Timeout Error
