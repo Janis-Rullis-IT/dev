@@ -18,13 +18,13 @@
 * Un-check 'Expand Tabs to Spaces'.
 * Set Tab Size to 4.
 
-![image](/images/adjust-netbeans/editor-formatting.png)
+![image](images/editor-formatting.png)
 
 ## Adjust Tools/Fonts & Colors
 * Select 'All Languages' in the 'Language' selector.
 * Set 'Monospaced 16 Bold'.
 
-![image](/images/adjust-netbeans/fonts-and-colors.png)
+![image](images/fonts-and-colors.png)
 
 ## Adjust Tools/Keymap
 
@@ -33,8 +33,8 @@
 * Select 'Delete Line' row.
 * Press 'Ctrl + Shift + D'.
 
-![image](/images/adjust-netbeans/keymap.png)
+![image](images/keymap.png)
 
 ## Export settings /Tools/Export
-![image](/images/adjust-netbeans/export.png)
+![image](images/export.png)
 
