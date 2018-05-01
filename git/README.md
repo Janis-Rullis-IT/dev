@@ -26,3 +26,21 @@ Update `url` in `.git/config`.
 
 
 ## [Fix `Permission denied (publickey).` when cloning from the github](Setup-git-ssh-key.md)
+
+## Can I?
+
+### Push from not root directory?
+
+#### Better NOT. It will not push changes from above.
+
+Current directory: /dev/Code-editor/Netbeans
+
+```shell
+	modified:   Setup-and-config-netbeans.md
+	modified:   ../../git/README.md
+```
+After push
+
+```shell
+modified:   ../../git/README.md
+```
