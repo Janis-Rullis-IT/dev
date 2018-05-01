@@ -8,6 +8,7 @@
 ## Appearance
 
 * View/Move Sidebar Right
+* Alt Edit/Preferences/Color Theme - Monokai.
 
 ## [Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
