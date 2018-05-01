@@ -1,5 +1,16 @@
 # Setup and configure Netbeans
 
+## Install
+
+* [Download.](http://bits.netbeans.org/download/trunk/nightly/latest/)
+
+### Launch
+
+```shell
+chmod a+x netbeans-t.....
+./netbeans-t.....
+```
+
 ## Enable dark theme
 * Tools/Plugins/Available plugins/Darcula LAF theme.
 
@@ -11,7 +22,9 @@
 * C++ Plugin.
 
 ## Enable [PSR-2 formatting](http://www.php-fig.org/psr/psr-2/) in Netbeans 8.2
-* https://github.com/allebb/netbeans-psr-formatting#installation
+* [Download PSR auto-formatting for NetBeans.](https://github.com/allebb/netbeans-psr-formatting#installation)
+* Tools/Options/Import
+* Check All.
 
 ## Adjust Tools/Editor/Formatting
 * Select 'All Languages' in the 'Language' selector.
