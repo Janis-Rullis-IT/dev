@@ -6,3 +6,8 @@
 * Extract into Documents/apps/Postman.
 * Open the directory.
 * Create shortcut - click on Postman and select Send to Desktop.
+
+
+## Keys
+
+* Fullscreen - F11.
