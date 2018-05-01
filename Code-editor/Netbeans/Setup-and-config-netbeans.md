@@ -38,6 +38,22 @@ chmod a+x netbeans-t.....
 * Tools/Options/Import
 * Check All.
 
+## Vue.js syntax highlight
+
+### [Associate with HTML (stackoverflow.com)](https://stackoverflow.com/a/43216290)
+
+* Options/Miscellaneous/Files
+* New File extension -vue.
+* Associated File - HTML Files (text/html).
+
+### [Avoid some warnings (blogs.oracle.com)](https://blogs.oracle.com/geertjan/custom-elements-attributes-in-html-in-netbeans-ide)
+
+Put into netbeans/customs.js
+
+```json
+{ "elements": {}, "attributes": { "v-if": {}, "@submit.prevent": { "context": "form" }, "@click": {}, "@keyup.enter": {}, "scoped": { "context": "style" }, "v-for": {}, "v-model": {} } }
+```
+
 ## Load stored settings
 * [Downlaod](nb-settings.zip)
 * Tools/Options/Import.
