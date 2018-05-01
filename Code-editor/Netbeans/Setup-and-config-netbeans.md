@@ -1,6 +1,18 @@
 # Setup and configure Netbeans
 
 ## Install
+* [websiteforstudents.com: HOW TO INSTALL NETBEANS ON UBUNTU 16.04 / 17.10 / 18.04 WITH ORACLE JDK 8 SUPPORT](https://websiteforstudents.com/how-to-install-netbeans-on-ubuntu-16-04-17-10-18-04/)
+
+### INSTALL ORACLE JAVA JDK 8
+
+```shell
+sudo add-apt-repository ppa:webupd8team/java -y
+sudo apt update
+sudo apt install oracle-java8-set-default -y
+javac -version
+```
+
+> javac 1.8.0_171
 
 * [Download.](http://bits.netbeans.org/download/trunk/nightly/latest/)
 
@@ -25,6 +37,10 @@ chmod a+x netbeans-t.....
 * [Download PSR auto-formatting for NetBeans.](https://github.com/allebb/netbeans-psr-formatting#installation)
 * Tools/Options/Import
 * Check All.
+
+## Load stored settings
+* [Downlaod](nb-settings.zip)
+* Tools/Options/Import.
 
 ## Adjust Tools/Editor/Formatting
 * Select 'All Languages' in the 'Language' selector.
