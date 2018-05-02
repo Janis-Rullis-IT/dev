@@ -14,7 +14,7 @@ javac -version
 
 > javac 1.8.0_171
 
-* [Download the latest stable version.](http://netbeans.org/download)
+* [Download the latest stable version.](http://netbeans.org/downloads)
 
 ### Launch
 
