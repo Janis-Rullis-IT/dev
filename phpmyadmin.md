@@ -1,0 +1,3 @@
+# PhpMyAdmin
+
+## Set multiple hosts
