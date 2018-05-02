@@ -61,7 +61,7 @@ Put into netbeans/customs.js
 ## Adjust Tools/Editor/Formatting
 * Select 'All Languages' in the 'Language' selector.
 * Un-check 'Expand Tabs to Spaces'.
-* Set Tab Size to 4.
+* Set Tab Size to 4 (2 for work).
 
 ![image](images/editor-formatting.png)
 

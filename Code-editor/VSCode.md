@@ -13,3 +13,11 @@
 ## [Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
 * Fullscreen - F11
+
+## Settings
+
+* File/Preferences
+
+```json
+"editor.tabSize": 2
+```

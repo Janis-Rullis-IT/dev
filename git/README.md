@@ -19,6 +19,10 @@ git config -l
 git config --global user.name "John Doe"
 git config --global user.email "john.doe@example.com"
 git config --global push.default simple
+git config --global diff.tool meld
+git config --global difftool.prompt false
+git config --global merge.tool meld
+git config --global mergetool.prompt false
 ```
 
 ## Change repo's URL and keep the commit history
