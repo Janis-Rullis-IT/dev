@@ -7,8 +7,9 @@
 
 ## Appearance
 
-* View/Move Sidebar Right
+* View/Move Sidebar Right.
 * Alt Edit/Preferences/Color Theme - Monokai.
+* View/Toggle Minimap.
 
 ## [Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
