@@ -7,8 +7,15 @@
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt-get update
 sudo apt-get install docker-ce -y
+docker version
 ```
+
+>> Client:
+>> Version:      18.03.1-ce
+>> API version:  1.37
+>> Go version:   go1.9.5
 
 ## [Manage Docker as a non-root user](https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user)
 
