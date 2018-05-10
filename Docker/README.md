@@ -15,3 +15,16 @@
 * [Using localhost for to access running container (forums.docker.com)](https://forums.docker.com/t/using-localhost-for-to-access-running-container/3148/3)
 * [Unable to access localhost network inside a container(https://github.com/docker)](https://github.com/docker/for-mac/issues/1898)
 * [How to access Docker Container as localhost (medium.com/@katopz)](https://medium.com/@katopz/use-nginx-to-bind-localhost-to-docker-ee804387e1ba)
+
+
+## Start containers
+
+```shell
+docker-compose up container1 [container2 container3 ...]
+```
+
+### Auto start as daemon -d
+
+```shell
+docker-compose up -d container1 container2
+```
