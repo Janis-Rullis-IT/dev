@@ -9,7 +9,11 @@
 |> IO.inspect
 ```
 
-* Do the request (open according page or exec cmd).
+```
+IO.inspect('================zzzz==============')
+```
+
+* Do the request (open according page, postman or exec cmd).
 * Watch in terminal where mix was launced.
 
 

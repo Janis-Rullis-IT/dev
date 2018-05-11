@@ -4,6 +4,15 @@
 * [Event-driven architectures in Elixir - Maciej Kaszubowski - ElixirConf EU 2018.](https://www.youtube.com/watch?v=8qDXG7tnl9w)
 * [Building videochat with Elixir and Phoenix - Anil Wadghule - ElixirConf EU 2018](https://www.youtube.com/watch?v=-n5IlXBOaBE)
 
+## Docs / Help
+
+### Find method descriptions
+
+* Go to [HexDocs](https://hexdocs.pm/elixir/Kernel.html).
+* Find the class.
+* Under it, find [functions](https://hexdocs.pm/elixir/IO.html#inspect/2).
+* Click on the '<>' icon on the top right to [open the code in github](https://github.com/elixir-lang/elixir/blob/v1.6.5/lib/elixir/lib/io.ex#L295).
+
 ## Install
 
 ```shell
