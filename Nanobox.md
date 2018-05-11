@@ -16,6 +16,6 @@ nanobox remote ls
 ```
 
 App Name     | Alias
-------------------------
+----------|--------------
 my-dev   | default
 my-prod  | production
