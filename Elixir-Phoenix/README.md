@@ -26,6 +26,7 @@ mix deps.get
 * VS Code with [vscode-elixir plugin](https://marketplace.visualstudio.com/items?itemName=mjmcloug.vscode-elixir)
 and [ElixirLS](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls).
 * [Atom with Elixir plugins](https://github.com/janis-rullis/dev/blob/master/Code-editor/Atom.md)
+* [Spacemacs](https://github.com/syl20bnr/spacemacs)
 
 ## Paths
 
