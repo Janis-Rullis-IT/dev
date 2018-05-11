@@ -6,8 +6,12 @@ specify them anywhere else in the system. For example, You can ignore systemwide
 ## Create the file
 `nano ~/.gitignore_global`
 
-## Add the rules
+## Add these rules
+
+```
 `/nbproject/*`
+/.vscode/*
+```
 
 ## Tell git to use it
 `git config --global core.excludesfile ~/.gitignore_global`
