@@ -5,17 +5,15 @@
 ## Inspect
 
 ```ex
-(1..10)
-|> IO.inspect
+IO.inspect('================ Start Inspect==============')
+data |> IO.inspect
+IO.inspect('================ End Inspect ==============')
 ```
+>  %{"names" => #MapSet<[]>, "surnames" => #MapSet<[]>}
 
-```
-IO.inspect('================zzzz==============')
-```
 
 * Do the request (open according page, postman or exec cmd).
 * Watch in terminal where mix was launced.
-
 
 ## Return early - throw
 
