@@ -16,15 +16,20 @@
 * [Unable to access localhost network inside a container(https://github.com/docker)](https://github.com/docker/for-mac/issues/1898)
 * [How to access Docker Container as localhost (medium.com/@katopz)](https://medium.com/@katopz/use-nginx-to-bind-localhost-to-docker-ee804387e1ba)
 
-
-## Start containers
-
-```shell
-docker-compose up container1 [container2 container3 ...]
-```
-
-### Auto start as daemon -d
+## Commands
 
 ```shell
-docker-compose up -d container1 container2
+docker-compose CMD container1 [container2 container3 ...]
 ```
+* up - Create and start containers
+* restart -           Restart service
+* down -              Stop and remove all containers, networks, images, and volumes.
+
+
+### Parameters
+
+```shell
+docker-compose up PARAM container1 container2
+```
+
+* Auto start as daemon - d
