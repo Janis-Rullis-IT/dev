@@ -63,3 +63,12 @@ may be added to your project root for rudimentary formatter configuration
 
 * `@deprecated` - marks if a function or macro is deprecated
 * `@since` - annotates the version the API was introduced.
+
+```ex
+@doc "Breaks a collection into chunks"
+@since "1.0.0"
+@deprecated "Use chunk_every/2 instead"
+def chunk(collection, chunk_size) do
+  chunk_every(collection, chunk_size)
+end
+```
