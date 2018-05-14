@@ -72,3 +72,16 @@ def chunk(collection, chunk_size) do
   chunk_every(collection, chunk_size)
 end
 ```
+
+## [defguard](https://elixir-lang.org/blog/2018/01/17/elixir-v1-6-0-released/#defguard-and-defguardp)
+
+in a situation where you had to check the age to be more than or equal to 21 in multiple places. 
+
+```ex
+defguard is_drinking_age(age) when age >= 21
+
+def serve_drinks(%User{age: age}) when is_drinking_age(age) do
+  # Code that serves drinks!
+end
+```
+
