@@ -53,3 +53,8 @@ Elixir must be installed.
 mix deps.clean --all
 mix deps.get
 ```
+
+## [Format codebase](https://elixir-lang.org/blog/2018/01/17/elixir-v1-6-0-released#code-formatter)
+
+To automatically format your codebase, you can run the `new mix format` task. A .formatter.exs file
+may be added to your project root for rudimentary formatter configuration
