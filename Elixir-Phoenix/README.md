@@ -85,3 +85,9 @@ def serve_drinks(%User{age: age}) when is_drinking_age(age) do
 end
 ```
 
+## [Breakpoints](https://hexdocs.pm/iex/IEx.html#break!/4)
+
+```ex
+break!(module, function, arity, stops \\ 1)
+```
+
