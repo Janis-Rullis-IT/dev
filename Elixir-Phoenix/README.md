@@ -6,6 +6,10 @@
 
 ## Docs / Help
 
+* [Elixir Forum](https://elixirforum.com/)
+* [elixir-lang.org](https://elixir-lang.org/getting-started/introduction.html)
+* [hexdocs.pm/phoenix](https://hexdocs.pm/phoenix/up_and_running.html)
+
 ### Find method descriptions
 
 * Go to [HexDocs](https://hexdocs.pm/elixir/Kernel.html).
@@ -110,3 +114,7 @@ Top 10 files with most incoming dependencies:
   * lib/hexpm/web/web.ex (84)
 ...
 ```
+
+## Erlang
+
+* [Erlang -> Elixir](https://elixir-lang.org/crash-course.html)
