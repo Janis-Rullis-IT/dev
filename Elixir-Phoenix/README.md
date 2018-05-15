@@ -91,3 +91,22 @@ end
 break!(module, function, arity, stops \\ 1)
 ```
 
+## [mix xref](https://hexdocs.pm/mix/Mix.Tasks.Xref.html)
+
+mix xref is a task added in Elixir v1.3 which provides general information about how modules and files in an application depend on each other.
+
+```
+$ mix xref graph --format stats
+Tracked files: 129 (nodes)
+Compile dependencies: 256 (edges)
+Structs dependencies: 46 (edges)
+Runtime dependencies: 266 (edges)
+
+Top 10 files with most outgoing dependencies:
+  * test/support/factory.ex (18)
+...
+
+Top 10 files with most incoming dependencies:
+  * lib/hexpm/web/web.ex (84)
+...
+```
