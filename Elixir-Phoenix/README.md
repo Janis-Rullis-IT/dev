@@ -13,6 +13,7 @@
 * [Elixir school (elixirschool.com)](https://elixirschool.com/)
 * [Elixir Tutorials and Courses (hackr.io)](https://hackr.io/tutorials/learn-elixir)
 * [Elixir (liveedu.tv)](https://www.liveedu.tv/guides/x/elixir/beginner)
+* [dwyl/learn-elixir](https://github.com/dwyl/learn-elixir)
 
 ### Find method descriptions
 
