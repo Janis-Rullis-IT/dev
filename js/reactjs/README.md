@@ -9,3 +9,5 @@
 * [preact - Fast 3kB React alternative with the same modern API. Components & Virtual DOM.](https://github.com/developit/preact)
 * [material-ui - React components that implement Google's Material Design.](https://github.com/mui-org/material-ui)
 * [create-react-app - Create React apps with no build configuration.](https://github.com/facebook/create-react-app)
+* [react-cookies - cookie Load and save cookies with React](https://github.com/bukinoshita/react-cookies)
+* [reactide - Reactide is the first dedicated IDE for React web application development. http://reactide.io](https://github.com/reactide/reactide)

@@ -14,6 +14,7 @@
 * [Elixir Tutorials and Courses (hackr.io)](https://hackr.io/tutorials/learn-elixir)
 * [Elixir (liveedu.tv)](https://www.liveedu.tv/guides/x/elixir/beginner)
 * [dwyl/learn-elixir](https://github.com/dwyl/learn-elixir)
+* [learn-phoenix-framework](https://github.com/dwyl/learn-phoenix-framework)
 
 ### Find method descriptions
 
@@ -123,3 +124,10 @@ Top 10 files with most incoming dependencies:
 ## Erlang
 
 * [Erlang -> Elixir](https://elixir-lang.org/crash-course.html)
+* [awesome-erlang - A curated list of awesome Erlang libraries, resources and shiny things.](https://github.com/drobakowski/awesome-erlang)
+
+## Other
+
+* [elixir-companies - A list of companies currently using Elixir in production.](https://github.com/doomspork/elixir-companies)
+* [phoenix-docker-compose - Docker development environment for Elixir+Phoenix](https://github.com/dogweather/phoenix-docker-compose)
+* [why_elixir - Selling points for Elixir / Phoenix](https://github.com/bignerdranch/why_elixir)
