@@ -4,11 +4,15 @@
 * [Event-driven architectures in Elixir - Maciej Kaszubowski - ElixirConf EU 2018.](https://www.youtube.com/watch?v=8qDXG7tnl9w)
 * [Building videochat with Elixir and Phoenix - Anil Wadghule - ElixirConf EU 2018](https://www.youtube.com/watch?v=-n5IlXBOaBE)
 
-## Docs / Help
+## Docs / Help / Tutorials
 
 * [Elixir Forum](https://elixirforum.com/)
 * [elixir-lang.org](https://elixir-lang.org/getting-started/introduction.html)
 * [hexdocs.pm/phoenix](https://hexdocs.pm/phoenix/up_and_running.html)
+* [Learning resources (elixir-lang.org)](https://elixir-lang.org/learning.html)
+* [Elixir school (elixirschool.com)](https://elixirschool.com/)
+* [Elixir Tutorials and Courses (hackr.io)](https://hackr.io/tutorials/learn-elixir)
+* [Elixir (liveedu.tv)](https://www.liveedu.tv/guides/x/elixir/beginner)
 
 ### Find method descriptions
 
