@@ -37,3 +37,11 @@ If you click on more than 2 files, than only 2 tabs will be opened and the last 
 ### 2) Keep open
 
 Click on the tab you wish to keep open and select 'Keep open' this will prevent replacing this tab with a new one.
+
+## Plugins
+
+* [highlight-matching-tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag)
+* ElixirLs.
+* Darcula.
+* Vetur.
+* vscode-elixir.
