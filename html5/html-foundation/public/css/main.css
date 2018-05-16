@@ -1,0 +1,99 @@
+html, body, .wrapper {
+    width: 100%;
+}
+
+.header {
+    min-height: 155px;
+    background: yellow;
+}
+
+.header-left {
+    min-height: 155px;
+    float: left;
+    width: 50%;
+    background: greenyellow;
+}
+
+.header-logo {
+    width: 50%;
+    float: left;
+}
+
+.header-menu {
+    width: 50%;
+    float: right;
+}
+
+.header-right {
+    min-height: 155px;
+    float: right;
+    width: 50%;
+    background: lightyellow;
+}
+
+.search {
+    float: right;
+}
+
+.search-input {
+    height: 50px;
+    margin: 0;
+}
+
+.menu {
+    min-height: 50px;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.menu li {
+    float: left;
+    width: 100px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.post-thumbnail {
+    float: left;
+    margin: 15px;
+}
+
+.posts-content {
+    border-top: 1px solid gray;
+    min-height: 500px;
+}
+
+.share-block {
+    padding: 15px;
+    float: right;
+}
+
+.ico {
+    width: 40px;
+    height: 40px;
+}
+
+.soc-block {
+    float: left;
+}
+
+.contacts-left {
+    width: 10%;
+    float: left;
+}
+
+.contacts-right {
+    width: 90%;
+    float: right;
+}
+.graphs-header{
+    background: lightblue;
+    padding: 30px;
+}
+.graphs-header select{
+    width: 500px;
+    height: 50px;
+}
