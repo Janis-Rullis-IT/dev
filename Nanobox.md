@@ -19,3 +19,26 @@ App Name     | Alias
 ----------|--------------
 my-dev   | default
 my-prod  | production
+
+
+## Deploy
+
+```shel
+nanobox deploy
+```
+> Will deploy to dev because it is set as default.
+
+```shell
+nanobox deploy prod
+```
+> Will deploy to prod.
+
+## Deploy progress
+
+* https://dashboard.nanobox.io/apps/
+
+## Help
+
+```shell
+nanobox -h
+```
