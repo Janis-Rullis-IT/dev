@@ -33,9 +33,33 @@ nanobox deploy prod
 ```
 > Will deploy to prod.
 
-## Deploy progress
+### What happens if the app name is incorrect?
 
-* https://dashboard.nanobox.io/apps/
+Will build but not upload.
+
+> ! Sorry, the app 'aaaa' doesn't exist.
+
+### Deploy progress
+
+It takes some time (max 2 min) on your PC to build it and then push it.
+
+> Starting Nanobox :
+
+> Preparing environment :
+
+> Building runtime :
+
+> Compiling application :
+
+> Deploying app :
+
+> ✓ Success, this deploy is on the way!
+
+>  Check your dashboard for progress.
+
+#### After upload
+
+See in the [dashboard](https://dashboard.nanobox.io/apps/)
 
 ## Help
 
