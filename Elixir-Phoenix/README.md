@@ -125,6 +125,7 @@ Top 10 files with most incoming dependencies:
 
 * [Erlang -> Elixir](https://elixir-lang.org/crash-course.html)
 * [awesome-erlang - A curated list of awesome Erlang libraries, resources and shiny things.](https://github.com/drobakowski/awesome-erlang)
+* [mnesia - A distributed telecommunications DBMS (erlang.org](http://erlang.org/doc/man/mnesia.html)
 
 ## Other
 
