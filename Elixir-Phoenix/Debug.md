@@ -20,3 +20,7 @@ IO.inspect('================ End Inspect ==============')
 ```ex
   ​throw​ {:animal, ​"wombat"​}
  ```
+
+## Logs
+
+In the console.
