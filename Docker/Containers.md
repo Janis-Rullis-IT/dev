@@ -15,3 +15,20 @@ docker container ls
 ```shell
 docker ps
 ```
+## Connect in console
+
+```shell
+docker exec -it my-container bash
+```
+
+## Rebuild
+
+```shell
+docker-compose build
+```
+
+## Kill
+
+```shell
+docker-compose down
+```
