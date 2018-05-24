@@ -13,4 +13,4 @@ services:
 
 ## Fixed
 
-[ADD or COPY.](COPY-vs-ADD.md]
+[ADD or COPY.](COPY-vs-ADD.md) 
