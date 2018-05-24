@@ -11,3 +11,8 @@ Notes related with development - configs, setups, GIT, IDE, SSH, Composer, Web s
 * [caire - Content aware image resize library](https://github.com/esimov/caire)
 * [Apollo-11 - Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.](https://github.com/chrislgarry/Apollo-11)
 * [NintendoTools - A Repository filled with tools, software and other stuff intended for Nintendo consoles. (Pull requests are very welcome)](https://github.com/NintendoTools/Repository)
+
+## Fullstack nonsense
+
+* [GeeCON Prague 2017: Kevlin Henney - Full Stack Developer](https://www.youtube.com/watch?v=JiQct3QixMo&feature=youtu.be&t=699)
+* [Mythical Full Stack Developer](https://elixirforum.com/t/mythical-full-stack-developer/14332/8)
