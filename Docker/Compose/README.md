@@ -25,7 +25,6 @@ Only to restart containers that were previously created, but were stopped.
 
 ## Stop
 
-
 ```shell
 docker-compose stop my-frontend
 ```

@@ -29,8 +29,16 @@ docker exec -it my-container bash
 
 ## Rebuild
 
+Required when update Dockerfile.
+
 ```shell
 docker-compose build
+```
+
+### and start
+
+```shell
+docker-compose up --build
 ```
 
 ## Kill
