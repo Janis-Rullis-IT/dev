@@ -15,6 +15,11 @@ docker container ls
 ```shell
 docker ps
 ```
+### Is this system-wide or only in a specific directory?
+
+System-wide - will show the same result everywhere.
+
+
 ## Connect in console
 
 ```shell
