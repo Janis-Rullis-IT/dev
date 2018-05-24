@@ -13,8 +13,9 @@ docker container ls
 ## See process / status
 
 ```shell
-docker ps
+docker ps --no-trunc
 ```
+
 ### Is this system-wide or only in a specific directory?
 
 System-wide - will show the same result everywhere.
