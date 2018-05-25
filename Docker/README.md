@@ -1,5 +1,6 @@
-# Docker 
+# Docker
 
+* [Best practices for writing Dockerfiles (docs.docker.com).](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 * [How is Docker different from a normal virtual machine?](https://stackoverflow.com/a/16048358)
 * [Composing Docker Local Development: Networking (previousnext.com.au)](https://www.previousnext.com.au/blog/composing-docker-local-development-networking)
 
