@@ -20,8 +20,12 @@ package.json is in the directory.
 
 ### Possible cause
 
-Looks in a different directory. Try to set 
+To work with a file in the Dockerfile.
+
+* Working directory needs to be set.
+* package.json file needs to be copied.
 
 ```dockerfile
 WORKDIR /var/www
+COPY package.json /var/www
 ```

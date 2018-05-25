@@ -40,6 +40,9 @@ docker-compose build
 ```shell
 docker-compose up --build
 ```
+> Recreating edurio-nw ... done
+> Attaching to edurio-nw
+
 
 ## Kill
 
