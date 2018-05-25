@@ -29,3 +29,16 @@ To work with a file in the Dockerfile.
 WORKDIR /var/www
 COPY package.json /var/www
 ```
+
+## ERROR Error: Cannot find module 'dotenv'
+
+* [The node_modules Volume Trick (jdlm.info)](http://jdlm.info/articles/2016/03/06/lessons-building-node-app-docker.html#the-node_modules-volume-trick)
+
+Add to `docker-compose.yml` volumes
+
+```yaml
+services:
+  my-container:
+    volumes:
+    - /var/www/node_modules
+```
