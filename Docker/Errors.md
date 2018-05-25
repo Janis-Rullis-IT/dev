@@ -42,3 +42,17 @@ services:
     volumes:
     - /var/www/node_modules
 ```
+
+## Container already in use
+
+Check all containers (even exited).
+
+```shell
+docker ps -a
+```
+
+Go to the according container-compose directory and exec
+
+```shell
+docker-compose down --remove-orphans
+```
