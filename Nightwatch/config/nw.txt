@@ -1,0 +1,2 @@
+c1_url=http://c1.test
+c2_url=http://c2.api

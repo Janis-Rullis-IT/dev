@@ -1,0 +1,65 @@
+version: "3"
+
+services:
+ 
+  c1:
+    container_name: c1
+    build:
+      context: $C1
+      dockerfile: Dockerfile
+    restart: unless-stopped  
+    volumes:
+      - $C1:/var/www/:rw
+      - ./config/c1.txt:/var/www/.env:ro
+    environment:
+      VIRTUAL_HOST: c1.local
+    extra_hosts:
+      - "c1.local c2.local:172.17.0.1"
+    networks:
+      - my-net
+
+  c2:
+    container_name: c2
+    build:
+      context: $C2
+      dockerfile: Dockerfile
+    restart: unless-stopped  
+    volumes:
+      - $C2:/var/www/:rw
+      - ./config/c1.txt:/var/www/.env:ro
+    environment:
+      VIRTUAL_HOST: c2.local
+    extra_hosts:
+      - "c1.local c2.local:172.17.0.1"
+    networks:
+      - my-net
+
+  nw:
+    container_name: nw
+    build:
+      context: $NW
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    volumes:
+      - '$NW:/var/www/:rw'
+      - './config/nw.txt:/var/www/.env:ro'
+      - /var/www/node_modules
+    environment:
+      VIRTUAL_HOST: nw.local
+    extra_hosts:
+      -  "c1.local c2.local:172.17.0.1"
+    networks:
+      - my-net
+
+  nginx-proxy:
+    container_name: nginx-proxy
+    image: jwilder/nginx-proxy
+    ports:
+      - $NGINX_PORT:$NGINX_PORT
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+    networks:
+      - my-net
+
+networks:
+  my-net:
