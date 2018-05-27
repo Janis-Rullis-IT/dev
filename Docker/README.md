@@ -54,3 +54,9 @@ docker-compose up PARAM container1 container2
 ERROR: Cannot create container for service a: Invalid container name (a), only [a-zA-Z0-9][a-zA-Z0-9_.-] are allowed
 ```
 It seems, it should be at least 2 chars long, because this appeared when container was named 'l' or 'a'.
+
+## Run CMD as sudo
+
+```Dockerfile
+CMD [ "sudo", "npm", "test" ]
+````
