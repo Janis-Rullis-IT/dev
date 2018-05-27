@@ -1,5 +1,13 @@
 # Docker
 
+## Great reads
+
+* [Best practices for writing Dockerfiles (docs.docker.com)](https://docs.docker.com/v17.09/engine/userguide/eng-image/dockerfile_best-practices/)
+* [Dockerfile reference (docs.docker.com)](https://docs.docker.com/engine/reference/builder/#run)
+
+## Interesting
+
+* [Handy Docker commands for local development - Part 1 (andrewlock.net)](https://andrewlock.net/handy-docker-commands-for-local-development-part-1/)
 * [Best practices for writing Dockerfiles (docs.docker.com).](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 * [How is Docker different from a normal virtual machine?](https://stackoverflow.com/a/16048358)
 * [Composing Docker Local Development: Networking (previousnext.com.au)](https://www.previousnext.com.au/blog/composing-docker-local-development-networking)
@@ -34,3 +42,15 @@ docker-compose up PARAM container1 container2
 ```
 
 * Auto start as daemon - d
+
+
+## Create a base image
+
+* [Create a base image (/docs.docker.com)](https://docs.docker.com/develop/develop-images/baseimages/)
+
+## Container name restricitons
+
+```shell
+ERROR: Cannot create container for service a: Invalid container name (a), only [a-zA-Z0-9][a-zA-Z0-9_.-] are allowed
+```
+It seems, it should be at least 2 chars long, because this appeared when container was named 'l' or 'a'.
