@@ -9,6 +9,15 @@
 
 * [nightwatchjs.org/guide](http://nightwatchjs.org/guide#command-line-options)
 
+## Skip
+
+```js
+module.exports = {
+    '@disabled': true,
+    'login': function(browser) {
+```
+> test is disabled, skipping...
+
 ### Debug
 
 ```shell
