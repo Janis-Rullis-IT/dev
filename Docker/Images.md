@@ -27,7 +27,7 @@ Docker provides a single command that will clean up any resources — images, co
 
 ```shell
 docker system prune
-``
+```
 > Total reclaimed space: 13.35GB
 
 To additionally remove any stopped containers and all unused images (not just dangling images), add the -a flag to the command:
