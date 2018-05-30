@@ -15,11 +15,13 @@ nightwatch -e chrome > logs/debug.log
 ```
 
 * Save a screenshot - saveScreenshot().
-* Print out current DOM - source()
+* Print out current DOM - source(result.value)
+* Print out global values.
 
 ```js
-browser.saveScreenshot('/var/www/screenshots/debug.png').source(result => console.log(result.value)); return;
+browser.saveScreenshot('/var/www/screenshots/debug.png').source(result => console.log('=LOG-DATA=', global, result.value)); return;
 ```
+> Search in debug.log by '=LOG-DATA=' keyword.
 
 ## Steps
 
