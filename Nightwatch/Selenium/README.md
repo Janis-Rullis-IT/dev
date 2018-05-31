@@ -18,3 +18,26 @@
     }
   },
 ```
+
+## Selenium server does start?
+
+Nightwatch works and after the message 'Selenium server started...' it freezes.
+
+Keep in chromeOptions.args `--headless' and remove 'windowSize'.
+
+Like this:
+
+```js
+"desiredCapabilities": {
+        "browserName": "chrome",
+        "chromeOptions": {
+          "args" : [
+            "--no-sandbox",
+            "--headless"
+          ]
+        },
+        "acceptSslCerts": true,
+        "javascriptEnabled": true
+      },
+```
+
