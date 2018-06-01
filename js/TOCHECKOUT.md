@@ -1,0 +1,10 @@
+https://proppyjs.com
+https://github.com/ronami/minipack/blob/master/README.md
+https://quokkajs.com/?utm_source=cooperpress&utm_medium=email&utm_content=javascriptweekly&utm_name=javascriptweekly
+https://mixmax.com/blog/to-yarn-and-back-again-npm
+https://codeburst.io/useful-javascript-array-and-object-methods-6c7971d93230
+https://zachholman.com/talk/utc-is-enough-for-everyone-right
+https://gist.github.com/rauschma/c46fc10f671ed5bf14021bc14f101c8d
+https://davidea.st/articles/comlink-simple-web-worker
+https://javascriptweekly.com/link/48007/33112ccc8d
+https://javascriptweekly.com/link/48009/33112ccc8d
