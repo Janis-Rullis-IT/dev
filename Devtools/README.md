@@ -13,3 +13,20 @@
 Last call (closest to the breakpoint) is at the top
 
 ![images/700x/stacktrace.png](images/700x/stacktrace.png)
+
+## Elements
+
+### Manipulate in console
+
+* Click on a element.
+* Write in console
+
+```js
+$0.getAttribute('class');
+```
+
+### Copy selector
+
+```css
+#content > div.container > div.result-cards-wrapper > div:nth-child(1) > div.result-cards-periods > div.result-card-period > div.item-buttons
+```

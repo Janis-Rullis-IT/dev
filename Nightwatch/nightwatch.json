@@ -1,0 +1,79 @@
+{
+  "src_folders" : ["tests"],
+  "output_folder" : "reports",
+  "custom_commands_path" : ["./commands/"],
+  "custom_assertions_path" : ["./assertions/"],
+  "page_objects_path" : "",
+  "globals_path" : "./globals.js",
+
+  "selenium" : {
+    "start_process" : true,
+    "server_path" : "./bin/selenium-server-standalone-3.4.0.jar",
+    "debug": true,
+    "log_path" : "./logs",
+    "port" : 4445,
+    "cli_args" : {
+      "webdriver.chrome.driver" : "./node_modules/chromedriver/lib/chromedriver/chromedriver",
+      "webdriver.gecko.driver" : "./bin/geckodriver",
+      "webdriver.edge.driver" : ""
+    }
+  },
+
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "http://localhost",
+      "selenium_port"  : 4445,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : true,
+        "path" : "./screenshots"
+      },
+      "desiredCapabilities": {
+        "browserName": "firefox",
+        "marionette": true
+      },
+      "globals": {
+        "admin_username": "",
+        "admin_password": "",
+        "username": "",
+        "password": ""
+      }
+    },
+    "chrome" : {
+      "launch_url" : "http://localhost",
+      "selenium_port"  : 4445,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "log_screenshot_data" : true,
+      "screenshots" : {
+          "enabled" : true,
+          "on_failure" : true,
+          "on_error" : true,
+          "path" : "./screenshots"
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "chromeOptions": {
+          "args" : [
+            "--no-sandbox",
+            "--headless"
+          ]
+        },
+        "acceptSslCerts": true,
+        "javascriptEnabled": true
+      },
+      "globals": {
+        "admin_username": "",
+        "admin_password": "",
+        "username": "",
+        "password": ""
+      }
+    },
+    "edge" : {
+      "desiredCapabilities": {
+        "browserName": "MicrosoftEdge"
+      }
+    }
+  }
+}

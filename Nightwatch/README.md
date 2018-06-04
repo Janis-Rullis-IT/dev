@@ -9,6 +9,15 @@
 
 * [nightwatchjs.org/guide](http://nightwatchjs.org/guide#command-line-options)
 
+## Skip
+
+```js
+module.exports = {
+    '@disabled': true,
+    'login': function(browser) {
+```
+> test is disabled, skipping...
+
 ### Debug
 
 ```shell
@@ -17,6 +26,11 @@
 > Request: POST /.., data:{}, headers: {}
 
 ## For beginners
+https://medium.com/@karthikiyengar/rock-solid-end-to-end-continuous-integration-with-nightwatch-js-545c66c17fdd
+https://github.com/zeljkofilipin/mediawiki-nightwatch
+http://nightwatchjs.org/gettingstarted/#chromedriver
+
+
 
 * [dwyl/learn-nightwatch](https://github.com/dwyl/learn-nightwatch)
 * [nightwatchjs/guide](https://github.com/nightwatchjs/nightwatch-docs/tree/master/guide)

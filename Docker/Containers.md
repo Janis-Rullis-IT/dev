@@ -49,3 +49,24 @@ docker-compose up --build
 ```shell
 docker-compose down
 ```
+
+## [Remove](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes#removing-containers)
+
+
+### Container
+
+```shell
+docker rm ID_or_Name ID_or_Name
+```
+
+### Container and its volume
+
+```shell
+docker rm -v container_name
+```
+
+### Volume
+
+```shell
+docker volume prune
+```
