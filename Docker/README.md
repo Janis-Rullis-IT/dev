@@ -4,6 +4,9 @@
 
 * [Best practices for writing Dockerfiles (docs.docker.com)](https://docs.docker.com/v17.09/engine/userguide/eng-image/dockerfile_best-practices/)
 * [Dockerfile reference (docs.docker.com)](https://docs.docker.com/engine/reference/builder/#run)
+* [Docker: Easy as build, run, done! (medium.freecodecamp.org)](https://medium.freecodecamp.org/docker-easy-as-build-run-done-e174cc452599)
+* [How To Run A Docker Container (slashroot.in)](https://www.slashroot.in/how-run-docker-container)
+* [Create Docker Containers Using the Command Line Interface (codefresh.io)](https://codefresh.io/docker-tutorial/create-docker-containers-command-line-interface/)
 
 ## Interesting
 
