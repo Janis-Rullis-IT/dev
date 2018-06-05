@@ -26,7 +26,10 @@ IO.inspect('================ End Inspect ==============')
 ### exit
 
 ```ex
-exit "I am exiting"
+    IO.inspect('================ Start Inspect==============')
+    data |> IO.inspect
+    IO.inspect('================ End Inspect ==============')
+    exit "I am exiting"
 ```
 
 ## Logs
