@@ -35,3 +35,9 @@ IO.inspect('================ End Inspect ==============')
 ## Logs
 
 In the console.
+
+## [Raw SQL query](https://stackoverflow.com/a/36770980)
+
+```ex
+Ecto.Adapters.SQL.to_sql(:all, Repo, myquery) |> IO.inspect
+```
