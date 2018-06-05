@@ -11,6 +11,7 @@ specify them anywhere else in the system. For example, You can ignore systemwide
 ```
 `/nbproject/*`
 /.vscode/*
+/v8-compile-cache-0/*
 ```
 
 ## Tell git to use it
