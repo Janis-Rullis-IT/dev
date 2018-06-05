@@ -15,11 +15,19 @@ IO.inspect('================ End Inspect ==============')
 * Do the request (open according page, postman or exec cmd).
 * Watch in terminal where mix was launced.
 
-## Return early - throw
+## Return early
+
+### throw
 
 ```ex
   ​throw​ {:animal, ​"wombat"​}
  ```
+
+### exit
+
+```ex
+exit "I am exiting"
+```
 
 ## Logs
 
