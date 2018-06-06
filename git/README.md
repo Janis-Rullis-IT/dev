@@ -90,3 +90,7 @@ After push
 ```shell
 modified:   ../../git/README.md
 ```
+
+## Hosting options
+
+* [Gitea](https://try.gitea.io/)
