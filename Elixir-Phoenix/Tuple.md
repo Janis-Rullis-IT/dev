@@ -20,7 +20,7 @@ Then use Maps.
 * Array are faster for get set.
 * Linkedlist are faster at inserting, deleting new elements.
 * array - If you want insert a new element after the 3d element then all elements after it will be rewritten.
-* list - Prepend is fast. You just point the new el.to the first el. Append is increasingly slow because you need to walk to the end of the list and point to the new el. On top of that, erlang has immutability, which means that you actually can not touch the last element so you need to create a new one and edit that, which means that el.before needs to pointed to the new el. **That all leads to a completely new list just because of a push action**.
+* list - Prepend is fast. You just point the new el.to the first el. Append is increasingly slow because you need to walk to the end of the list and point to the new el. On top of that, erlang has immutability, which means that you actually can not touch the last element so you need to create a new one and edit that, which means that el.before needs to pointed to the new el. **That all leads to a completely new list just because of a push action**. Same goes for insert. 
 ### Size / Access
 
 * Tuple - instantly.
