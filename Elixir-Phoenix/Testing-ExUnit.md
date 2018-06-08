@@ -59,3 +59,14 @@ setup do
 ```ex
  use ExUnit.Case, async: true
  ```
+ 
+## Group / Tag / Label / Mar tests
+
+Mark tags, so could identify a specific group of tests in the test module. 
+For example, getters, setters.  This tagging allows to execute or ignore them.
+
+```ex
+@tag getter
+test "Collect user" do
+end
+```
