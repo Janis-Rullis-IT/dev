@@ -1,4 +1,6 @@
-# Lists / Arrays [] 
+# Lists [] = Linked list
+
+* See also [Tuples](Tuples.md)
 
 ## Loop
 
