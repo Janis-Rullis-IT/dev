@@ -42,3 +42,15 @@ assert !!user and  user.id > 0, "Can not find org's admin identity"
   
   end
 ```
+
+## Shared / setup variables
+
+```ex
+setup do
+ {:ok, user: 123}
+ end
+ 
+ test "user login", %{user: user} do
+  end
+ ```
+ 
