@@ -1,6 +1,6 @@
 # Lists [] = Linked list
 
-* See also [Tuples](Tuples.md)
+* See also [Tuples](Tuple.md)
 
 ## Loop
 
