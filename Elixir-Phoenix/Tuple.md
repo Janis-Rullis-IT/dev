@@ -2,7 +2,7 @@
 
 ## Insert a new element
 
-``ex
+```ex
 tuple = {:ok, "Hello"}
 tuple = Tuple.append(tuple, :world)
 tuple |> IO.inspect()
