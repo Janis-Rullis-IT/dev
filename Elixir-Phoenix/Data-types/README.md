@@ -28,3 +28,8 @@ end
 
 add.(1, 2)
 ```
+## NULL / undefined
+
+```ex
+user == nil
+```
