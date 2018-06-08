@@ -1,4 +1,4 @@
-# Tuple {}
+# Tuple {} = ArrayList
 
 * [Tuple (hexdocs.pm)](https://hexdocs.pm/elixir/Tuple.html)
 
