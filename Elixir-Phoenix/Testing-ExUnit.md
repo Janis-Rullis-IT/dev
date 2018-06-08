@@ -73,3 +73,8 @@ For example, getters, setters.  This tagging allows to execute or ignore them.
 test "Collect user" do
 end
 ```
+```shell
+mix test --exclude getter
+mix test --include getter
+mix test --only getter
+```
