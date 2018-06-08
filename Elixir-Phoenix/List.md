@@ -26,3 +26,7 @@ List.insert_at
        IO.inspect id
     end
 ```
+
+## chexk
+
+is_list
