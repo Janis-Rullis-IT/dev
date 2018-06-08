@@ -38,8 +38,11 @@ assert !!user and  user.id > 0, "Can not find org's admin identity"
 
 ```ex
  @tag :skip
-  test "authenticates requests" do
+  test "authenticates requests" do  
+  end
   
+  @tag skip: "Who needs it anyway."
+  test "register" do  
   end
 ```
 
