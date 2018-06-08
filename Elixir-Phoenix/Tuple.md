@@ -14,7 +14,7 @@ Indexed list (not-associative). You can not have {1:'one'}.
 Then use Maps.
 
 ## [Difference with lists](https://elixir-lang.org/getting-started/basic-types.html#lists-or-tuples)
-
+* learnelixir.tv/episodes/02-data-types
 * [When to use LinkedList over ArrayList? (stackoverflow.com)](https://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist)
 
 * Array are faster for get set.
