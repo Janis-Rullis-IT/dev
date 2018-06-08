@@ -33,3 +33,12 @@ end
 user = My.Repo.get(My.User, 123)
 assert !!user and  user.id > 0, "Can not find org's admin identity"
 ```
+
+## Skip
+
+```ex
+ @tag :skip
+  test "authenticates requests" do
+  
+  end
+```
