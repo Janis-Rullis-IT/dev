@@ -1,4 +1,4 @@
-# Tuple
+# Tuple {}
 
 * [Tuple (hexdocs.pm)](https://hexdocs.pm/elixir/Tuple.html)
 
@@ -15,8 +15,17 @@ Then use Maps.
 
 ## [Difference with lists](https://elixir-lang.org/getting-started/basic-types.html#lists-or-tuples)
 
-*  This means accessing the length of a list is a linear operation: we need to traverse the whole list in order to figure out its size.
-* Tuples, on the other hand, are stored contiguously in memory. This means getting the tuple size or accessing an element by index is fast. However, updating or adding elements to tuples is expensive because it requires creating a new tuple in memory:
+* [When to use LinkedList over ArrayList? (stackoverflow.com)](https://stackoverflow.com/questions/322715/when-to-use-linkedlist-over-arraylist)
+
+* Array are faster for get set.
+* Linkedlist are faster at inserting, deleting new elements.
+
+If you want insert a new element after the 3d element then all elements after it will be rewritten.
+
+### Size / Access
+
+* Tuple - instantly.
+* List - need to traverse whole list.
 
 ## Insert a new element
 
