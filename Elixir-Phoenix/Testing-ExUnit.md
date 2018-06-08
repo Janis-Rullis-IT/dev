@@ -54,3 +54,8 @@ setup do
   end
  ```
  
+## Speed-up
+
+```ex
+ use ExUnit.Case, async: true
+ ```
