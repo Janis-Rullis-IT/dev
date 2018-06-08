@@ -12,6 +12,10 @@ title = ["Will", "Hunting"]
 ## append
 
 title ++ [2]
+
+## inser
+List.insert_at
+
 ## Loop
 
 * [Looping through an array / list (learningwithjb.com)](http://learningwithjb.com/posts/looping-through-an-array-or-list-)
