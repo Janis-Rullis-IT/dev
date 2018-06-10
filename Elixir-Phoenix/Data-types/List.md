@@ -1,20 +1,26 @@
 # Lists [] = Linked list
 
-learnelixir.tv/episodes/02-data-types
-
+* learnelixir.tv/episodes/02-data-types
 * See also [Tuples](Tuple.md)
 
 ## prepend
 
-title = ["Will", "Hunting"] 
-["Good" | title] 
+```ex
+title = ["Will", "Hunting"]
+["Good" | title]
+```
 
 ## append
 
+```ex
 title ++ [2]
+```
 
-## inser
-List.insert_at
+## insert
+
+```ex
+List.insert_at()
+```
 
 ## Loop
 
@@ -29,4 +35,6 @@ List.insert_at
 
 ## chexk
 
-is_list
+```ex
+is_list()
+```

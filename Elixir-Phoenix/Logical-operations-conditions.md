@@ -33,3 +33,8 @@ iex> case {:ok, "Hello World"} do
 > "Hello World"
 
 > If ok is true, then return the 2nd param `result` which is 'Hello World'.
+
+## Logical operators
+
+* and, &&
+* or, ||

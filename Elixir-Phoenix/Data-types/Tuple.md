@@ -59,6 +59,8 @@ IO.inspect elem(tuple, 0); # :ok
 IO.inspect elem(tuple, 1); # "Hello"
 ```
 
-## update 
+## update
 
+```ex
 put_elem
+```
