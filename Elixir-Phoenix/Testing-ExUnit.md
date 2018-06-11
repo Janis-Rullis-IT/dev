@@ -38,7 +38,43 @@ assert !!user and  user.id > 0, "Can not find org's admin identity"
 
 ```ex
  @tag :skip
-  test "authenticates requests" do
-  
+  test "authenticates requests" do  
   end
+  
+  @tag skip: "Who needs it anyway."
+  test "register" do  
+  end
+```
+
+## Shared / setup variables
+
+```ex
+setup do
+ {:ok, user: 123}
+ end
+ 
+ test "user login", %{user: user} do
+  end
+ ```
+ 
+## Speed-up
+
+```ex
+ use ExUnit.Case, async: true
+ ```
+ 
+## Group / Tag / Label / Mar tests
+
+Mark tags, so could identify a specific group of tests in the test module. 
+For example, getters, setters.  This tagging allows to execute or ignore them.
+
+```ex
+@tag getter
+test "Collect user" do
+end
+```
+```shell
+mix test --exclude getter
+mix test --include getter
+mix test --only getter
 ```

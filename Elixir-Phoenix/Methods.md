@@ -12,3 +12,7 @@ defmodule Bob do
 end
 ```
 
+
+## [Return value](https://stackoverflow.com/a/37446794)
+
+The last statement executed is the return value.
