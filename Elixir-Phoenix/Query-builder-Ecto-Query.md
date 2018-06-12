@@ -69,12 +69,14 @@ my_query.joins
 []
 ```
 
-### Do something if has JOIN
+### GROUP BY only if has JOIN
 
 ```ex
-if List.first(my_query.joins) === nil do
-    "Don't have JOINS"
+my_query_2 = if List.first(my_query.joins) === nil do
+#    "Don't have JOINS"
+    my_query
 else
-    "Have JOINS"
+#    "Have JOINS"
+    from(a in my_query, group_by: a.id)
 end
 ```
