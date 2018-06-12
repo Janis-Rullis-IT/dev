@@ -38,3 +38,14 @@ iex> case {:ok, "Hello World"} do
 
 * and, &&
 * or, ||
+
+
+## nil
+
+```ex
+if nil do
+    "This works!"
+else
+    "Nil = NULL = false"
+end
+```

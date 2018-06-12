@@ -9,24 +9,21 @@ import Ecto.Query
 ## A simple select
 
 ```ex
-# Create a query
-my_query = from u in "users",
-          where: u.age > 18,
-          select: u.name
-
-# Send the query to the repository
+my_query = from u in "users", where: u.age > 18, select: u.name
 Repo.all(query)
 ````
 
 ## JOIN
 
 ```ex
-my_query = from p in query, join: c in Comment, where: c.post_id == p.id
+my_query = from p in "users", join: c in "comments", where: c.post_id == p.id
 ```
 
 ## Test in `iex`
 
 * [Fix `iex module Ecto.Query is not loaded and could not be found`](https://stackoverflow.com/a/46128659)
+
+> Query does not be related with the actual system to build it. It will fail only when executed.
 
 ```shell
 iex -S mix
@@ -52,10 +49,6 @@ my_query.joins
 ### Has JOIN
 
 ```ex
-my_query = from p in query, join: c in Comment, where: c.post_id == p.id
-```
-
-```ex
 [
   %Ecto.Query.JoinExpr{
     assoc: nil,
@@ -74,4 +67,14 @@ my_query = from p in query, join: c in Comment, where: c.post_id == p.id
 
 ```ex
 []
+```
+
+### Do something if has JOIN
+
+```ex
+if List.first(my_query.joins) === nil do
+    "Don't have JOINS"
+else
+    "Have JOINS"
+end
 ```
