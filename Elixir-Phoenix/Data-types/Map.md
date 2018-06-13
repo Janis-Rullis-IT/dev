@@ -61,7 +61,7 @@ end
 data |> Map.put(:apple, data)
 ```
 
-## Group by
+## [Group by](https://stackoverflow.com/a/40145358)
 
 ```ex
 post_by_category = posts |> Enum.group_by(&(&1.category_id))
