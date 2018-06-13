@@ -83,3 +83,6 @@ parsed = Enum.map(posts, fn post ->
 end
 ```
 > Will return [%{...},%{...}] 
+Map returns a list that is the result
+
+of applying that function to each element of the collection.
