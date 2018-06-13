@@ -38,3 +38,10 @@ List.insert_at()
 ```ex
 is_list()
 ```
+
+## [Traverse](https://hexdocs.pm/elixir/Enum.html)
+
+```ex
+iex> Enum.map([1, 2, 3], fn(x) -> x * 2 end)
+[2, 4, 6]
+```
