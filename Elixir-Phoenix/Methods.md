@@ -16,3 +16,11 @@ end
 ## [Return value](https://stackoverflow.com/a/37446794)
 
 The last statement executed is the return value.
+
+## Anonymous
+
+```ex
+fn param1 ->
+    param1 |> IO.inspect
+end
+```
