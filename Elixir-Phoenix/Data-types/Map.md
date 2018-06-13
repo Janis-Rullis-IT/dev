@@ -53,3 +53,16 @@ end
 > 3 + 103
 
 > = 106
+
+
+## [Insert](https://hexdocs.pm/elixir/Map.html#put/3)
+
+```x
+data |> Map.put(:apple, data)
+```
+
+## Group by
+
+```ex
+post_by_category = posts |> Enum.group_by(&(&1.category_id))
+```

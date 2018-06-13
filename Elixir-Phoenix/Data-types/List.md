@@ -45,3 +45,10 @@ is_list()
 iex> Enum.map([1, 2, 3], fn(x) -> x * 2 end)
 [2, 4, 6]
 ```
+
+## [Count](https://stackoverflow.com/a/36685025)
+
+```ex
+length([%{a: 0, b: 1},{}, []]) |> IO.inspect
+```
+> 3

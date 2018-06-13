@@ -80,3 +80,16 @@ else
     from(a in my_query, group_by: a.id)
 end
 ```
+
+## [ORDER BY](https://hexdocs.pm/ecto/Ecto.Query.html)
+
+```ex
+order_by: [asc: a.question_id]
+```
+
+## [Count](https://stackoverflow.com/a/36685025)
+
+```ex
+length(Repo.all(query)) |> IO.inspect
+```
+> 3
