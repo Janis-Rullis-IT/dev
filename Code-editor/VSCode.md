@@ -45,3 +45,7 @@ Click on the tab you wish to keep open and select 'Keep open' this will prevent 
 * Darcula.
 * Vetur.
 * vscode-elixir.
+
+## [List functions](https://stackoverflow.com/a/36154390)
+
+* CTRL+Shift+O
