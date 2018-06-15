@@ -20,7 +20,16 @@
 * File/Preferences
 
 ```json
-"editor.tabSize": 2
+{
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Monokai",
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "explorer.confirmDragAndDrop": false
+}
 ```
 
 ## Keep open tabs
