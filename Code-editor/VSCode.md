@@ -28,7 +28,9 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true
 }
 ```
 
