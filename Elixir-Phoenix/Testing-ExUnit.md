@@ -78,3 +78,34 @@ mix test --exclude getter
 mix test --include getter
 mix test --only getter
 ```
+
+## Parse tests / Do something if failed
+
+* [is-elixir-ok.sh (github.com/janis-rullis)](https://github.com/janis-rullis/shell-scripts/blob/master/is-elixir-ok.sh)
+
+## [`mix test` Parameters](https://hexdocs.pm/mix/Mix.Tasks.Test.html)
+
+```
+--color - enables color in the output
+--cover - the directory to include coverage results
+--exclude - excludes tests that match the filter
+--force - forces compilation regardless of modification times
+--formatter - formatter module
+--include - includes tests that match the filter
+--listen-on-stdin - runs tests, and then listens on stdin. Receiving a newline will result in the tests being run again. Very useful when combined with --stale and external commands which produce output on stdout upon file system modification.
+--max-cases - sets the maximum number of tests running async. Only tests from different modules run in parallel. Defaults to twice the number of cores.
+--no-archives-check - does not check archives
+--no-color - disables color in the output
+--no-compile - does not compile, even if files require compilation
+--no-deps-check - does not check dependencies
+--no-elixir-version-check - does not check the Elixir version from mix.exs
+--no-start - does not start applications after compilation
+--only - runs only tests that match the filter
+--preload-modules - preloads all modules defined in applications
+--raise - raises if the test suite failed
+--seed - seeds the random number generator used to randomize tests order; --seed 0 disables randomization
+--slowest - prints timing information for the N slowest tests Automatically sets --trace and --preload-modules
+--stale - runs only tests which reference modules that changed since the last test --stale. You can read more about this option in the “Stale” section below.
+--timeout - sets the timeout for the tests
+--trace - runs tests with detailed reporting; automatically sets --max-cases to 1
+```
