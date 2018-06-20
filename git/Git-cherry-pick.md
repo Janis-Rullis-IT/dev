@@ -66,6 +66,18 @@ git cherry-pick --abort
 * Read affected files.
 * Open the project and see the code in a process.
 
+### Apply merged files
+
+#### Regular approach
+
+Just commit and push.
+
+#### Paranoid
+
+* Collect merged files.
+* Switch to the original branch.
+* Overwrite with the merged files.
+* Comiit as 'Cherry-picked HASH : original description'. In description include Author, time, files.
 
 ## Cherry-pick a merge
 
