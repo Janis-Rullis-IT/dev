@@ -5,6 +5,11 @@
 * [How to run a cron job inside a docker container? (stackoverflow.com)](https://stackoverflow.com/a/37458519)
 * [Run a cron job with Docker (ekito.fr)](https://www.ekito.fr/people/run-a-cron-job-with-docker/)
 
+
+## A working example
+
+* [janis-rullis/elixir](https://github.com/janis-rullis/elixir/blob/master/backend/Dockerfile)
+
 ## In your project create the cron file
 
 ```
@@ -19,19 +24,12 @@
 ## Setup the task when building the container
 
 ```Dockerfile
-## Add the cronfile to systemš cron tasks
+# Add the cronfile to systemš cron tasks.
 RUN apt-get update && apt-get -y install cron
 
-# Add crontab file in the cron directory
-ADD crontab /etc/cron.d/hello-cron
+# Make crontab file accessible to the Dockerfile.
+ADD crontab /app/crontab
 
-
-# Give execution rights on the cron job
-RUN chmod 0644 /etc/cron.d/hello-cron
-
-# Create the log file to be able to run tail
-RUN touch /var/log/cron.log
-
-# Run the command on container startup
-CMD cron && tail -f /var/log/cron.log
+# Add to system's cron jobs.
+RUN crontab /app/crontab
 ```
