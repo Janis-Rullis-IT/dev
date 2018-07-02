@@ -23,3 +23,11 @@ service cron start
 ```
 * * * * * sh /app/cron-mix.sh >> /app/storage/cron.log 2>&1
 ```
+
+## `cron-mix.sh`
+
+```ex
+set -e;
+cd /app
+mix user -n "Cron Tab" -f true
+```
