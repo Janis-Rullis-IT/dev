@@ -19,6 +19,12 @@ Repo.all(query)
 my_query = from p in "users", join: c in "comments", where: c.post_id == p.id
 ```
 
+```ex
+query = from(a in __MODULE__, join: b in User, on: a.user_id == b.id, limit: 1, select: %{id: a.id, title: a.title, name: b.name, surname: b.surname})
+post = ElixirBackend.Repo.one(query)
+post.surname
+```
+
 ## Test in `iex`
 
 * [Fix `iex module Ecto.Query is not loaded and could not be found`](https://stackoverflow.com/a/46128659)
@@ -93,3 +99,20 @@ order_by: [asc: a.question_id]
 length(Repo.all(query)) |> IO.inspect
 ```
 > 3
+
+## One
+
+```ex
+  def get_first() do
+    query = from(a in __MODULE__, join: b in User, on: a.user_id == b.id, limit: 1, select: {a.id, a.title, b.name, b.surname})
+    ElixirBackend.Repo.one(query)
+  end
+```
+
+## Select as
+
+```ex
+query = from(a in __MODULE__, join: b in User, on: a.user_id == b.id, limit: 1, select: %{id: a.id, title: a.title, name: b.name, surname: b.surname})
+post = ElixirBackend.Repo.one(query)
+post.surname
+```
