@@ -116,3 +116,10 @@ query = from(a in __MODULE__, join: b in User, on: a.user_id == b.id, limit: 1, 
 post = ElixirBackend.Repo.one(query)
 post.surname
 ```
+
+## Raw query
+
+```ex
+query = "SELECT RAND()"
+IO.inspect  Ecto.Adapters.SQL.query!(ElixirBackend.Repo, query, [])
+```
