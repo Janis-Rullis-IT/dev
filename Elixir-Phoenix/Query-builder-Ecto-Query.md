@@ -120,6 +120,6 @@ post.surname
 ## Raw query
 
 ```ex
-query = "SELECT RAND()"
+query = "SELECT sleep(60)"
 IO.inspect  Ecto.Adapters.SQL.query!(ElixirBackend.Repo, query, [])
 ```
