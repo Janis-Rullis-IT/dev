@@ -1,5 +1,6 @@
-# Elixir query builder [Ecto.Query](https://hexdocs.pm/ecto/Ecto.Query.html)
+# Select
 
+* [Elixir query builder Ecto.Query](https://hexdocs.pm/ecto/Ecto.Query.html)
 * [Getting Started (hexdocs.pm/ecto)](https://hexdocs.pm/ecto/getting-started.html)
 * [Getting Started (github.com/elixir-ecto)](https://github.com/elixir-ecto/ecto/blob/master/guides/Getting%20Started.md)
 
