@@ -1,5 +1,8 @@
 # Elixir query builder [Ecto.Query](https://hexdocs.pm/ecto/Ecto.Query.html)
 
+* [Getting Started (hexdocs.pm/ecto)](https://hexdocs.pm/ecto/getting-started.html)
+* [Getting Started (github.com/elixir-ecto)](https://github.com/elixir-ecto/ecto/blob/master/guides/Getting%20Started.md)
+
 ## Requirements
 
 ```ex
@@ -115,4 +118,11 @@ length(Repo.all(query)) |> IO.inspect
 query = from(a in __MODULE__, join: b in User, on: a.user_id == b.id, limit: 1, select: %{id: a.id, title: a.title, name: b.name, surname: b.surname})
 post = ElixirBackend.Repo.one(query)
 post.surname
+```
+
+## Raw query
+
+```ex
+query = "SELECT sleep(60)"
+IO.inspect  Ecto.Adapters.SQL.query!(ElixirBackend.Repo, query, [])
 ```
