@@ -7,3 +7,9 @@
 * [init/2 Ecto.Repo (hexdocs.pm/ecto/)](https://hexdocs.pm/ecto/Ecto.Repo.html#c:init/2)
 * [Dynamic Repo configuration (github.com/elixir-ecto)](https://github.com/elixir-ecto/ecto/issues/1964)
 * start_link
+
+## Get config values
+
+```ex
+IO.inspect Application.get_env(:elixir_backend, ElixirBackend.Repo)
+```
