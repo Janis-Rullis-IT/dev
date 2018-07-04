@@ -27,3 +27,11 @@ ln -s /usr/local/bin/elixir /usr/bin/elixir
 ln -s /usr/local/bin/mix /usr/bin/mix
 ln -s /usr/local/bin/erl /usr/bin/erl
 ```
+
+## beam failed: :badfile
+
+```shell
+mix clean
+mix compile
+```
+or delete the '_build' folder and compile.
