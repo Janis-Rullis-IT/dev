@@ -8,3 +8,15 @@
 
 Increase `timeout:` in config/*.exs
 
+## [Scheme types](https://hexdocs.pm/ecto/Ecto.Schema.html#module-primitive-types)
+
+## Fix UTF-8 chars stored as '?'
+
+Add to DB config `binary_as: :field_type_blob`.
+
+```ex
+config :edurio, ElixirBackend.Repo,
+    ...
+    pool_timeout: 40_000,
+    binary_as: :field_type_blob
+```
