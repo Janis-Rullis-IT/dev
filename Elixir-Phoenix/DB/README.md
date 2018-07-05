@@ -20,3 +20,6 @@ config :edurio, ElixirBackend.Repo,
     pool_timeout: 40_000,
     binary_as: :field_type_blob
 ```
+
+## RCTO CHEATSHEET 
+* https://devhints.io/phoenix-ecto
