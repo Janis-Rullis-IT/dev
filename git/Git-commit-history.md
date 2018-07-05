@@ -11,3 +11,9 @@ git log --author=Jon
 ```shell
 git show 40840b30487eb6ad56ba11795ac2fff6f1af5cdf
 ```
+
+## With files
+
+```shell
+git log --author=Jon --name-status
+```
