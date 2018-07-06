@@ -1,11 +1,8 @@
 # Config
 
 * [Runtime configuration, migrations and deployment for Elixir applications: Init/2 callbacks (medium.com/nebo-15)](https://medium.com/nebo-15/runtime-configuration-migrations-and-deployment-for-elixir-applications-6295b892fa6a#1530)
-* [Mastering Elixir Releases with Distillery — A (Pretty) Complete Guide (hackernoon.com)](https://hackernoon.com/mastering-elixir-releases-with-distillery-a-pretty-complete-guide-497546f298bc#93fe)
-* [init/2 Ecto.Repo (hexdocs.pm/ecto/)](https://hexdocs.pm/ecto/Ecto.Repo.html#c:init/2)
-* [Dynamic Repo configuration (github.com/elixir-ecto)](https://github.com/elixir-ecto/ecto/issues/1964)
 
-## Global variables (System)
+## [Global variables (System)](https://hexdocs.pm/elixir/System.html)
 
 Must be string, otherwise throws an error.
 
@@ -43,6 +40,13 @@ See [Custom-ENV-MIX](Custom-ENV-MIX.md)
 
 
 ## Change DB configuration on runtime
+
+* [Mastering Elixir Releases with Distillery — A (Pretty) Complete Guide (hackernoon.com)](https://hackernoon.com/mastering-elixir-releases-with-distillery-a-pretty-complete-guide-497546f298bc#93fe)
+* [init/2 Ecto.Repo (hexdocs.pm/ecto/)](https://hexdocs.pm/ecto/Ecto.Repo.html#c:init/2)
+* [How to set application_name for postgres connections in Elixir (stackoverflow.com)](https://stackoverflow.com/a/45926237)
+* [Mix config evolutions / Ecto 2.1 init/2 (elixirforum.com)   ](https://elixirforum.com/t/mix-config-evolutions/4423/22)
+* [Dynamic Repo configuration (github.com/elixir-ecto)](https://github.com/elixir-ecto/ecto/issues/1964)
+
 
 ### Pass these new config values through Systen globals
 
