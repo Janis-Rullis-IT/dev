@@ -66,7 +66,7 @@ System.put_env("db_name", "elixir_2")
 System.put_env("slow_timeout", "1000000000")
 ```
 
-#### or if this is goes through mix command
+#### or if this goes through a mix command
 
 ```ex
 db_name=elixir_2 mix user -n "Janis Rullis"
@@ -74,9 +74,9 @@ db_name=elixir_2 mix user -n "Janis Rullis"
 
 ### Catch and set them in Your repo
 
-In this example, init() (which is responsible for parsing config):
-* Overwrites :timeout and :pool_timeout with System.get_env("slow_timeout").
-* Overwrites :database with System.get_env("db_name").
+In this example, `init()` (which is responsible for parsing config):
+* Overwrites `:timeout` and `:pool_timeout` with `System.get_env("slow_timeout")`.
+* Overwrites `:database` with `System.get_env("db_name").`
 
 ```ex
 defmodule ElixirBackend.Repo do
@@ -104,9 +104,9 @@ defmodule ElixirBackend.Repo do
 end
 ```
 
-## How long lasts these dynamic settings? Will it affect other call that does no need this flag?
+## How long lasts these dynamic settings? Will it affect other calls that does no need this flag?
 
-It lasts per call.
+### It only lasts per call
 
 For example,
 
@@ -114,8 +114,10 @@ For example,
 slow_timeout=1000000 mix db.slow_timeout
 ````
 
-Will run with the slow timeout, but the next call right after, will run as usual.
+Will run with the slow timeout, but the next call right after
 
 ```shell
 mix db.slow_timeout
 ````
+
+will run as usual.
