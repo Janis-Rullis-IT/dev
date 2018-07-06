@@ -31,12 +31,11 @@ IO.inspect Application.get_env(:elixir_backend, ElixirBackend.Repo)
 
 * [System.get_env vs. Application.get_env (elixirforum.com)](https://elixirforum.com/t/system-get-env-vs-application-get-env/11246/2)
 
->
-My rule of thumb is to only use System.get_env during application initialization, eg in your Application.start, Repo.init, Endpoint.init callbacks.
->
-Once the application is initialized, the environment should always be queried by Application.get_env, since System.get_env can only return strings.
->
-I like the dev / test environment to be statically defined in the config.exs files, only reading from the system environment for prod builds.
+> My rule of thumb is to only use System.get_env during application initialization, eg in your Application.start, Repo.init, Endpoint.init callbacks.
+
+> Once the application is initialized, the environment should always be queried by Application.get_env, since System.get_env can only return strings.
+
+> I like the dev / test environment to be statically defined in the config.exs files, only reading from the system environment for prod builds.
 
 ## Get env
 
