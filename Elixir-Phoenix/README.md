@@ -132,3 +132,7 @@ Top 10 files with most incoming dependencies:
 * [elixir-companies - A list of companies currently using Elixir in production.](https://github.com/doomspork/elixir-companies)
 * [phoenix-docker-compose - Docker development environment for Elixir+Phoenix](https://github.com/dogweather/phoenix-docker-compose)
 * [why_elixir - Selling points for Elixir / Phoenix](https://github.com/bignerdranch/why_elixir)
+
+## NGINX
+
+* [Setting Up Phoenix/Elixir With Nginx and LetsEncrypt (medium.com/@a4word)](https://medium.com/@a4word/setting-up-phoenix-elixir-with-nginx-and-letsencrypt-ada9398a9b2c)
