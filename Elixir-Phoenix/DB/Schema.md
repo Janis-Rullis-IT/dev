@@ -1,4 +1,4 @@
-# [Scheme types](https://hexdocs.pm/ecto/Ecto.Schema.html#module-primitive-types)
+# [Schema types](https://hexdocs.pm/ecto/Ecto.Schema.html#module-primitive-types)
 
 * `:id` - integer	`1, 2, 3`
 * `:binary_id` - binary	`<<int, int, int, ...>>`
