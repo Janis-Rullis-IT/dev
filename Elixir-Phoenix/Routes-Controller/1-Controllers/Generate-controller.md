@@ -13,7 +13,7 @@ This version of Phoenix encourages us to divide our web application into a numbe
 ## Example
 
 ```shell
-mix phx.gen.json Users User users name:str
+mix phx.gen.json Account User users name:string surname:string
 ```
 
 ```
@@ -22,12 +22,12 @@ mix phx.gen.json Users User users name:str
 * creating test/elixir_backend_web/controllers/user_controller_test.exs
 * creating lib/elixir_backend_web/views/changeset_view.ex
 * creating lib/elixir_backend_web/controllers/fallback_controller.ex
-* creating lib/elixir_backend/users/user.ex
-* creating priv/repo/migrations/20180710035433_create_users.exs
-* creating lib/elixir_backend/users/users.ex
-* injecting lib/elixir_backend/users/users.ex
-* creating test/elixir_backend/users/users_test.exs
-* injecting test/elixir_backend/users/users_test.exs
+* creating lib/elixir_backend/account/user.ex
+* creating priv/repo/migrations/20180710060206_create_users.exs
+* creating lib/elixir_backend/account/account.ex
+* injecting lib/elixir_backend/account/account.ex
+* creating test/elixir_backend/account/account_test.exs
+* injecting test/elixir_backend/account/account_test.exs
 
 Add the resource to your :api scope in lib/elixir_backend_web/router.ex:
 
@@ -44,6 +44,7 @@ mix phx.gen.json Blog Post posts title:string user_id:integer
 ````
 
 ```
+mix phx.gen.json Blog Post posts title:string user_id:int
 The following files conflict with new files to be generated:
 
   * lib/elixir_backend_web/views/changeset_view.ex
@@ -51,8 +52,8 @@ The following files conflict with new files to be generated:
 
 See the --web option to namespace similarly named resources
 
-Proceed with interactive overwrite? [Yn] 
-````
+Proceed with interactive overwrite? [Yn] y
+```
 
 * [Fix `The following files conflict with new files to be generated:` (elixirforum.com)](https://elixirforum.com/t/file-conflicts-adding-schema-into-existing-context/9412/2)
 
@@ -61,12 +62,11 @@ Proceed with interactive overwrite? [Yn]
 > I just accept it and everything seems to be fine.
 
 ```
-Proceed with interactive overwrite? [Yn] Y
 * creating lib/elixir_backend_web/controllers/post_controller.ex
 * creating lib/elixir_backend_web/views/post_view.ex
 * creating test/elixir_backend_web/controllers/post_controller_test.exs
 * creating lib/elixir_backend/blog/post.ex
-* creating priv/repo/migrations/20180710041906_create_posts.exs
+* creating priv/repo/migrations/20180710060351_create_posts.exs
 * creating lib/elixir_backend/blog/blog.ex
 * injecting lib/elixir_backend/blog/blog.ex
 * creating test/elixir_backend/blog/blog_test.exs
@@ -80,7 +80,7 @@ Add the resource to your :api scope in lib/elixir_backend_web/router.ex:
 Remember to update your repository by running migrations:
 
     $ mix ecto.migrate
-````
+```
 
 ## [mix help phx.gen.json](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Json.html)
 

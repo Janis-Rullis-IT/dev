@@ -14,26 +14,64 @@ mix archive.install https://github.com/phoenixframework/archives/raw/master/phx_
 ```
 > Phoenix v1.3.3
 
-# Create a new project
+# Create a new API project
 
 * [Containerize & deploy Elixir and Phoenix apps in production](https://blog.cloud66.com/deploying-your-phoenix-applications-in-production-using-docker/)
+* [phx.new.ex (github.com/phoenixframework/phoenix)](https://github.com/phoenixframework/phoenix/blob/master/installer/lib/mix/tasks/phx.new.ex)
+* [Mix Tasks (hexdocs.pm/phoenix)](https://hexdocs.pm/phoenix/phoenix_mix_tasks.html)
+* ` mix help phx.new`
 
 ```shell
-mix phoenix.new elixir_backend
+mix phx.new elixir_backend --no-brunch --no-html --no-brunch --database mysql / postgres / mssql
 ```
+
 ```
-We are all set! Run your Phoenix application:
+* creating elixir_backend/config/config.exs
+* creating elixir_backend/config/dev.exs
+* creating elixir_backend/config/prod.exs
+* creating elixir_backend/config/prod.secret.exs
+* creating elixir_backend/config/test.exs
+* creating elixir_backend/lib/elixir_backend/application.ex
+* creating elixir_backend/lib/elixir_backend.ex
+* creating elixir_backend/lib/elixir_backend_web/channels/user_socket.ex
+* creating elixir_backend/lib/elixir_backend_web/views/error_helpers.ex
+* creating elixir_backend/lib/elixir_backend_web/views/error_view.ex
+* creating elixir_backend/lib/elixir_backend_web/endpoint.ex
+* creating elixir_backend/lib/elixir_backend_web/router.ex
+* creating elixir_backend/lib/elixir_backend_web.ex
+* creating elixir_backend/mix.exs
+* creating elixir_backend/README.md
+* creating elixir_backend/test/support/channel_case.ex
+* creating elixir_backend/test/support/conn_case.ex
+* creating elixir_backend/test/test_helper.exs
+* creating elixir_backend/test/elixir_backend_web/views/error_view_test.exs
+* creating elixir_backend/lib/elixir_backend_web/gettext.ex
+* creating elixir_backend/priv/gettext/en/LC_MESSAGES/errors.po
+* creating elixir_backend/priv/gettext/errors.pot
+* creating elixir_backend/lib/elixir_backend/repo.ex
+* creating elixir_backend/priv/repo/seeds.exs
+* creating elixir_backend/test/support/data_case.ex
+* creating elixir_backend/.gitignore
+
+Fetch and install dependencies? [Yn] y
+* running mix deps.get
+* running mix deps.compile
+
+We are all set! Go into your application by running:
 
     $ cd elixir_backend
-    $ mix phoenix.server
+
+Then configure your database in config/dev.exs and run:
+
+    $ mix ecto.create
+
+Start your Phoenix app with:
+
+    $ mix phx.server
 
 You can also run your app inside IEx (Interactive Elixir) as:
 
-    $ iex -S mix phoenix.server
-
-Before moving on, configure your database in config/dev.exs and run:
-
-    $ mix ecto.create
+    $ iex -S mix phx.server
 ```
 
 ## After the setup
