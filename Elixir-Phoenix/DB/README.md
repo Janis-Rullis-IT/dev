@@ -1,5 +1,11 @@
 # DB
 
+## `mix ecto.create`
+
+Creates a database. Suggested after a new project is created. Builds depending on DB config.
+
+> The database for ElixirBackend.Repo has been created.
+
 ## Fix UTF-8 chars stored as '?'
 
 Add to DB config `binary_as: :field_type_blob`.
