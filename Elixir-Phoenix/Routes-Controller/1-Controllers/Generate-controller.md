@@ -82,6 +82,58 @@ Remember to update your repository by running migrations:
     $ mix ecto.migrate
 ```
 
+## `mix ecto.migrate`
+
+* Migrations are placed in 'priv/repo/migrations'.
+
+## Code
+
+```ex
+defmodule ElixirBackend.Repo.Migrations.CreatePosts do
+  use Ecto.Migration
+  def change do
+    create table(:posts) do
+      add :title, :string
+      add :user_id, :integer
+      timestamps()
+    end
+  end
+end
+```
+
+## Becomes this table
+
+```sql
+CREATE TABLE `posts` (
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) DEFAULT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  `inserted_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+```
+
+## Observations
+
+### id - Mostly bigint will be too big for my needs. Need to pass length
+
+## user_id - Requires UNSIGNED
+
+
+## `schema_migrations` - Keep a track of migrations
+
+```sql
+CREATE TABLE `schema_migrations` (
+  `version` bigint(20) NOT NULL,
+  `inserted_at` datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+INSERT INTO `schema_migrations` (`version`, `inserted_at`) VALUES
+(20180710060206, '2018-07-10 16:59:05'),
+(20180710060351, '2018-07-10 16:59:05');
+````
+
 ## [mix help phx.gen.json](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.Gen.Json.html)
 
 ```
