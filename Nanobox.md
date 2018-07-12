@@ -61,8 +61,51 @@ It takes some time (max 2 min) on your PC to build it and then push it.
 
 See in the [dashboard](https://dashboard.nanobox.io/apps/)
 
+## List
+
+```shell
+nanobox remote ls
+```
+
+App Name     | Alias
+----------|--------------
+my-dev   | default
+my-prod  | production
+
 ## Help
 
 ```shell
 nanobox -h
+```
+
+## Connect to console
+
+* [Console  (docs.nanobox.io)](https://docs.nanobox.io/cli/console/)
+* [Remote Access (docs.nanobox.io)](https://docs.nanobox.io/live-app-management/remote-access/)
+* [nanobox_cli.sh (github.com/LeCoupa/awesome-cheatsheets/)](https://gist.github.com/LeCoupa/d5c1e0ffa43a171e64429a658a8ad52f)
+
+```shell
+nanobox console -h
+```
+
+```
+Open an interactive console inside a component.
+
+Usage:
+  nanobox console [<local | dry-run | {remote-alias}>] <component.id> [flags]
+
+Flags:
+  -u, --user string   user you would like to console in as
+
+Global Flags:
+      --debug     In the event of a failure, drop into debug context
+  -t, --trace     Increases display output and sets level to trace
+  -v, --verbose   Increases display output and sets level to debug
+      --version   Print version information and exit
+```
+### Connect to selected [remote alias](#list)
+
+```
+nanobox console elixir-dev web.main
+nanobox console elixir-prod web.main
 ```
