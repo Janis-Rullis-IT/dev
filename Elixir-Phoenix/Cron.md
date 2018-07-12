@@ -9,8 +9,24 @@ RUN apt-get install --yes build-essential inotify-tools cron nano mc htop
 RUN ln -s /usr/local/bin/elixir /usr/bin/elixir
 RUN ln -s /usr/local/bin/mix /usr/bin/mix
 RUN ln -s /usr/local/bin/erl /usr/bin/erl
+
+
+# Add crontab file in the cron directory
+ADD crontab /app/crontab
+
+# Move it to system crons.
+
+RUN crontab /app/crontab
+
+# Setup all required to call tasks from crontab.
+RUN ln -s /usr/local/bin/elixir /usr/bin/elixir
+RUN ln -s /usr/local/bin/mix /usr/bin/mix
+RUN ln -s /usr/local/bin/erl /usr/bin/erl
+
+ADD storage /app/storage/
+RUN chmod a+w /app/storage -R
 RUN service cron start
-````
+```
 
 ## `run.sh`
 
@@ -47,3 +63,7 @@ def run(args) do
     ensure_started(Your.Repo, [])
 end
 ```
+
+## Possible snags
+
+* [Nanobox does not execute Your cron tasks](../Nanobox/Crron.md)
