@@ -1,14 +1,14 @@
 # DB
 
-## Fix * (DBConnection.ConnectionError)timed out because it checked out the connection for longer than 30000ms
+## `mix ecto.create`
 
-### Reproduce with [`mix slow_query`](https://github.com/janis-rullis/elixir/blob/master/backend/lib/mix/tasks/slow-query.ex)
+Creates a database. Suggested after a new project is created. Builds depending on DB config.
 
-### Change timeout
+> The database for ElixirBackend.Repo has been created.
 
-Increase `timeout:` in config/*.exs
+### If DB already exists
 
-## [Scheme types](https://hexdocs.pm/ecto/Ecto.Schema.html#module-primitive-types)
+> The database for ElixirBackend.Repo has already been created.
 
 ## Fix UTF-8 chars stored as '?'
 
@@ -21,5 +21,14 @@ config :edurio, ElixirBackend.Repo,
     binary_as: :field_type_blob
 ```
 
-## RCTO CHEATSHEET 
-* https://devhints.io/phoenix-ecto
+## ECTO CHEATSHEET 
+
+* [Phoenix ecto (devhints.io)](https://devhints.io/phoenix-ecto)
+
+## Fix * (DBConnection.ConnectionError)timed out because it checked out the connection for longer than 30000ms
+
+### Reproduce with [`mix slow_query`](https://github.com/janis-rullis/elixir/blob/master/backend/lib/mix/tasks/slow-query.ex)
+
+### Change timeout
+
+Increase `timeout:` in config/*.exs
