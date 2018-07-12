@@ -1,15 +1,5 @@
 # Nanobox Cron
 
-* https://github.com/tootsuite/mastodon/blob/master/boxfile.yml
-* https://docs.nanobox.io/boxfile/web/
-* https://docs.nanobox.io/app-config/adding-packages/
-* https://docs.nanobox.io/boxfile/deploy-config/
-* https://docs.nanobox.io/boxfile/worker/
-* https://docs.nanobox.io/boxfile/data/
-* https://docs.nanobox.io/app-config/cron-jobs/
-
-## Related 
-
 * [Setup Elixir/Cron](../Elixir-Phoenix/Cron.md)
 
 ## Cron is not running?
@@ -31,3 +21,7 @@ Check live logs in Nanobox dashboard, when building a container. There at the bo
 Nanobox has it's own way how to add cron tasks and it prevents other ways.
 
 * [Nanobx Cron jobs (docs.nanobox.io)](https://docs.nanobox.io/app-config/cron-jobs/)
+* [boxfile/web/cron (docs.nanobox.io)](https://docs.nanobox.io/boxfile/web/#cron-jobs)
+* [worker (docs.nanobox.io)](https://docs.nanobox.io/boxfile/worker/)
+* [Runtime & Services (docs.nanobox.io)](https://docs.nanobox.io/app-config/runtime-services/)
+* [Deploy config (docs.nanobox.io)](https://docs.nanobox.io/boxfile/deploy-config/)
