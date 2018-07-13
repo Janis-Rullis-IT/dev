@@ -103,3 +103,9 @@ elixir_phoenix (dry-run) :
 ```shell
 nanobox console dry-run web.main
 ```
+
+## Test that the connection is to a dry-run (local) or a server
+
+* Add a comment in a file.
+* Deploy.
+* Check if it is on dry or dev.
