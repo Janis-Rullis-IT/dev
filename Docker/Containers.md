@@ -40,8 +40,8 @@ docker-compose build
 ```shell
 docker-compose up --build
 ```
-> Recreating edurio-nw ... done
-> Attaching to edurio-nw
+> Recreating elixir-nw ... done
+> Attaching to elixir-nw
 
 
 ## Kill

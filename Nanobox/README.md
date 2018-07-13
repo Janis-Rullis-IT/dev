@@ -105,7 +105,20 @@ Global Flags:
 ```
 ### Connect to selected [remote alias](#list)
 
-```
+```shell
 nanobox console elixir-dev web.main
 nanobox console elixir-prod web.main
 ```
+
+#### Connect to the local test env
+
+```shell
+nanobox console dry-run web.main
+```
+
+#### Connect to non-existing
+
+```shell
+nanobox console elixir-tomato web.main
+```
+>  Sorry, the app 'elixir-tomato' doesn't exist

@@ -15,7 +15,7 @@ Creates a database. Suggested after a new project is created. Builds depending o
 Add to DB config `binary_as: :field_type_blob`.
 
 ```ex
-config :edurio, ElixirBackend.Repo,
+config :elixir_backend, ElixirBackend.Repo,
     ...
     pool_timeout: 40_000,
     binary_as: :field_type_blob
