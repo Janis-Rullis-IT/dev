@@ -53,3 +53,10 @@ Example - 1 individual test and 1 folder:
 ```shell
 nightwatch tests/one/test.js tests/utils
 ```
+
+## Does not work?
+
+* Manually download changes, call init scripts like `npm install`.
+* Restart PC.
+* Re-build docker containers with `docker-compose up --build`.
+* Update DB.
