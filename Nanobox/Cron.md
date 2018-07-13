@@ -25,3 +25,37 @@ Nanobox has it's own way how to add cron tasks and it prevents other ways.
 * [worker (docs.nanobox.io)](https://docs.nanobox.io/boxfile/worker/)
 * [Runtime & Services (docs.nanobox.io)](https://docs.nanobox.io/app-config/runtime-services/)
 * [Deploy config (docs.nanobox.io)](https://docs.nanobox.io/boxfile/deploy-config/)
+
+## Set up cron
+
+```yml
+web.main:
+  start: node-start mix phx.server
+  writable_dirs:
+    - priv
+    - _build
+    - storage
+  cron:
+    - id: my_cron
+      schedule: '*/5 * * * *'
+      command:  sh /app/cron.sh >> /app/storage/cron.log 2>&1
+```
+
+## Check if cron is set
+
+```shell
+crontab -e
+```
+> Empty.
+
+`shell
+service cron status
+```
+> * cron is running
+
+
+## Log of a runing cron
+
+```
+I, [4 #31031] INFO -- web.main.1[cron1]: Starting: my_cron
+```
