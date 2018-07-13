@@ -48,7 +48,7 @@ crontab -e
 ```
 > Empty.
 
-`shell
+```shell
 service cron status
 ```
 > * cron is running
