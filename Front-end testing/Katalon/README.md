@@ -1,4 +1,4 @@
-# [Katalon Stuido](https://www.katalon.com)
+# [Katalon Studio](https://www.katalon.com)
 
 ## Store a dynamic value
 
