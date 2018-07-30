@@ -27,4 +27,4 @@ In the script tab variable code looks like this ` GlobalVariable.username`.
 
 At the top right corner there is dropdown. By the default there is selected 'default'.
 
-![images/Global-vars.png](images/Global-vars.png)
+![images/Global-vars.png](images/Global-vars.PNG)
