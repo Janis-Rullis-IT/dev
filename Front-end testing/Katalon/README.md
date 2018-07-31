@@ -20,3 +20,6 @@ WebUI.setText(findTestObject('MyProject/password'), GlobalVariable.str)
 ```
 
 > Pw should appear as 3 chars.
+
+## [Scripting / WebUI methods](http://docs.katalon.com/display/KD/Web+UI)
+
