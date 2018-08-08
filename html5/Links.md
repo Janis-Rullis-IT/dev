@@ -11,5 +11,5 @@
 ## [Empty link best practice](https://stackoverflow.com/a/5637990)
 
 ```html
-<a href="'javascript:;'">Empty</a>
+<a href="javascript:;">Empty</a>
 ```
