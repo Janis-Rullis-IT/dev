@@ -24,23 +24,6 @@
 * Under it, find [functions](https://hexdocs.pm/elixir/IO.html#inspect/2).
 * Click on the '<>' icon on the top right to [open the code in github](https://github.com/elixir-lang/elixir/blob/v1.6.5/lib/elixir/lib/io.ex#L295).
 
-## Install
-
-```shell
-wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
-sudo apt-get update
-sudo apt-get install esl-erlang elixir -y
-```
-
-## Setup project
-
-```shell
-sudo chmod a+rwX build
-mix deps.clean --all
-mix compile
-mix deps.get
-```
-
 ## Editors
 
 * VS Code with [vscode-elixir plugin](https://marketplace.visualstudio.com/items?itemName=mjmcloug.vscode-elixir)

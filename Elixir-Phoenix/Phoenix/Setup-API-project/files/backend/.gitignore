@@ -1,0 +1,11 @@
+/_build
+/db
+/deps
+/*.ez
+erl_crash.dump
+/node_modules
+/config/*.secret.exs
+.history/
+.elixir_ls
+/nbproject/private/
+storage
