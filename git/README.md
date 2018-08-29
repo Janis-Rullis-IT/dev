@@ -1,3 +1,5 @@
+* https://about.gitlab.com/2018/08/08/git-happens/
+
 ## [Git ignore](Git-ignore)
 
 ## Revert to a specific commit
