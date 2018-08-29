@@ -10,3 +10,7 @@ https://www.sitepoint.com/debugging-javascript-projects-vs-code-chrome-debugger/
 * On the right tab, click on data and select 'Store as global variable'.
 * In the console a new var will be created.
 * Convert to string for a later compare `JSON.stringify(temp1)`.
+
+## Network throttle
+
+* Sometimes helps to catch the bug.
