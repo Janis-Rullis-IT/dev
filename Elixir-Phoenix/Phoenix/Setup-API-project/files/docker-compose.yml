@@ -1,0 +1,62 @@
+version: '3.6'
+services:
+    elixir-backend:
+        container_name: elixir-backend
+        build:
+            context: $BACKEND_DIR
+            dockerfile: Dockerfile
+        depends_on:
+            - elixir-mysql
+            - elixir-pma
+        environment:
+            MIX_ENV: dev
+            PORT: $BACKEND_PORT
+            VIRTUAL_HOST: api.elixir.local
+        volumes:
+            - '$BACKEND_DIR:/app:rw'
+        networks:
+            elixir-net:
+                ipv4_address: 172.60.1.11
+    elixir-mysql:
+        container_name: elixir-mysql
+        image: 'mariadb:latest'
+        restart: unless-stopped
+        ports:
+            - '$MYSQL_PORT:$MYSQL_PORT'
+        volumes:
+            - type: bind
+              source: $MYSQL_DIR
+              target: /var/lib/mysql
+        environment:
+            TZ: Europe/Riga
+            LANG: en_US.UTF-8
+            MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PASSWORD
+            MYSQL_USER: $MYSQL_USER
+            MYSQL_PASSWORD: $MYSQL_PASSWORD
+            INIT_TOKUDB: 1
+            INIT_ROCKSDB: 0
+        networks:
+            elixir-net:
+                ipv4_address: 172.60.1.13
+        command: '--sql-mode= --server-id=1 --log-bin=mysql-bin --expire_logs_days=3 ${MYSQL_CMD_ARGS}'
+    elixir-pma:
+        container_name: elixir-pma
+        image: 'phpmyadmin/phpmyadmin'
+        restart: always
+        depends_on:
+        - elixir-mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PASSWORD
+            MYSQL_USER: $MYSQL_USER
+            MYSQL_PASSWORD: $MYSQL_PASSWORD
+            PMA_HOST: elixir-mysql
+            PMA_PORT: $MYSQL_PORT
+        networks:
+            elixir-net:
+                ipv4_address: 172.60.1.14
+networks:
+    elixir-net:
+        ipam:
+            driver: default
+            config:
+                - subnet: 172.60.0.0/16
