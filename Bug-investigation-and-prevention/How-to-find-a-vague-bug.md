@@ -5,5 +5,5 @@ With a vague is meant a bug, which location can't be found, because there are no
 
 ## Steps
 
-* Revert to the last commit of the last successful release. You can use `git checkout COMMIT_HASH` for this. This will make sure, that this bug really is related with the last changes.
+* Revert to the last commit of the last successful release. You can use [`git checkout COMMIT_HASH`](https://github.com/janis-rullis/dev/blob/master/git/Git-commit-history.md#revert-to-a-specific-commit) for this. This will make sure, that this bug really is related with the last changes.
 * Move up to next commits one-by-one till the bug appears.
