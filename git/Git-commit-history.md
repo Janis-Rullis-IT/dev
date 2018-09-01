@@ -17,3 +17,16 @@ git show 40840b30487eb6ad56ba11795ac2fff6f1af5cdf
 ```shell
 git log --author=Jon --name-status
 ```
+
+## Revert to a specific commit
+
+```shell
+git checkout COMMIT_HASH
+```
+
+### Revert back to the latest
+
+```shell
+git checkout BRANCH_NAME
+```
+> git checkout master

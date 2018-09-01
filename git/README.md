@@ -2,12 +2,6 @@
 
 ## [Git ignore](Git-ignore)
 
-## Revert to a specific commit
-
-```shell
-git checkout COMMIT_HASH
-```
-
 ## [Git: revert (reset) a single file](https://www.norbauer.com/rails-consulting/notes/git-revert-reset-a-single-file)
 
 ```bash
