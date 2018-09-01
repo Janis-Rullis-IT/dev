@@ -3,6 +3,7 @@
  * #ISSUE_NO Operate with users.
  */
 namespace App\Models\Accounts;
+use Illuminate\Database\Eloquent\Model;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 

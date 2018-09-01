@@ -5,6 +5,7 @@
 namespace App\Models\Accounts;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Model;
 
 class Guest extends Model
 {
@@ -12,7 +13,7 @@ class Guest extends Model
 	use SoftDeletes;
 
 	protected $table = 'guests';
-	
+
 	/**
 	 * #ISSUE_NO Get a `where` part for a query builder.
 	 * @param integer $sessionId
@@ -65,7 +66,7 @@ class Guest extends Model
 	 */
 	private function insertOne($sessionId)
 	{
-		$this->session_id = $sesionId;
+		$this->session_id = $sessionId;
 		if ($this->save()) {
 			return $this;
 		}
