@@ -68,7 +68,7 @@ class Guest extends Model
 	{
 		$this->session_id = $sessionId;
 		if ($this->save()) {
-			return $this;
+			return static::find($this->id);
 		}
 		return false;
 	}
