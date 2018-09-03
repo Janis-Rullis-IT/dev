@@ -18,8 +18,10 @@ class GuestTest extends TestCase
 
 	public function testGuestTest()
 	{
+		$this->assertFalse(Guest::isValid('123'));
 		$guestCnt = Guest::count();
 		$sessionId = sha1(rand());
+		$this->assertTrue(Guest::isValid($sessionId));
 		$this->assertFalse(Guest::doesExist($sessionId));
 		$guest = Guest::insertIfNotExist($sessionId);
 		$this->assertNotEmpty($guest);

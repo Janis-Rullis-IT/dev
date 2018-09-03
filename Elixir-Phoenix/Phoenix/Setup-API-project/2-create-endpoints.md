@@ -100,3 +100,70 @@ Postman-Token: a7a325e3-4d75-4e92-bec0-090af4545833
 ```json
 {"data":{"surname":"Doe","name":"John","id":1,"email":"john@doe.com"}}
 ```
+
+## Posts
+
+```shell
+mix phx.gen.json Blog Post posts title:string
+```
+
+```ex
+defmodule Backend.Repo.Migrations.CreatePosts do
+  use Ecto.Migration
+
+	def up do
+		"CREATE TABLE IF NOT EXISTS `posts` (
+			`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+			`title` VARCHAR(250) NOT NULL,
+			`uri` VARCHAR(250) NOT NULL,
+			`img` VARCHAR(250) NULL,
+			`inserted_at` DATETIME NULL DEFAULT NULL,
+			`updated_at` DATETIME NULL DEFAULT NULL,
+			PRIMARY KEY (`id`)
+		) ENGINE=INNODB DEFAULT CHARACTER SET=UTF8;"
+    |> execute
+  end
+
+  def down do
+		"DROP TABLE `posts`" |> execute
+  end
+end
+```
+
+```ex
+resources "/posts", PostController
+```
+
+```shell
+mix ecto.migrate
+```
+
+```ex
+schema "posts" do
+    field :title, :string
+	field :url, :string
+	field :img, :string
+
+    timestamps()
+end
+```
+
+```http
+POST /api/posts HTTP/1.1
+Host: api.elixir.local:4000
+Content-Type: application/json
+Cache-Control: no-cache
+Postman-Token: 7c287a1d-8619-4e24-bacd-308178e706ce
+
+{  
+   "post":{  
+      "title":"Post 1",
+      "url":"posst_1",
+      "img":""
+   }
+}
+```
+
+```json
+{"data":{"title":"Post 1","id":1}}
+```

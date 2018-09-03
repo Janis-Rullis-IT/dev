@@ -41,7 +41,12 @@ class Guest extends Model
 	 */
 	public static function doesExist($sessionId)
 	{
-		return static::getWhere($sessionId)->count() > 0;
+		return static::isValid($sessionId) ? static::getWhere($sessionId)->count() > 0 : false;
+	}
+
+	public static function isValid($sessionId)
+	{
+		return empty($sessionId) || strlen($sessionId) !== 40;
 	}
 
 	/**
@@ -51,6 +56,10 @@ class Guest extends Model
 	 */
 	public static function insertIfNotExist($sessionId)
 	{
+		if (!static::isValid($sessionId)) {
+			return 'guest.session_id_invalid';
+		}
+
 		$item = static::findBySessionId($sessionId);
 		if (empty($item)) {
 			$item = new static;

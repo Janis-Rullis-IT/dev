@@ -41,7 +41,7 @@ class User extends Model
 	 */
 	public static function doesExist($email)
 	{
-		return static::getWhere($email)->count() > 0;
+		return static::isValidEmail($email) ? static::getWhere($email)->count() > 0 : false;
 	}
 
 	/**
