@@ -31,8 +31,7 @@ new Vue({el: '#app', render: h => h(App)});" > app.js
 ### App.vue
 
 ```shell
-echo -e "
-<template>
+echo -e "<template>
   <div><h1>Hi, Vue</h1></div>
 </template>" > App.vue
 ```
@@ -45,8 +44,7 @@ mkdir build
 ```
 
 ```shell
-echo -e "
-'use strict';
+echo -e "'use strict';
 
 const {VueLoaderPlugin} = require('vue-loader');
 module.exports = {mode: 'development', entry: ['./src/app.js'], module: {rules: [{test: /\.vue$/, use: 'vue-loader'}]}, plugins: [new VueLoaderPlugin()]};
@@ -67,9 +65,7 @@ nano package.json
 ## HTML that includes the bundle file
 
 ```shell
-echo -e "
-<html><body><div id="app"></div><script src="/dist/main.js" type="text/javascript"></script></html>
-" > index.html
+echo -e "<html><body><div id="app"></div><script src="/dist/main.js" type="text/javascript"></script></html>" > index.html
 ```
 
 ## NPM build
