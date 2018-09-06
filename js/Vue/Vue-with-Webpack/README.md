@@ -22,10 +22,12 @@ mkdir pages components router
 ### app.js
 
 ```shell
-echo -e "
-import Vue from 'vue';
+echo -e "import Vue from 'vue';
+import VueResource from "vue-resource";
+Vue.use(VueResource);
+import router from "./router";
 import App from './App.vue';
-new Vue({el: '#app', render: h => h(App)});" > app.js
+new Vue({http: {root: 'http://api.elixir.local'}, router, render: h => h(App)}).$mount("#app");
 ```
 
 ### App.vue
@@ -47,8 +49,9 @@ mkdir build
 echo -e "'use strict';
 
 const {VueLoaderPlugin} = require('vue-loader');
-module.exports = {mode: 'development', entry: ['./src/app.js'], module: {rules: [{test: /\.vue$/, use: 'vue-loader'}]}, plugins: [new VueLoaderPlugin()]};
-" > build/webpack.config.dev.js
+module.exports = {mode: 'development', entry: ['./src/app.js'], 
+	output: {path: __dirname + '/../public/dist', publicPath: '/dist/', filename: 'main.js', chunkFilename: '[name]-chunk.js'},
+	module: {rules: [{test: /\.vue$/, use: 'vue-loader'}]}, plugins: [new VueLoaderPlugin()]};" > build/webpack.config.dev.js
 ```
 
 ```shell
