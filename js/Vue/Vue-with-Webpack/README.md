@@ -6,8 +6,8 @@
 
 ```shell
 npm init
-npm install --save vue vue-router
-npm install --save-dev webpack webpack-cli 
+npm install --save vue vue-router vue-resource
+npm install --save-dev webpack webpack-cli
 npm install --save-dev vue-loader vue-template-compiler vue-style-loader css-loader
 ```
 
