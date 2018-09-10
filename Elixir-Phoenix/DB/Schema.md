@@ -1,3 +1,7 @@
+# [Schema](https://hexdocs.pm/ecto/Ecto.Schema.html)
+
+* [Thinking in Ecto - schemas and changesets (cultofmetatron.io)](http://cultofmetatron.io/2017/04/22/thinking-in-ecto---schemas-and-changesets/)
+
 # [Schema types](https://hexdocs.pm/ecto/Ecto.Schema.html#module-primitive-types)
 
 * `:id` - integer	`1, 2, 3`

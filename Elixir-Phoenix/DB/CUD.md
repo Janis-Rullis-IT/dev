@@ -1,5 +1,6 @@
 # [Create, Update, Delete](https://devhints.io/phoenix-ecto)
 
+* [Thinking in Ecto - schemas and changesets (cultofmetatron.io)](http://cultofmetatron.io/2017/04/22/thinking-in-ecto---schemas-and-changesets/)
 * changeset works as data parser.
 * cast - takes only selected.
 * validate_required - requires selected.
