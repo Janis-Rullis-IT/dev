@@ -3,8 +3,9 @@
  * #ISSUE_NO Manipulate with users in the specified gender.
  */
 namespace App\Models\Accounts\User;
+use Illuminate\Database\Eloquent\Builder;
 
-class UserByGender extends \App\Models\Accounts\User
+class ByGender extends \App\Models\Accounts\User
 {
 
 	static $genderField = 'gender';

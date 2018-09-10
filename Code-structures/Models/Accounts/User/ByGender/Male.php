@@ -2,9 +2,9 @@
 /**
  * #ISSUE_NO Manipulate with male users.
  */
-namespace App\Models\Accounts\UserByGender;
+namespace App\Models\Accounts\User\ByGender;
 
-class UserMale extends \App\Models\Accounts\User\UserByGender
+class Male extends \App\Models\Accounts\User\ByGender
 {
 
 	static $genderField = 'gender';

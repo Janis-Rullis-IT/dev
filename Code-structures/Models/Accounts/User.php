@@ -4,6 +4,7 @@
  */
 namespace App\Models\Accounts;
 
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class User extends Model
@@ -40,7 +41,30 @@ class User extends Model
 	 */
 	public static function doesExist($email)
 	{
-		return static::getWhere($email)->count() > 0;
+		return static::isValidEmail($email) ? static::getWhere($email)->count() > 0 : false;
+	}
+
+	/**
+	 * #ISSUE_NO Get formatted email (like, remove spaces before and after).
+	 * @param string $email
+	 * @return string
+	 */
+	public static function getFormattedEmail($email)
+	{
+		$email = trim($email);
+		return $email;
+	}
+
+	/**
+	 * #ISSUE_NO Check if the email is valid.
+	 * @param string $email
+	 * @param boolean $autoFormat = true
+	 * @return boolean
+	 */
+	public static function isValidEmail($email, $autoFormat = true)
+	{
+		$email = $autoFormat ? static::getFormattedEmail($email) : $email;
+		return filter_var($email, FILTER_VALIDATE_EMAIL);
 	}
 
 	/**
@@ -53,9 +77,8 @@ class User extends Model
 	{
 		// #ISSUE_NO Require the email to be in a valid format.
 		if ($validateEmail) {
-			$email = trim($email);
-			if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-				return false;
+			if (!static::isValidEmail($email)) {
+				return 'user.email_invalid';
 			}
 		}
 
@@ -74,9 +97,9 @@ class User extends Model
 	 */
 	private function insertOne($email)
 	{
-		$this->email = $email;
+		$this->email = static::getFormattedEmail($email);
 		if ($this->save()) {
-			return $this;
+			return static::find($this->id);
 		}
 		return false;
 	}

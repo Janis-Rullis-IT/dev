@@ -5,6 +5,7 @@
 namespace App\Models\Accounts;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Model;
 
 class Guest extends Model
 {
@@ -12,7 +13,7 @@ class Guest extends Model
 	use SoftDeletes;
 
 	protected $table = 'guests';
-	
+
 	/**
 	 * #ISSUE_NO Get a `where` part for a query builder.
 	 * @param integer $sessionId
@@ -40,7 +41,12 @@ class Guest extends Model
 	 */
 	public static function doesExist($sessionId)
 	{
-		return static::getWhere($sessionId)->count() > 0;
+		return static::isValid($sessionId) ? static::getWhere($sessionId)->count() > 0 : false;
+	}
+
+	public static function isValid($sessionId)
+	{
+		return empty($sessionId) || strlen($sessionId) !== 40;
 	}
 
 	/**
@@ -50,6 +56,10 @@ class Guest extends Model
 	 */
 	public static function insertIfNotExist($sessionId)
 	{
+		if (!static::isValid($sessionId)) {
+			return 'guest.session_id_invalid';
+		}
+
 		$item = static::findBySessionId($sessionId);
 		if (empty($item)) {
 			$item = new static;
@@ -65,9 +75,9 @@ class Guest extends Model
 	 */
 	private function insertOne($sessionId)
 	{
-		$this->session_id = $sesionId;
+		$this->session_id = $sessionId;
 		if ($this->save()) {
-			return $this;
+			return static::find($this->id);
 		}
 		return false;
 	}
