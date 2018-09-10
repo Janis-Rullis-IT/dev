@@ -12,11 +12,9 @@ window.userAgent
 
 ```js
 function isIE(version){
-	var returnval = false;
-	var agent = navigator.userAgent.toLowerCase();
+  var agent = navigator.userAgent.toLowerCase();
   var isIE = agent.indexOf('trident') > -1;
   var isCorrectVerion = version ? agent.indexOf('rv:' + version) > -1 : true;
-    
   return isIE && isCorrectVerion;
 }
 console.log(isIE(11));
