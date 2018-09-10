@@ -1,6 +1,7 @@
 # [Ecto Changeset](https://hexdocs.pm/ecto/Ecto.Changeset.html)
 
 * [Thinking in Ecto - schemas and changesets (cultofmetatron.io)](http://cultofmetatron.io/2017/04/22/thinking-in-ecto---schemas-and-changesets/)
+* [More Changesets, Less Problems (medium.com/@QuantLayer)](https://medium.com/@QuantLayer/more-changesets-less-problems-bec2ca502364)
 
 ## Default val
 
