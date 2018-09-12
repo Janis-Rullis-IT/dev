@@ -4,7 +4,7 @@
 * [Why You Shouldn’t Use Git Fast Forward (mijingo.com)](https://mijingo.com/blog/why-you-shouldnt-use-git-fast-forward)
 * [Why we chose not to git fast forward merge (dev.bizo.com)](http://dev.bizo.com/2014/02/why-we-chose-not-to-git-fast-forward-merge.html)
 
-## [Avoid using](https://stackoverflow.com/questions/9069061/what-is-the-difference-between-git-merge-and-git-merge-no-ff)
+## [Avoid FF by using](https://stackoverflow.com/questions/9069061/what-is-the-difference-between-git-merge-and-git-merge-no-ff)
 
 ```shell
 git merge --no-ff
