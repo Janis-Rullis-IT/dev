@@ -15,7 +15,7 @@ class UserController extends Controller
 	 * {"email": "test@test.local"}
 	 * 
 	 * @param \App\Http\Controllers\Request $request
-	 * @return {"error": "user.invalid_invalid"}
+	 * @return {"errors": ["user.invalid"]}
 	 * @return {"success": {
 	  "email": "test@test.local",
 	  "updated_at": "2018-09-01 11:07:29",
@@ -27,7 +27,7 @@ class UserController extends Controller
 	{
 		$status = User::insertIfNotExist($request->only('email')['email']);
 		if (empty($status->email)) {
-			return response()->json(['error' => $status], 400);
+			return response()->json(['errors' => [$status]], 400);
 		}
 		return response()->json(['success' => $status], 200);
 	}

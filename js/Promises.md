@@ -34,3 +34,8 @@ iPromise2.then(function(result) {
 
 ```
 
+## Short
+
+```js
+.then(response => console.log('ok', response), response => console.log('err', response));
+```
