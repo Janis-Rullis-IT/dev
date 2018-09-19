@@ -21,3 +21,5 @@ def changeset(post, attrs) do
     post
     |> cast(attrs, [:title, :uri, :img, :rating, :text])
 ```
+
+## Cast
