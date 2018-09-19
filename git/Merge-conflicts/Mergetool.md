@@ -1,5 +1,11 @@
 # Mergetool
 
+
+## Related articles
+
+* [karenyyng/Git_mergetool_tutorial.md](https://gist.github.com/karenyyng/f19ff75c60f18b4b8149)
+
+
 ### Config the tool
 
 ```shell
