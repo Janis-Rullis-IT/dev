@@ -8,7 +8,7 @@
 ## After merging
 
 ```shell
-git merge development
+git merge --no-ff development
 ```
 
 ## Appears this error about a conflict

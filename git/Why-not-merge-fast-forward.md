@@ -9,3 +9,7 @@
 ```shell
 git merge --no-ff
 ```
+
+## Always
+
+Use -no-ff
