@@ -1,24 +1,4 @@
-# Merge conflicts
-
-## After merging
-
-```shell
-git merge development
-```
-
-## Appears this error about a conflict
-
-```
-You have unmerged paths.
-  (fix conflicts and run "git commit")
-
-Unmerged paths:
-  (use "git add <file>..." to mark resolution)
-
-	both modified:   package-lock.json
-```
-
-## Solution
+# Mergetool
 
 ### Config the tool
 
