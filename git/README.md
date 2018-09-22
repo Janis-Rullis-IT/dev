@@ -31,6 +31,7 @@ git config --global mergetool.prompt false
 Update `url` in `.git/config`.
 
 ## [Branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
+* https://dev.to/hardkoded/how-to-organize-your-git-branches-4dci
 
 ### Create and switch
 
