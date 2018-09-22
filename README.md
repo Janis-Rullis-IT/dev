@@ -1,6 +1,7 @@
 # dev
 Notes related with development - configs, setups, GIT, IDE, SSH, Composer, Web servers, etc.
 
+* https://dev.tube/find?q=Nginx
 * [freeCodeCamp - learn to code](https://github.com/freeCodeCamp/freeCodeCamp)
 * [learn-anything - Learn Anything with Interactive Maps.](https://github.com/learn-anything/learn-anything)
 * [deepgrace/tetris - Tetris implementation in all kinds of Languages](https://github.com/deepgrace/tetris)
