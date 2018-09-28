@@ -28,3 +28,7 @@ def changeset(post, attrs) do
 
 ## Custom validate and prepare before saving 
 * http://cultofmetatron.io/2017/04/22/thinking-in-ecto---schemas-and-changesets/
+* https://www.amberbit.com/blog/2017/12/27/ecto-as-elixir-data-casting-and-validation-library/
+
+## Test 
+* http://www.smoothterminal.com/articles/ecto-validation-with-changesets
