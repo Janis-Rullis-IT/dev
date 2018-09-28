@@ -26,3 +26,7 @@ function fix_template_variable_tokens($template_string)
 $html = $doc->saveHTML();
 $html = fix_template_variable_tokens($html);
 ```
+
+## Fix DB
+
+* [Fix converted curly braces](https://github.com/janis-rullis/sql/blob/master/mysql/Replace-string.md#fix-converted-curly-braces)
