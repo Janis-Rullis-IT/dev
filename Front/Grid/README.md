@@ -41,10 +41,10 @@
 
 ## List
 
-* [ungrid (github.com/chrisnager)](https://github.com/chrisnager/ungrid)
-* [Simple-Grid - based on Don’t Overthink It Grids (github.com/ThisIsDallas/)](https://github.com/ThisIsDallas/Simple-Grid)
 * [Simple-Grid (github.com/zachacole)](https://github.com/zachacole/Simple-Grid)
 * [Dead Simple Grid (github.com/mourner/)](https://github.com/mourner/dead-simple-grid)
+* [ungrid (github.com/chrisnager)](https://github.com/chrisnager/ungrid)
+* [Simple-Grid - based on Don’t Overthink It Grids (github.com/ThisIsDallas/)](https://github.com/ThisIsDallas/Simple-Grid)
 
 
 ## Guides
