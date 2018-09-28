@@ -8,3 +8,4 @@
 ## Find by slug
 
 * https://stackoverflow.com/questions/34570612/change-url-to-accept-a-string-instead-id-in-phoenix-framework-elixir
+* https://fullstackstanley.com/read/handling-slug-urls-in-ember-and-phoenix
