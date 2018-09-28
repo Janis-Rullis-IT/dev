@@ -32,3 +32,7 @@ def changeset(post, attrs) do
 
 ## Test 
 * http://www.smoothterminal.com/articles/ecto-validation-with-changesets
+
+## outdated but fun with :before_update
+
+* https://blog.danielberkompas.com/2015/07/03/encrypting-data-with-ecto/
