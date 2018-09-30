@@ -22,4 +22,17 @@ def changeset(post, attrs) do
     |> cast(attrs, [:title, :uri, :img, :rating, :text])
 ```
 
-## Cast
+## Custom validation 
+
+* https://medium.com/@QuantLayer/writing-custom-validations-for-ecto-changesets-4971881c7684
+
+## Custom validate and prepare before saving 
+* http://cultofmetatron.io/2017/04/22/thinking-in-ecto---schemas-and-changesets/
+* https://www.amberbit.com/blog/2017/12/27/ecto-as-elixir-data-casting-and-validation-library/
+* https://stackoverflow.com/a/36967635
+## Test 
+* http://www.smoothterminal.com/articles/ecto-validation-with-changesets
+
+## outdated but fun with :before_update
+
+* https://blog.danielberkompas.com/2015/07/03/encrypting-data-with-ecto/
