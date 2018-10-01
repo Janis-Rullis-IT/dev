@@ -22,4 +22,35 @@ def changeset(post, attrs) do
     |> cast(attrs, [:title, :uri, :img, :rating, :text])
 ```
 
-## Cast
+## Custom validate and prepare before saving
+
+* [Thinking in  Ecto: Schemas and changesets (cultofmetatron.io)](http://cultofmetatron.io/2017/04/22/thinking-in-ecto---schemas-and-changesets/)
+* https://stackoverflow.com/a/36967635
+* https://www.amberbit.com/blog/2017/12/27/ecto-as-elixir-data-casting-and-validation-library/
+
+```ex
+  def changeset(post, attrs) do
+    post
+    |> cast(attrs, [:title, :uri, :img, :rating, :text])
+		|> getUriFromTitle()
+    |> validate_required([:title, :uri])
+  end
+
+  defp getUriFromTitle(changeset) do
+    title = get_change(changeset, :title)
+	uri = getUriFromString(title)
+    changeset = changeset |> put_change(:uri, uri)
+  end
+```
+
+## Custom validation
+
+* https://medium.com/@QuantLayer/writing-custom-validations-for-ecto-changesets-4971881c7684
+
+## Test
+
+* http://www.smoothterminal.com/articles/ecto-validation-with-changesets
+
+## outdated but fun with :before_update
+
+* https://blog.danielberkompas.com/2015/07/03/encrypting-data-with-ecto/
