@@ -50,6 +50,7 @@ def changeset(post, attrs) do
 ## Test
 
 * http://www.smoothterminal.com/articles/ecto-validation-with-changesets
+* https://medium.com/@diamondgfx/testing-validations-in-elixir-and-ecto-677bd8a071a1
 
 ## outdated but fun with :before_update
 
