@@ -1,5 +1,7 @@
 # DB
 
+* https://infinum.co/the-capsized-eight/things-i-wish-active-record-had-after-using-ecto
+
 ## `mix ecto.create`
 
 Creates a database. Suggested after a new project is created. Builds depending on DB config.
