@@ -1,5 +1,7 @@
 # Set / Get DB vars
 
+* https://github.com/janis-rullis/sql/blob/master/mysql/Variables.md
+
 Add anywhere in the code.
 
 ## Set
