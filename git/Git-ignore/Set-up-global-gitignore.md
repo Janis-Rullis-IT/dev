@@ -9,7 +9,7 @@ specify them anywhere else in the system. For example, You can ignore systemwide
 ## Add these rules
 
 ```
-`/nbproject/*`
+/nbproject/*
 /.vscode/*
 /v8-compile-cache-0/*
 ```
