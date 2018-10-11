@@ -17,8 +17,8 @@
 
 ## Install
 
-* [Docker.](Install-docker.md)
-* [Docker-composer.](Install-docker-compose.md)
+* [Docker.](Install/Install-docker.md)
+* [Docker-composer.](Install/Install-docker-compose.md)
 
 ## How to tunnel outside to the localhost?
 
