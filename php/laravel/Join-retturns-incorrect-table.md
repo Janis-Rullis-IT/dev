@@ -8,6 +8,7 @@ If you want to get the user of a cat called Pig.
 \DB::table('users')
         ->join('cats', 'users.cat_id', '=', 'cats.id')
         ->where('cat.name','Pig')
+        ->with('cat')
         ->first();
 ```
 > Returns one row with a cat (no user though).
@@ -16,11 +17,11 @@ If you want to get the user of a cat called Pig.
 
 You must define the select fields
 
-
 ```php
 \DB::table('users')
         ->select(['users.*])
         ->join('cats', 'users.cat_id', '=', 'cats.id')
         ->where('cat.name','Pig')
+        ->with('cat')
         ->first();
 ```
