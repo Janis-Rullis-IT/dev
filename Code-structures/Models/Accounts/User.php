@@ -83,7 +83,7 @@ class User extends Model
 		}
 
 		$item = static::findByEmail($email);
-		if (empty($item)) {
+		if (empty($item->id)) {
 			$item = new static;
 			return $item->insertOne($email);
 		}
