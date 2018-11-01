@@ -1,5 +1,12 @@
 # Maps %{}
 
+## Get
+
+```ex
+%{a: 1, b: 2} |> Map.get(:b)
+```
+> 2
+
 ## List all keys
 
 ```ex
@@ -16,7 +23,6 @@ Map.has_key?(my_query, :from)
 ```
 > true
 
-
 ## Access an element
 
 ```ex
@@ -32,8 +38,8 @@ Map.get("people") |> List.first
 ## [Traverse](https://hexdocs.pm/elixir/Enum.html)
 
 ```ex
-iex> map = %{a: 1, b: 2}
-iex> Enum.map(map, fn {k, v} -> {k, v * 2} end)
+map = %{a: 1, b: 2}
+Enum.map(map, fn {k, v} -> {k, v * 2} end)
 [a: 2, b: 4]
 ```
 

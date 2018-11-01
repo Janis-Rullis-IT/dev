@@ -41,11 +41,11 @@ List.last([1, 2, 3])
 ```
 > 3
 
-## By index, like take the 2nd element
+## Take the 2nd element, by index 1
 
 ```ex
-
-
+List.to_tuple([1,2,3]) |> [elem(1)](Tuple.md)
+```
 
 ## Transform
 
