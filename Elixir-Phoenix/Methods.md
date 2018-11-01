@@ -1,9 +1,18 @@
 # Methods
 
+## Without `()`
+
+They are the same
+
+```ex
+string |> String.trim()
+string |> String.trim
+```
+
 ## One-liners
 
 ```ex
-def createUniqueUriFromTitle(changeset), do: get_change(changeset, :title) |> createUniqueUriFromString(changeset)
+def createUniqueUriFromTitle(changeset), do: get_change(changeset, :title) |> createUniqueUriFromString
 ```
 
 ## Multi-line

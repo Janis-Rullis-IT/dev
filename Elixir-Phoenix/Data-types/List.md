@@ -41,6 +41,12 @@ List.last([1, 2, 3])
 ```
 > 3
 
+## By index, like take the 2nd element
+
+```ex
+
+
+
 ## Transform
 
 ### flatten
