@@ -7,6 +7,13 @@
 ```
 > 2
 
+
+## [Insert](https://hexdocs.pm/elixir/Map.html#put/3)
+
+```ex
+data |> Map.put(:apple, data)
+```
+
 ## List all keys
 
 ```ex
@@ -27,12 +34,6 @@ Map.has_key?(my_query, :from)
 
 ```ex
 my_query.from
-```
-
-## [Get first](https://joyofelixir.com/10-maps/)
-
-```ex
-Map.get("people") |> List.first
 ```
 
 ## [Traverse](https://hexdocs.pm/elixir/Enum.html)
@@ -59,13 +60,6 @@ end
 > 3 + 103
 
 > = 106
-
-
-## [Insert](https://hexdocs.pm/elixir/Map.html#put/3)
-
-```x
-data |> Map.put(:apple, data)
-```
 
 ## [Group by](https://stackoverflow.com/a/40145358)
 
