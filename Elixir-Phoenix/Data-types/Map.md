@@ -7,6 +7,18 @@
 ```
 > 2
 
+### When a key is a string
+
+```ex
+map = %{"1": 1, "2": 1}
+map |> Map.get(:"2")
+```
+> 1
+
+```ex
+map |> Map.get(:"3")
+```
+> nil
 
 ## [Insert](https://hexdocs.pm/elixir/Map.html#put/3)
 
