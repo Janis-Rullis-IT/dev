@@ -20,6 +20,12 @@ map |> Map.get(:"3")
 ```
 > nil
 
+```ex
+string = "3"
+%{"1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1} |> Map.get(string |> String.to_atom)
+```
+> 1
+
 ## [Insert](https://hexdocs.pm/elixir/Map.html#put/3)
 
 ```ex
