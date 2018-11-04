@@ -19,6 +19,7 @@ query = __MODULE__
 |> where([a], not(is_nil(a.deleted_at)))
 |> where([a], a.uri == ^uri)
 |> where([a], a.id != 1)
+|> where([a], like(a.uri, ^"#{generatedUri}-_"))
 |> where([b], not(is_nil(b.deleted_at)))
 |> group_by([a], a.id)
 |> order_by([desc: :id])
@@ -118,6 +119,12 @@ Ecto.Adapters.SQL.to_sql(:all, Repo, query) |> IO.inspect
 ```ex
 my_query = from u in "users", where: u.age > 18, select: u.name
 Repo.all(query)
+```
+
+## [Like](https://hexdocs.pm/ecto/Ecto.Query.API.html#like/2)
+
+```ex
+|> where([a], like(a.uri, ^"#{generatedUri}-_"))
 ```
 
 ## JOIN
