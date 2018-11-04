@@ -32,6 +32,18 @@ Ecto.Adapters.SQL.to_sql(:all, Repo, query) |> IO.inspect
  ["some-title"]}
 ```
 
+## [Count](https://til.hashrocket.com/posts/e0754031e3-counting-records-with-ecto)
+
+```ex
+__MODULE__ |> select(count("*")) |> Repo.one
+```
+> 3
+
+```ex
+__MODULE__ |> select([a], [a.id, count(a.id)]) |> Repo.one
+```
+> [1,3]
+
 ## [Build/Compose](https://www.sitepoint.com/elixirs-ecto-querying-dsl-beyond-the-basics/)
 
 ### [Using macro syntax](https://hexdocs.pm/ecto/2.1.0-rc.1/Ecto.Query.html#module-macro-api) (I prefer this one)
