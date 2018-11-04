@@ -10,12 +10,47 @@
 import Ecto.Query
 ```
 
+## [Build/Compose](https://www.sitepoint.com/elixirs-ecto-querying-dsl-beyond-the-basics/)
+
+### [Using keywords query syntax](https://blog.drewolson.org/composable-queries-ecto#query-composition)
+
+```ex
+query = from a in __MODULE__, select: a.id
+```
+> `#Ecto.Query<from p in Backend.Blog.Post, select: p.id>`
+
+```ex
+query2 = from a in query, where: a.uri == ^uri
+```
+> `#Ecto.Query<from p in Backend.Blog.Post, where: p.uri == ^"some-title", select: p.id>`
+
+```ex
+where = [category: "fresh and new"]
+order_by = [desc: :published_at]
+select = [:id, :title, :body]
+from Post, where: ^where, order_by: ^order_by, select: ^select
+```
+
+### [Using macro syntax](https://hexdocs.pm/ecto/2.1.0-rc.1/Ecto.Query.html#module-macro-api)
+
+* Can use pipe operator.
+
+```ex
+query = __MODULE__ |> select([a],[a.id])
+```
+> `#Ecto.Query<from p in Backend.Blog.Post, select: [p.id]>`
+
+```ex
+query = query |> where([a], a.uri == ^uri)
+```
+> `#Ecto.Query<from p in Backend.Blog.Post, where: p.uri == ^"some-title", select: [p.id]>`
+
 ## A simple select
 
 ```ex
 my_query = from u in "users", where: u.age > 18, select: u.name
 Repo.all(query)
-````
+```
 
 ## JOIN
 
