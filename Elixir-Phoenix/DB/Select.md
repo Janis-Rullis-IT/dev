@@ -39,11 +39,13 @@ query2 = from a in query, where: a.uri == ^uri
 * Advantage - split by responsibilities, readable, easy to update.
 
 ```ex
-where = [category: "fresh and new"]
-order_by = [desc: :published_at]
-select = [:id, :title, :body]
-from Post, where: ^where, order_by: ^order_by, select: ^select
+where = [uri: :uri]
+select1 = [:id]
+select = select1 ++ [:name]
+order_by = [desc: :id]
+query = from __MODULE__, where: ^where, order_by: ^order_by, select: ^select
 ```
+> #Ecto.Query<from p in Backend.Blog.Post, where: p.uri == ^:uri, order_by: [desc: p.id], select: [:id, :name]>
 
 ### [Using macro syntax](https://hexdocs.pm/ecto/2.1.0-rc.1/Ecto.Query.html#module-macro-api)
 
