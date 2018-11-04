@@ -14,6 +14,16 @@ import Ecto.Query
 
 ### [Using keywords query syntax](https://blog.drewolson.org/composable-queries-ecto#query-composition)
 
+#### Advantage
+
+* No need to remind the scope in every section like for the macro syntax.
+
+#### Disadvantage
+
+* Ugly syntax of composing.
+* Need to use commas.
+* No pipe-operator support.
+
 ```ex
 query = from a in __MODULE__, select: a.id
 ```
@@ -24,6 +34,10 @@ query2 = from a in query, where: a.uri == ^uri
 ```
 > `#Ecto.Query<from p in Backend.Blog.Post, where: p.uri == ^"some-title", select: p.id>`
 
+#### Split in parts (I prefer this one)
+
+* Advantage - split by responsibilities, readable, easy to update.
+
 ```ex
 where = [category: "fresh and new"]
 order_by = [desc: :published_at]
@@ -33,8 +47,8 @@ from Post, where: ^where, order_by: ^order_by, select: ^select
 
 ### [Using macro syntax](https://hexdocs.pm/ecto/2.1.0-rc.1/Ecto.Query.html#module-macro-api)
 
-* Can use pipe operator.
-
+* Advantage: Can use the pipe operator.
+* Disadvantage: Duplicate code - in every method you need to specify the scope `([a],`.
 ```ex
 query = __MODULE__ |> select([a],[a.id])
 ```
