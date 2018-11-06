@@ -1,5 +1,28 @@
 # Methods
 
+## Without `()`
+
+They are the same
+
+```ex
+string |> String.trim()
+string |> String.trim
+```
+
+## One-liners
+
+```ex
+def createUniqueUriFromTitle(changeset), do: get_change(changeset, :title) |> createUniqueUriFromString
+```
+
+## Multi-line
+
+```ex
+def createUniqueUriFromTitle(changeset) do
+ get_change(changeset, :title) |> createUniqueUriFromString(changeset)
+end
+````
+
 ## Set default value \\ :default
 
 * [Default function parameters (elixir-recipes.github.io)](http://elixir-recipes.github.io/functions/default-function-parameters/)

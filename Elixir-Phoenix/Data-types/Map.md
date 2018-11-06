@@ -1,5 +1,37 @@
 # Maps %{}
 
+## Get
+
+```ex
+%{a: 1, b: 2} |> Map.get(:b)
+```
+> 2
+
+### When a key is a string
+
+```ex
+map = %{"1": 1, "2": 1}
+map |> Map.get(:"2")
+```
+> 1
+
+```ex
+map |> Map.get(:"3")
+```
+> nil
+
+```ex
+string = "3"
+%{"1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1, "8": 1, "9": 1} |> Map.get(string |> String.to_atom)
+```
+> 1
+
+## [Insert](https://hexdocs.pm/elixir/Map.html#put/3)
+
+```ex
+data |> Map.put(:apple, data)
+```
+
 ## List all keys
 
 ```ex
@@ -16,24 +48,17 @@ Map.has_key?(my_query, :from)
 ```
 > true
 
-
 ## Access an element
 
 ```ex
 my_query.from
 ```
 
-## [Get first](https://joyofelixir.com/10-maps/)
-
-```ex
-Map.get("people") |> List.first
-```
-
 ## [Traverse](https://hexdocs.pm/elixir/Enum.html)
 
 ```ex
-iex> map = %{a: 1, b: 2}
-iex> Enum.map(map, fn {k, v} -> {k, v * 2} end)
+map = %{a: 1, b: 2}
+Enum.map(map, fn {k, v} -> {k, v * 2} end)
 [a: 2, b: 4]
 ```
 
@@ -53,13 +78,6 @@ end
 > 3 + 103
 
 > = 106
-
-
-## [Insert](https://hexdocs.pm/elixir/Map.html#put/3)
-
-```x
-data |> Map.put(:apple, data)
-```
 
 ## [Group by](https://stackoverflow.com/a/40145358)
 

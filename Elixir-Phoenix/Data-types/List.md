@@ -41,6 +41,12 @@ List.last([1, 2, 3])
 ```
 > 3
 
+## Take the 2nd element, by index 1
+
+```ex
+List.to_tuple([1,2,3]) |> [elem(1)](Tuple.md)
+```
+
 ## Transform
 
 ### flatten

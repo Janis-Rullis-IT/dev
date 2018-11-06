@@ -15,24 +15,12 @@
 
 * Fullscreen - F11
 
-## Settings
+## Settings - File/Preferences
 
-* File/Preferences
+You can also just copy these 2 files into `~/.config/Code/User/`
 
-```json
-{
-    "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "Monokai",
-    "editor.tabSize": 2,
-    "editor.minimap.enabled": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "explorer.confirmDragAndDrop": false,
-    "editor.detectIndentation": false,
-    "editor.insertSpaces": true
-}
-```
+* [settings.json](settings.json)
+* [keybindings.json](keybindings.json)
 
 ## Keep open tabs
 
