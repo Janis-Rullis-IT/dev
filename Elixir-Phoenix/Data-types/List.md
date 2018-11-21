@@ -133,6 +133,13 @@ List.update_at([7, 2, 3], 0, &(&1 + 10))
     end
 ```
 
+### Exit will stop everything at the first step
+
+```ex
+Enum.each(["some", "example"], fn(x) -> x |> exit end)
+```
+> ** (exit) "some"
+
 ## Check
 
 ```ex
