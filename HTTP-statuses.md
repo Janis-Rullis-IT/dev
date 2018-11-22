@@ -46,3 +46,12 @@ but was unable to process the contained instructions.
 * 507 Insufficient Storage
 * 511 Network Authentication Required
 * 599 Network Connect Timeout Error
+
+
+## HTTP status ranges in a nutshell
+
+* 1xx: hold on
+* 2xx: here you go
+* 3xx: go away
+* 4xx: you fucked up
+* 5xx: I fucked up
