@@ -6,7 +6,6 @@ mix phx.gen.json Account User users name:string surname:string email:string
 
 ```
 * creating lib/elixir_backend_web/controllers/user_controller.ex
-...
 ```
 
 ## Replace migrations with custom queries
@@ -77,7 +76,7 @@ mix ecto.migrate
 [info] == Migrated in 0.0s
 ```
 
-## Restart server
+## Restart the elixr service
 
 ## Create a user by calling the API endpoint from Postman
 
