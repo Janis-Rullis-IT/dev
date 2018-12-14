@@ -1,5 +1,19 @@
 # Config
 
+## Read multiple
+
+```ex
+config :backend, incremental_slug: %{from_field: :title, to_field: :uri}
+```
+
+```ex
+@incremental_slug Application.get_env(:backend, :incremental_slug)
+```
+
+```ex
+def put(changeset, module, fromField \\ @incremental_slug.from_field, toField \\ @incremental_slug.to_field)
+```
+
 * [Runtime configuration, migrations and deployment for Elixir applications: Init/2 callbacks (medium.com/nebo-15)](https://medium.com/nebo-15/runtime-configuration-migrations-and-deployment-for-elixir-applications-6295b892fa6a#1530)
 
 ## [Global variables (System)](https://hexdocs.pm/elixir/System.html)
