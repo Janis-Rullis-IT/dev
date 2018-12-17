@@ -2,6 +2,7 @@
 
 
 ```shell
+git log [filename]
 gitk [filename]
 git difftool cffbd12 4201491 package.json
 ```
