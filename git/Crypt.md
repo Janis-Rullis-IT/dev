@@ -13,7 +13,7 @@ sudo ln -s ${PWD}/transcrypt /usr/local/bin/tc
 
 ## Init crypting configuration for the repo
 
-``shell
+```shell
 cd PATH/TO/REPO
 tc
 ```
