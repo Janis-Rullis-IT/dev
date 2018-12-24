@@ -3,7 +3,7 @@
 ## Generate
 
 ```shell
-mix phx.gen.json Blog Article blog_article title:string--web Blog
+mix phx.gen.json Blog Article blog_article title:string --web Blog
 ```
 > Use singular table names.
 
@@ -51,10 +51,10 @@ end
   end
 
   @doc false
-  def changeset(post, attrs) do
-    post
+  def changeset(item, attrs) do
+    item
     |> cast(attrs, [:title, :slug, :img, :rating, :text])
-    |> Backend.IncrementalSlug.put(__MODULE__)
+    |> Backend.IncrementalSlug.put(__MODULE__, :title, :slug)
     |> validate_required([:title, :slug])
   end
 ```
