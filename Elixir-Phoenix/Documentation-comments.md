@@ -1,6 +1,5 @@
 # [Documentation-comments](https://hexdocs.pm/elixir/writing-documentation.html)
 
-
 ## Alwys referr to methods with a full namespace
 
 ### Bad
