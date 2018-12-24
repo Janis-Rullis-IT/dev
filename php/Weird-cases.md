@@ -21,3 +21,10 @@ $value['post_id'] = 2;
 $value[] = 1;
 $value[] = 2;
 ```
+
+## [Truthy](./Truthy.md)
+
+```php
+true == "survey"
+```
+> true
