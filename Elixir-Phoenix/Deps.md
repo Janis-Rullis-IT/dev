@@ -1,4 +1,16 @@
-# Elixir deps
+# [Elixir deps](https://hexdocs.pm/mix/Mix.Tasks.Deps.html)
+
+## Git
+
+```ex
+{:gettext, git: "https://github.com/elixir-lang/gettext.git", tag: "0.1"}
+```
+
+## Local
+
+```ex
+{:local_dependency, path: "path/to/local_dependency"}
+```
 
 ## Config location
 
