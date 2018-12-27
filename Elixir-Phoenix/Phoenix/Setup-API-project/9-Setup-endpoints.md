@@ -1,5 +1,12 @@
 # 9. Setup endpoints
 
+## Config
+
+```ex
+config :incremental_slug, repo: Backend.Repo
+config :incremental_slug, fields: %{from: :title, to: :slug}
+```
+
 ## Generate
 
 ```shell
@@ -54,7 +61,7 @@ end
   def changeset(item, attrs) do
     item
     |> cast(attrs, [:title, :slug, :img, :rating, :text])
-    |> Backend.IncrementalSlug.put(__MODULE__, :title, :slug)
+    |> IncrementalSlug.put(__MODULE__, :title, :slug)
     |> validate_required([:title, :slug])
   end
 ```
