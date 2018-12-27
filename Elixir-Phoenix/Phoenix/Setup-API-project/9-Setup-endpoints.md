@@ -11,6 +11,7 @@ config :incremental_slug, fields: %{from: :title, to: :slug}
 
 ```shell
 mix phx.gen.json Blog Article blog_article title:string --web Blog
+mix phx.gen.json Blog Post post title:string
 ```
 > Use singular table names.
 

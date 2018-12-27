@@ -4,6 +4,7 @@
 
 * [Library Guidelines (hexdocs.pm/elixir)](https://hexdocs.pm/elixir/library-guidelines.html)
 * [How to create and publish Hex.pm package (Elixir) (medium.com/kkempin)](https://medium.com/kkempin/how-to-create-and-publish-hex-pm-package-elixir-90cb33e2592d)
+* [How to build Elixir packages and Publish to Hex.pm ? (medium.com/blackode)](https://medium.com/blackode/how-to-write-elixir-packages-and-publish-to-hex-pm-8723038ebe76)
 * Look into other deps to have an example.
 
 
