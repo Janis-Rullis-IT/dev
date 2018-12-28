@@ -1,5 +1,18 @@
 # Migrations
 
+* https://hexdocs.pm/ecto/2.0.5/Ecto.Migration.html#table/2
+* https://hashrocket.com/blog/posts/ecto-migrations-simple-to-complex
+* https://devhints.io/phoenix-migrations
+
+By default, the table will also include a primary_key of name :id and type :serial. Check table/2 docs for more information.
+
+```ex
+create_if_not_exists table(:posts) do
+  add :title, :string, size: 50, null: false
+  add :slug, :string, size: 50, null: true
+end
+```
+
 ## Custom query
 
 I prefer this approach because this allow you to fully control what exactly you want.
