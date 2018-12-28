@@ -30,7 +30,7 @@ docker exec -it elixir-backend bash
 ## Generate the project's base
 
 ```shell
-mix phx.new backend --no-brunch --no-html --no-brunch --database mysql
+mix phx.new backend --no-webpack --no-html --database mysql
 ```
 >  / postgres / mssql
 

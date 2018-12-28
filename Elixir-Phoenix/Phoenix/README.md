@@ -4,7 +4,7 @@
 
 ```shell
 mix archive.uninstall phx_new
-mix archive.install hex phx_new 1.4.0
+mix archive.install hex phx_new 1.4.0 --force
 mix phx.new -v
 ```
 > Phoenix v1.4.0
