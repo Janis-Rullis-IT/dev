@@ -4,8 +4,10 @@
 
 ## Inspect
 
+* https://elixirschool.com/blog/til-io-inspect-labels/
+
 ```ex
-IO.inspect('================ Start Inspect==============')
+IO.inspect('================ Start Inspect==============', label: "input")
 data |> IO.inspect
 IO.inspect('================ End Inspect ==============')
 ```
