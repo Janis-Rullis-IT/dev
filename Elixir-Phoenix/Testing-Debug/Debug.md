@@ -14,6 +14,12 @@ IO.inspect('================ End Inspect ==============')
 >  %{"names" => #MapSet<[]>, "surnames" => #MapSet<[]>}
 
 
+### Pretty print
+
+```ex
+IO.inspect(label: "Brah", width: 2)
+```
+
 * Do the request (open according page, postman or exec cmd).
 * Watch in terminal where mix was launced.
 
