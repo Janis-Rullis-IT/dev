@@ -1,6 +1,7 @@
 # Parallel, concurent tasks
 
 * [Parallel Map in Elixir (nathanmlong.com)](http://nathanmlong.com/2014/07/pmap-in-elixir/)
+* https://elixirschool.com/en/lessons/advanced/concurrency/
 
 lib/paralell.ex
 
