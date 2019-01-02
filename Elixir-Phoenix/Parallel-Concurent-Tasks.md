@@ -2,6 +2,7 @@
 
 * [Parallel Map in Elixir (nathanmlong.com)](http://nathanmlong.com/2014/07/pmap-in-elixir/)
 * https://elixirschool.com/en/lessons/advanced/concurrency/
+https://elixirschool.com/en/lessons/advanced/otp-concurrency/
 
 lib/paralell.ex
 
