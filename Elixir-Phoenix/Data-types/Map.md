@@ -1,5 +1,13 @@
 # Maps %{}
 
+## [Set a key from a variable](https://hexdocs.pm/elixir/Map.html)
+
+```ex
+id = 123
+%{id => 456}
+```
+> `%{123 =>456}`
+
 ## Get
 
 ```ex
