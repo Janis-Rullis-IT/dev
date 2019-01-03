@@ -1,5 +1,7 @@
 # [Elixir deps](https://hexdocs.pm/mix/Mix.Tasks.Deps.html)
 
+https://til.hashrocket.com/posts/afk4ei0eo5-view-your-outdated-packages
+
 ## Git
 
 ```ex
