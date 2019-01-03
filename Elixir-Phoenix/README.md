@@ -20,6 +20,7 @@
 * [learn-phoenix-framework](https://github.com/dwyl/learn-phoenix-framework)
 https://github.com/elixir-lang/elixir/wiki
 https://dev.to/matt24ray/best-resources-for-learning-elixir-467f
+https://github.com/seven1m/30-days-of-elixir
 
 ### Find method descriptions
 
