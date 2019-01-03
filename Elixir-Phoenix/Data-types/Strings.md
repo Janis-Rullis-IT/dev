@@ -47,3 +47,8 @@ uriParts = "my-uri-1" |> String.split("-")
 > ["my", "uri", "1"]
 
 ## Take some of characters from the end
+
+
+## parser libs
+
+https://github.com/plataformatec/nimble_parsec
