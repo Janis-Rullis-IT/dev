@@ -24,6 +24,7 @@ https://github.com/seven1m/30-days-of-elixir
 https://www.jackmarchant.com
 http://learningelixir.joekain.com/how-I-learned-elixir/
 https://startlearningelixir.com
+https://hackr.io/tutorials/learn-elixir/amp
 
 ### Find method descriptions
 
