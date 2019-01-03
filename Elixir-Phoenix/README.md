@@ -19,6 +19,7 @@
 * [dwyl/learn-elixir](https://github.com/dwyl/learn-elixir)
 * [learn-phoenix-framework](https://github.com/dwyl/learn-phoenix-framework)
 https://github.com/elixir-lang/elixir/wiki
+https://dev.to/matt24ray/best-resources-for-learning-elixir-467f
 
 ### Find method descriptions
 
