@@ -23,6 +23,7 @@ https://dev.to/matt24ray/best-resources-for-learning-elixir-467f
 https://github.com/seven1m/30-days-of-elixir
 https://www.jackmarchant.com
 http://learningelixir.joekain.com/how-I-learned-elixir/
+https://startlearningelixir.com
 
 ### Find method descriptions
 
