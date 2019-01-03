@@ -1,5 +1,7 @@
 # Strings
 
+https://til.hashrocket.com/posts/oadadz9itp-camelcase-to-underscore-and-back-again-welixir
+
 ## Concat
 
 ```ex
