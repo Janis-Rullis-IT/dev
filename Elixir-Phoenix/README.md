@@ -18,6 +18,7 @@
 * [Elixir (liveedu.tv)](https://www.liveedu.tv/guides/x/elixir/beginner)
 * [dwyl/learn-elixir](https://github.com/dwyl/learn-elixir)
 * [learn-phoenix-framework](https://github.com/dwyl/learn-phoenix-framework)
+https://github.com/elixir-lang/elixir/wiki
 
 ### Find method descriptions
 
