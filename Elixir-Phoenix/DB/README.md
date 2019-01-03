@@ -1,5 +1,6 @@
 # DB
 
+https://til.hashrocket.com/posts/k4zie79ydb-mix-tasks-accessing-the-db-with-mixecto
 * https://infinum.co/the-capsized-eight/things-i-wish-active-record-had-after-using-ecto
 
 ## `mix ecto.create`
