@@ -1,5 +1,7 @@
 # `elixirc_paths`
 
+https://til.hashrocket.com/posts/3y6morjjs7-add-elixir-files-to-your-compiled-list
+
 ## https://github.com/elixir-lang/elixir/blob/master/lib/mix/lib/mix/tasks/compile.elixir.ex
 
 ```
