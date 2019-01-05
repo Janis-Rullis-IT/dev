@@ -2,6 +2,14 @@
 
 https://til.hashrocket.com/posts/3y6morjjs7-add-elixir-files-to-your-compiled-list
 
+## Depending on conf
+
+```ex
+# Specifies which paths to compile per environment.
+  defp elixirc_paths(:test), do: ["lib", "test/support"]
+  defp elixirc_paths(:mysql), do: ["lib", "test/support"]
+```
+
 ## https://github.com/elixir-lang/elixir/blob/master/lib/mix/lib/mix/tasks/compile.elixir.ex
 
 ```
