@@ -4,6 +4,46 @@
 * [Getting Started (hexdocs.pm/ecto)](https://hexdocs.pm/ecto/getting-started.html)
 * [Getting Started (github.com/elixir-ecto)](https://github.com/elixir-ecto/ecto/blob/master/guides/Getting%20Started.md)
 
+
+## Return a raw query as a key-val
+
+### Before
+
+```ex
+result.rows
+```
+
+```json
+{
+    "data": [
+        [
+            1,
+            "2019"
+        ]
+    ]
+}
+```
+
+### After
+
+```sql
+result = Ecto.Adapters.SQL.query!(Backend.Repo, query)
+Enum.map result.rows, fn(row) ->
+  Enum.zip(result.columns, row) |> Map.new
+end
+```
+
+```json
+{
+    "data": [
+        {
+            "name": "2019",
+            "id": 1
+        }
+    ]
+}
+```
+
 ## Requirements
 
 ```ex
