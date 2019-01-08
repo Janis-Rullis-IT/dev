@@ -1,5 +1,13 @@
 # Data types
 
+https://til.hashrocket.com/posts/xyt6zrherq-print-information-about-an-elixir-data-type
+
+## Get an info
+
+```iex
+i IncremetnalSlug.TestRepo
+```
+
 ## Atoms
 
 Works as const string keys in JS.

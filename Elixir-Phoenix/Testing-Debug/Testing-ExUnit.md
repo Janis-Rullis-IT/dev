@@ -1,6 +1,8 @@
 # Elixir testing with ExUnit
 
 * [ExUnit.Assertions (hexdocs.pm)](https://hexdocs.pm/ex_unit/ExUnit.Assertions.html)
+* https://til.hashrocket.com/posts/1nenrfasdp-your-slowest-elixir-tests
+
 
 ## Run
 

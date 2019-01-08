@@ -16,3 +16,7 @@
 '2' |> is_number
 ```
 > false
+
+## floats
+
+https://til.hashrocket.com/posts/dqxvqo9oef-truncating-floats-in-elixir

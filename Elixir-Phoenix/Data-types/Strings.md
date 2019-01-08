@@ -1,5 +1,7 @@
 # Strings
 
+https://til.hashrocket.com/posts/oadadz9itp-camelcase-to-underscore-and-back-again-welixir
+
 ## Concat
 
 ```ex
@@ -47,3 +49,8 @@ uriParts = "my-uri-1" |> String.split("-")
 > ["my", "uri", "1"]
 
 ## Take some of characters from the end
+
+
+## parser libs
+
+https://github.com/plataformatec/nimble_parsec
