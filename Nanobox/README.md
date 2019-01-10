@@ -8,6 +8,10 @@
 
 ```shell
 nanobox config
+```
+> Select b) Via Docker Native
+
+```shell
 nanobox login
 nanobox remote ls
 nanobox remote add my-dev
