@@ -2,6 +2,8 @@
 
 ## Related articles
 
+* https://developer.atlassian.com/blog/2015/12/tips-tools-to-solve-git-conflicts/
+* http://www.gitguys.com/topics/merging-with-a-gui/
 * [karenyyng/Git_mergetool_tutorial.md](https://gist.github.com/karenyyng/f19ff75c60f18b4b8149)
 
 
