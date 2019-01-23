@@ -126,3 +126,12 @@ nanobox console dry-run web.main
 nanobox console elixir-tomato web.main
 ```
 >  Sorry, the app 'elixir-tomato' doesn't exist
+
+## Remove a remote
+
+> Use the alias.
+
+```shell
+nanobox remote rm production
+```
+
