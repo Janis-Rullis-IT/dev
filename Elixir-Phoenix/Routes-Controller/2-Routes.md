@@ -15,6 +15,17 @@ defmodule ElixirBackend.Router do
   scope "/", ElixirBackend do
     pipe_through :api
     resources "/users", UserController
+
+    # This allows to organize routes in direcotires. Group one purpose files in one place.
+    scope "/blog", Blog do
+
+        # This now points to ElixirBackend.Blog.PostController
+        # Which could be located in controllers/blog/post_controller.ex
+
+        get("/", PostController, :list)
+        post("/", PostController, :create)
+        options("/", PostController, :options)
+    end
   end
 end
 ```
