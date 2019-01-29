@@ -122,24 +122,6 @@ List.update_at([7, 2, 3], 0, &(&1 + 10))
 ```
 > [17, 2, 3]
 
-## Loop
-
-* [Looping through an array / list (learningwithjb.com)](http://learningwithjb.com/posts/looping-through-an-array-or-list-)
-
-```ex
-    ids = [11, 22, 33]
-    Enum.each ids, fn id ->
-       IO.inspect id
-    end
-```
-
-### Exit will stop everything at the first step
-
-```ex
-Enum.each(["some", "example"], fn(x) -> x |> exit end)
-```
-> ** (exit) "some"
-
 ## Check
 
 ```ex

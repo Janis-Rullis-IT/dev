@@ -92,23 +92,3 @@ end
 ```ex
 post_by_category = posts |> Enum.group_by(&(&1.category_id))
 ```
-
-## Enum.each vs Enum.map
-
-```ex
-parsed = Enum.each(posts, fn post ->    
-    post
-end
-```
-> Will return :ok
-
-
-```ex
-parsed = Enum.map(posts, fn post ->
-    post
-end
-```
-> Will return [%{...},%{...}] 
-Map returns a list that is the result
-
-of applying that function to each element of the collection.
