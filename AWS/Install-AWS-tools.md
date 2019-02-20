@@ -5,6 +5,7 @@
 ```shell
 sudo apt install python-pip -y
 pip install awscli --upgrade --user
+pip install awsebcli --upgrade --user
 ```
 > Result: Successfully installed PyYAML awscli ...
 
