@@ -9,6 +9,16 @@
 ```ex
 Enum.member?(["foo", "bar"], "foo")
 ```
+
+### [In a guard](https://stackoverflow.com/a/31185575)
+
+* https://hexdocs.pm/elixir/master/Kernel.html#in/2
+
+```ex
+when field in ["foo", "bar"]
+ and length(list) > 1
+```
+
 > true
 
 ## List vs keyword list
