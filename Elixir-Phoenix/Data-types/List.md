@@ -4,6 +4,13 @@
 * learnelixir.tv/episodes/02-data-types
 * See also [Tuples](Tuple.md)
 
+## [Find in a list](https://stackoverflow.com/a/36430935)
+
+```ex
+Enum.member?(["foo", "bar"], "foo")
+```
+> true
+
 ## List vs keyword list
 
 ### List
