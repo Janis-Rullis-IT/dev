@@ -1,5 +1,13 @@
 # Array
 
+## Keys
+
+```js
+Object.keys(users)
+```
+> [0, 1, 2]
+
+
 ```js
 ['Fire', 'Wind', 'Rain'].join('-');
 ```
