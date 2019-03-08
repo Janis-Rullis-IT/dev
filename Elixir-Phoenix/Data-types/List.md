@@ -4,6 +4,13 @@
 * learnelixir.tv/episodes/02-data-types
 * See also [Tuples](Tuple.md)
 
+## [Duplicate 1 value](https://stackoverflow.com/a/41351683)
+
+```ex
+List.duplicate('?',3)
+```
+> ['?', '?', '?']
+
 ## [Find in a list](https://stackoverflow.com/a/36430935)
 
 ```ex

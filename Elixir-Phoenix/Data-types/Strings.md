@@ -2,6 +2,14 @@
 
 https://til.hashrocket.com/posts/oadadz9itp-camelcase-to-underscore-and-back-again-welixir
 
+## [Duplicate 1 value](https://stackoverflow.com/a/41351683)
+
+```ex
+String.duplicate('?',3)
+```
+> ???
+
+
 ## Concat
 
 ```ex
