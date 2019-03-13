@@ -16,7 +16,7 @@ class MyRequest{
   }
 
   static function getFullUrl(){
-    return 'https://' . implode('/', [$_SERVER['HTTP_HOST'], $_SERVER['REQUEST_URI']]);
+    return 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
   }
 
   static function isHttps() {
