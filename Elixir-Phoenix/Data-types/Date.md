@@ -36,3 +36,5 @@ timestamp - timestamp_last
 timestamp_last > timestamp - 60 * 5
 ```
 > true
+
+## [../Log.md](Storing timestamp in a file)
