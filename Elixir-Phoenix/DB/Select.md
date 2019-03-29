@@ -277,3 +277,10 @@ post.surname
 query = "SELECT sleep(60)"
 IO.inspect  Ecto.Adapters.SQL.query!(ElixirBackend.Repo, query, [])
 ```
+
+## Wrapped AND OR
+
+```ex
+where: is_nil(a.deleted_at),
+where: fragment("(u.`active` = 1 AND b.`funny` = 0) OR u.`active` = 0"),
+```

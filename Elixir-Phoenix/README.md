@@ -1,5 +1,6 @@
 # Elixir / Phoenix
 
+* https://thoughtbot.com/services/elixir-phoenix
 * [Jose Valim (twitch.tv)](https://www.twitch.tv/videos/354590458)
 * [Today I learend](https://til.hashrocket.com/elixir)
 * [Background Processing in Elixir with GenStage (medium.com/@scripbox_tech)](https://medium.com/@scripbox_tech/background-processing-in-elixir-with-genstage-efb6cb8ca94a)
