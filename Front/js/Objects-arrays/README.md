@@ -19,6 +19,8 @@ console.log(Object.values(object1));
 
 ## [Array.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
+* https://jrsinclair.com/articles/2019/five-ways-to-average-with-js-reduce/
+
 Reduce - because takes all array values and compress (by applying a defined logic) into one value,
 so it is kindof reduced.
 
