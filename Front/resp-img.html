@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Responsive HTML images demo</title>
+    <style>
+      html {
+        font-family: sans-serif;
+        background-color: gray;
+      }
+
+      body {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+      }
+
+      header {
+        background: url(header.jpg) no-repeat center;
+        height: 200px;
+      }      
+
+      p {
+        line-height: 1.5;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>    
+    <main>
+      <section>
+        <a href="mailto:info@example.com" style="float: center:"><img src="ui/img/email.png"></a>
+        <picture>
+          <source media="(max-width: 499px)" srcset="small.png">
+		  <source media="(max-width: 700px)" srcset="mid.png">
+          <source media="(min-width: 800px)" srcset="1.jpg">
+          <img src="1.jpg">
+        </picture>
+		<picture>
+          <source media="(max-width: 799px)" srcset="small.png">
+          <source media="(max-width: 700px)" srcset="mid.png">
+		  <source media="(min-width: 800px)" srcset="1.jpg">
+          <img src="2.jpg">
+        </picture>
+        
+      </section>
+    </main>
+  </body>
+</html>
