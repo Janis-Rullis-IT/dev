@@ -23,4 +23,22 @@ for (var i of arr) {
 
 > 4 444
 
-## classic - for, do, while
+## [Traverse elements](ruu.lv)
+
+```js
+sources = lazyPic.querySelectorAll("source");
+var srcCnt = sources.length;			
+for(var j = 0; j < srcCnt; j++){
+  source = sources[j];				
+}
+```
+
+## [Delay a loop](ruu.lv)
+
+```js
+for(var i = 0; i < lazyPics.length; i++){	
+
+  // Execture this every 0,5s. Note, the `* i`, otherwise everything is executed exactly after 0.5s.
+  setTimeout(loadLazyPic, 500 * 	i, lazyPics[i]);
+}
+```
