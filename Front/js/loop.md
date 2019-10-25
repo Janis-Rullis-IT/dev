@@ -23,7 +23,7 @@ for (var i of arr) {
 
 > 4 444
 
-## [Traverse elements](ruu.lv)
+## [Traverse elements](//ruu.lv)
 
 ```js
 sources = lazyPic.querySelectorAll("source");
@@ -33,7 +33,7 @@ for(var j = 0; j < srcCnt; j++){
 }
 ```
 
-## [Delay a loop](ruu.lv)
+## [Delay a loop](//ruu.lv)
 
 ```js
 for(var i = 0; i < lazyPics.length; i++){	
