@@ -1,4 +1,4 @@
-# A simple Lazy load for `<picture>` elements
+# [A simple Lazy load for `<picture>` elements](//ruu.lv)
 
 ```js
 // Activate an image by setting it's target.
