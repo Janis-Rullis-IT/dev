@@ -1,4 +1,15 @@
+# git
+
 * https://about.gitlab.com/2018/08/08/git-happens/
+
+## [Why github is asking username if i have a ssh?](https://stackoverflow.com/a/46337804)
+
+You need to tell Git to use SSH protocol instead of HTTPS. On the repository page on GitHub, select Clone or Download and Use SSH. You will get a URL for the SSH protocol in the form git@github.com:<user>/<repo>.git.
+
+Then run the following command in your working tree to tell Git to use this URL instead of the current one:
+
+`git remote set-url origin git@github.com:<user>/<repo>.git`
+
 
 ## [Git ignore](Git-ignore)
 
