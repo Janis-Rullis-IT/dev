@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  <body style="width: 100%; max-width: 1920px;	margin: 0 auto;">
+	<header>
+	  <!-- TODO: Add ALT and a title. -->
+	  <a href="javascript:;" onclick="toggleFullscreen()" style="float: center:"><img  id="fullscreen-btn" src="https://cdn.statically.io/img/ruu.lv/ui/img/Ic_fullscreen_48px.svg"></a>
+	 
+	<script>
+		var elem = document.documentElement;
+		var is_fullscreen=false;
+
+		function toggleFullscreen(){
+		  if(is_fullscreen){
+		    closeFullscreen();				
+		  }else{
+		    openFullscreen();				
+		  }			
+		}
+
+		// TODO: Check if can remove any of these checks.
+		function openFullscreen() {
+		  is_fullscreen = true;
+		  document.getElementById('fullscreen-btn').style.background = "#d3d3d366";
+		  if (elem.requestFullscreen) {
+		  elem.requestFullscreen();
+		  } else if (elem.mozRequestFullScreen) { /* Firefox */
+		  elem.mozRequestFullScreen();
+		  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+		  elem.webkitRequestFullscreen();
+		  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+		  elem.msRequestFullscreen();
+		  }
+		}
+
+		// TODO: Check if can remove any of these checks.
+		function closeFullscreen() {
+		   is_fullscreen = false;
+		   document.getElementById('fullscreen-btn').style.background = "initial";
+		  if (document.exitFullscreen) {
+		  document.exitFullscreen();
+		  } else if (document.mozCancelFullScreen) {
+		  document.mozCancelFullScreen();
+		  } else if (document.webkitExitFullscreen) {
+		  document.webkitExitFullscreen();
+		  } else if (document.msExitFullscreen) {
+		  document.msExitFullscreen();
+		  }
+		}		
+	</script>
+  </body>
+</html>
