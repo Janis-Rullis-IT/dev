@@ -1,5 +1,10 @@
 # JS
 
+## 2020 ES where are we now? 
+* https://medium.com/engineered-publicis-sapient/javascript-es6-es7-es10-where-are-we-8ac044dfd964
+
+## stuff 
+
 * 12 tips for writing clean and scalable JavaScript https://blog.logrocket.com/12-tips-for-writing-clean-and-scalable-javascript-3ffe30abfe20/
 * http://exploringjs.com/impatient-js/
 * https://blog.risingstack.com/top-nodejs-microservices-articles-risingstack/?utm_source=microserviceweekly.com&utm_medium=email
