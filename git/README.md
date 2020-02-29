@@ -70,6 +70,14 @@ git branch
 
 ### Delete
 
+#### Remote
+
+```shell
+git push -u origin --delete 1-setup-env
+```
+
+#### Local
+
 ```shell
 git branch -d bugfix/127-homepage-404
 ```
