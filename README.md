@@ -1,5 +1,9 @@
 # dev
 
+## Code practices
+
+- https://www.thinktocode.com/2017/12/04/law-of-demeter/
+
 Notes related with development - configs, setups, GIT, IDE, SSH, Composer, Web servers, etc.
 
 * https://dev.tube/find?q=Nginx
