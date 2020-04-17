@@ -3,6 +3,7 @@
 ## Code practices
 
 - https://www.thinktocode.com/2017/12/04/law-of-demeter/
+- https://www.thinktocode.com/2017/10/10/solid-principles-in-php/
 
 Notes related with development - configs, setups, GIT, IDE, SSH, Composer, Web servers, etc.
 
