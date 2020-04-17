@@ -15,3 +15,10 @@ Specifics are defined when the child class (that implements the interface) is pa
 
 - interface works as a guide/rule set. A regular class include already action in it. 
 - abstract class includes part action and a requirement to implement some part on it's own 
+
+
+### empty interface is bad
+https://softwareengineering.stackexchange.com/a/352852
+Called marker interfaces but still a bad practice. The purpose of interface is to have a list of allowed methods, an empty one allows everything. 
+
+https://github.com/Janis-Rullis-IT/pr1-symfony5-api/issues/70#issuecomment-615418411 
