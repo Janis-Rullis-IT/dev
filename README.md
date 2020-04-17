@@ -3,8 +3,20 @@
 ## Code practices
 
 - https://www.thinktocode.com/2017/12/04/law-of-demeter/
-- https://www.thinktocode.com/2017/10/10/solid-principles-in-php/
 - https://www.thinktocode.com/2018/08/16/onion-architecture/ 
+
+### SOLID
+
+- https://www.thinktocode.com/2017/10/10/solid-principles-in-php/
+- https://hackernoon.com/solid-principles-simple-and-easy-explanation-f57d86c47a7f
+
+### DDD
+
+- https://github.com/heynickc/awesome-ddd
+- https://github.com/jorge07/symfony-4-es-cqrs-boilerplate
+- https://github.com/kgrzybek/modular-monolith-with-ddd/tree/master/src/BuildingBlocks/Infrastructure
+- https://github.com/CodelyTV/php-ddd-example
+- https://github.com/jorge07/ddd-playground
 
 Notes related with development - configs, setups, GIT, IDE, SSH, Composer, Web servers, etc.
 
