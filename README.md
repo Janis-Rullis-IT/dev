@@ -3,6 +3,10 @@
 ## Code practices
 
 - https://www.thinktocode.com/2017/12/04/law-of-demeter/
+
+## onion
+
+- http://kristopherwilson.com/2013/07/04/implementing-the-onion-architecture-in-php/ 
 - https://www.thinktocode.com/2018/08/16/onion-architecture/ 
 
 ### SOLID
