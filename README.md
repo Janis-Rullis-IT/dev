@@ -1,5 +1,12 @@
 # dev
 
+- https://www.tomasvotruba.com/clusters/
+- https://tsh.io/blog/
+- https://www.thinktocode.com/ 
+- https://hackernoon.com/ 
+- https://dzone.com/ 
+
+
 ## Code practices
 
 - https://www.thinktocode.com/2017/12/04/law-of-demeter/
