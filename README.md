@@ -4,6 +4,7 @@
 
 - https://www.thinktocode.com/2017/12/04/law-of-demeter/
 - https://www.thinktocode.com/2017/10/10/solid-principles-in-php/
+- https://www.thinktocode.com/2018/08/16/onion-architecture/ 
 
 Notes related with development - configs, setups, GIT, IDE, SSH, Composer, Web servers, etc.
 
