@@ -18,6 +18,12 @@
 - https://github.com/CodelyTV/php-ddd-example
 - https://github.com/jorge07/ddd-playground
 
+### Hexagonal Architecture / ports and adapters pattern
+
+- https://blog.octo.com/en/hexagonal-architecture-three-principles-and-an-implementation-example/
+- https://dzone.com/articles/hexagonal-architecture-what-is-it-and-how-does-it
+- https://fideloper.com/hexagonal-architecture
+
 Notes related with development - configs, setups, GIT, IDE, SSH, Composer, Web servers, etc.
 
 * https://dev.tube/find?q=Nginx
