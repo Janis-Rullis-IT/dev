@@ -33,6 +33,8 @@
 ## API
 
 - https://tsh.io/blog/json-api-how-to-create-api-in-php/ 
+- https://tsh.io/blog/design-patterns-in-microservices-api-gateway-bff-and-more/ 
+
 
 Notes related with development - configs, setups, GIT, IDE, SSH, Composer, Web servers, etc.
 
