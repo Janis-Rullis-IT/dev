@@ -28,6 +28,12 @@
 - https://dzone.com/articles/hexagonal-architecture-what-is-it-and-how-does-it
 - https://fideloper.com/hexagonal-architecture
 
+---
+
+## API
+
+- https://tsh.io/blog/json-api-how-to-create-api-in-php/ 
+
 Notes related with development - configs, setups, GIT, IDE, SSH, Composer, Web servers, etc.
 
 * https://dev.tube/find?q=Nginx
