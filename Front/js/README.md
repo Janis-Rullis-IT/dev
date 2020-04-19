@@ -1,6 +1,7 @@
 # JS
 
 ## 2020 ES where are we now? 
+* https://www.strictmode.io/articles/whats-new-es2020/ 
 * https://medium.com/engineered-publicis-sapient/javascript-es6-es7-es10-where-are-we-8ac044dfd964
 
 ## stuff 
