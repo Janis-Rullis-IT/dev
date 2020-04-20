@@ -5,6 +5,7 @@
 - https://www.thinktocode.com/ 
 - https://hackernoon.com/ 
 - https://dzone.com/ 
+- https://dev.to/
 
 
 ## Code practices
