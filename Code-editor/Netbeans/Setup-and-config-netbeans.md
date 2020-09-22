@@ -7,7 +7,7 @@ sudo snap install netbeans --classic
 > netbeans 12.1 from Apache NetBeans✓ installed
 
 ## Activate PHP and HTML
-* In `Tools/Plugins/Available plugins/` Check PHP, HTML.
+* In `Tools/Plugins/Installed/` Check PHP, HTML.
 
 ## Enable dark theme
 * Tools/Plugins/Available plugins/Darcula LAF theme.
