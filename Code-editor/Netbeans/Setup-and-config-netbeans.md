@@ -1,23 +1,10 @@
-# Setup and configure Netbeans
-
-## Install
-
-### [INSTALL ORACLE JAVA JDK 8](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04)
+# [Setup and configure Netbeans on ubu 20.04](https://blog.eldernode.com/configure-netbeans-on-ubuntu-20-04/)
 
 ```shell
-sudo apt install default-jre default-jdk -y
+sudo apt install default-jdk -y
+sudo snap install netbeans --classic 
 ```
-
-> javac 11.0.4
-
-* [Download the latest stable version.](http://netbeans.org/downloads)
-
-### Launch
-
-```shell
-chmod a+x netbeans-t.....
-./netbeans-t.....
-```
+> netbeans 12.1 from Apache NetBeans✓ installed
 
 ## Enable dark theme
 * Tools/Plugins/Available plugins/Darcula LAF theme.
