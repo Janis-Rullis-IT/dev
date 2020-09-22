@@ -1,12 +1,11 @@
 # Postman
 
-## Install
+## [Install](https://linuxize.com/post/how-to-install-postman-on-ubuntu-20-04/)
 
-* [Download](https://www.getpostman.com/apps)
-* Extract into Documents/apps/Postman.
-* Open the directory.
-* Create shortcut - click on Postman and select Send to Desktop.
-
+```shell
+sudo snap install postman
+```
+> postman 7.32.0 from Postman, Inc. (postman-inc✓) installed
 
 ## Keys
 
