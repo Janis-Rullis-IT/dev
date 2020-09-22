@@ -9,8 +9,13 @@ sudo snap install netbeans --classic
 ## Activate PHP and HTML
 * In `Tools/Plugins/Installed/` Check PHP, HTML.
 
-## Enable dark theme
-* Tools/Plugins/Available plugins/Darcula LAF theme.
+## [Enable dark theme](https://ourcodeworld.com/articles/read/1040/how-to-use-netbeans-in-dark-mode-with-the-darcula-theme)
+
+* Download http://plugins.netbeans.org/plugin/62424/darcula-laf-for-netbeans.
+* Import in `Tools/Plugins/Available Plugins/` by pressing the `Add Plugin` button.
+
+## Import settings
+* https://github.com/Janis-Rullis-IT/dev/blob/master/Code-editor/Netbeans/nb-settings.zip
 
 ## Add MD support
 * Markdown Support https://github.com/madflow/flow-netbeans-markdown
