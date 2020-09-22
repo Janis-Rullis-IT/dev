@@ -3,6 +3,7 @@
 ## Install
 
 * [Download.](https://code.visualstudio.com/Download)
+* Import https://github.com/Janis-Rullis-IT/dev/blob/master/Code-editor/VSCode/settings.json
 * Use Vetur plugin for vue.js files. Just open the file and the plugin will be suggested.
 
 ## Appearance
