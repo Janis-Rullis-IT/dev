@@ -8,23 +8,41 @@ sudo apt-get install apt-transport-https ca-certificates curl software-propertie
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 sudo apt-get update
-sudo apt-get install docker-ce -y
-docker version
+apt-cache policy docker-ce
 ```
 
->> Client:
->> Version:      18.03.1-ce
->> API version:  1.37
->> Go version:   go1.9.5
-
-## [Manage Docker as a non-root user](https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user)
+```
+docker-ce:
+  Installed: (none)
+  Candidate: 5:19.03.13~3-0~ubuntu-focal
+  Version table:
+     5:19.03.13~3-0~ubuntu-focal 500
+        500 https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
+```
 
 ```shell
-sudo groupadd docker
-sudo usermod -aG docker $USER
+sudo apt-get install docker-ce -y
+sudo systemctl status docker
 ```
 
-Log out and log back in so that your group membership is re-evaluated.
+```
+● docker.service - Docker Application Container Engine
+     Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset>
+     Active: active (running) since Tue 2020-09-22 14:31:43 EEST; 12s ago
+TriggeredBy: ● docker.socket
+       Docs: https://docs.docker.com
+   Main PID: 43390 (dockerd)
+```
+
+## [Manage Docker as a non-root user](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
+
+```shell
+sudo usermod -aG docker ${USER}
+su - ${USER}
+id -nG
+```
+> j adm cdrom sudo dip plugdev lpadmin lxd sambashare docker
+
 
 ### Verify
 
