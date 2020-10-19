@@ -26,11 +26,12 @@ public function __construct(EntityManagerInterface $em)
 
 At the top.
 
+```php
 /**
  * @ORM\Entity(repositoryClass="App\Repository\MoveRepository")
  * @ORM\Table(name="`move`")
  */
- 
+ ```
  #### For funky names like `row` use an escaped name
  
  Otherwise INSERT errors may apper.
