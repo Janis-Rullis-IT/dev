@@ -1,5 +1,8 @@
 # Git commit history
 
+## Group by author 
+git shortlog
+
 ## Find user's commits
 
 ```shell
