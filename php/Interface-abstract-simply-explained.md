@@ -1,4 +1,8 @@
-# Interface and abstract simply explained
+## [Why use interfaces (with examples)](https://github.com/janis-rullis/lm1-symfony5-vue2-api/issues/38#issuecomment-715359834)
+* https://www.killerphp.com/articles/php-interfaces/#:~:text=Interfaces%20allow%20you%20to%20define,don't%20get%20with%20classes.
+* https://www.geeksforgeeks.org/when-do-we-need-interfaces-in-php/
+
+## Interface and abstract simply explained
 
 https://medium.com/better-programming/understanding-use-of-interface-and-abstract-class-9a82f5f15837
 
