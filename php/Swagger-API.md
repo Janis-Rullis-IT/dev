@@ -1,5 +1,19 @@
 # Swagger-API
 
+## Clear cache after changes
+
+```shell
+composer dumpautoload -o
+bin/console cache:clear
+```
+
+## Debug
+
+### RESTART THE CONTAINER FIRST!
+
+Sometimes the API may crash heavily on it's own and not come back even if the cache is cleared.
+Otherwise You may chase wild gooses for an hour (like me just now :smile:) and there's actually wrong :cry:
+
 ## Basic
 
 ```php
