@@ -2,6 +2,10 @@
 
 Immutable in a [String Pool](https://github.com/Janis-Rullis-IT/dev/blob/master/Infrastructure/Software/String-interning-String-pool.md)
 
+## Code examples
+
+* https://www.journaldev.com/1321/java-string-interview-questions-and-answers#java-string-palindrome
+
 ## String Immutability Benefits
 
 Some of the benefits of String being immutable class are:
