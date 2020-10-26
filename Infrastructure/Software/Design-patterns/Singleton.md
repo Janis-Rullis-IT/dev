@@ -1,6 +1,6 @@
 # Singleton
 
-* https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples
+* https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples#:~:text=5.%20Bill%20Pugh%20Singleton%20Implementation
 
 Class is global and must be initialized only once.
 
