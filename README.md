@@ -3,8 +3,8 @@
 Notes related with development
 
 * How to organize a project ([Management-Organization](Management-Organization))
-* design a code ([Infrastructure/SW](Infrastructure/SW), [Coding](Coding)) 
-* and deliver it using the hardware ([Infrastructure/HW](Infrastructure/HW)).
+* design a code ([Infrastructure/Software](Infrastructure/Software), [Coding](Coding)) 
+* and deliver it using the hardware ([Infrastructure/Hardware](Infrastructure/Hardware)).
 
 ## See also
 
