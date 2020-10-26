@@ -1,6 +1,4 @@
-# DEV
-
-Notes related with development
+# DEV - Notes related with development
 
 * How to organize a project ([Management-Organization](Management-Organization))
 * design a code ([Infrastructure/Software](Infrastructure/Software), [Coding](Coding)) 
