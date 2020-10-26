@@ -1,6 +1,6 @@
 # [Inner-Class.md](https://www.journaldev.com/996/java-inner-class)
 
-See [5. Bill Pugh Singleton Implementation](https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples#:~:text=5.%20Bill%20Pugh%20Singleton%20Implementation)
+See [5. Bill Pugh Singleton Implementation](https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples#:~:text=5.%20Bill%20Pugh%20Singleton%20Implementation) and https://github.com/Janis-Rullis-IT/dev/blob/master/Coding/java/Reflection.md
 
 ## Benefits of Java Inner Class
 
