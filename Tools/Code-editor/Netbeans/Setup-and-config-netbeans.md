@@ -15,7 +15,7 @@ sudo snap install netbeans --classic
 * Import in `Tools/Plugins/Download/` by pressing the `Add Plugin` button.
 
 ## Import settings
-* https://github.com/Janis-Rullis-IT/dev/blob/master/Code-editor/Netbeans/nb-settings.zip
+* [nb-settings.zip](nb-settings.zip)
 
 ## Add MD support
 * Markdown Support https://github.com/madflow/flow-netbeans-markdown
