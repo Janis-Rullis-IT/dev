@@ -9,8 +9,12 @@ telnet localhost 11211
 
 ## Get
 
+```shell
+set KEY_NAME FLAG_INT_FOR_FUN SECONDS_INT BYTES_OF_THE_CONTENT
 ```
-elnet localhost 11211
+
+```
+telnet localhost 11211
 Trying 127.0.0.1...
 Connected to localhost.
 Escape character is '^]'.
