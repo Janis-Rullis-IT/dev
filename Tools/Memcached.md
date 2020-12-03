@@ -7,6 +7,28 @@ ps -eaf | grep memcached
 telnet localhost 11211
 ```
 
+## Get
+
+```
+elnet localhost 11211
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+set tutorialspoint 0 10 9
+memcached
+STORED
+get tutorialspoint
+VALUE tutorialspoint 0 9
+memcached
+END
+get tutorialspoint
+VALUE tutorialspoint 0 9
+memcached
+END
+get tutorialspoint
+END
+```
+
 ## Stats
 
 ```shell
