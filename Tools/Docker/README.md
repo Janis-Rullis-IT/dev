@@ -1,5 +1,12 @@
 # Docker
 
+## What does the `Dockerfile` do? Short answer -  OS installation instructions
+
+> See a `Dockerfile` [example here](https://github.com/Janis-Rullis-IT/flexi-tic-tac-toe/blob/523698d731e5de6aae2a168565d99a621c3e382d/symfony5/Dockerfile).
+
+* It looks nearly as a list of `apt-get install` commands for a regular Linux machine. Just have some additional commands (like `RUN`, `ADD` to help the Docker).
+* The main thing to pay attention - is the list of `apt-get`s and the OS version. **Want a newer PHP?** Sure, just change here 7.4 to 8. Same goes for the OS. Wanna try locally 20.10 instead of 20.04. Go for it! Just change the nubmer and [rebuild](https://github.com/Janis-Rullis-IT/dev/blob/96575a9a159e266986aaed443e889eda8d3ec354/Tools/Docker/Refresh-build-without-cache.md).
+
 ## Great reads
 
 * [Best practices for writing Dockerfiles (docs.docker.com)](https://docs.docker.com/v17.09/engine/userguide/eng-image/dockerfile_best-practices/)
