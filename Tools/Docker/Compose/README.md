@@ -1,4 +1,6 @@
-# Docker compose
+# `docker-compose.yml`
+
+Tells what virtual OSes ([containers](https://www.google.com/search?q=docker+container)) needs to be started when the `docker-compose up` command is executed.
 
 ## List defined images
 
