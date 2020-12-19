@@ -26,3 +26,14 @@ Is just like fixing a car - **you need to get to know the car first** - gears, a
 ![https://www.newkidscar.com/wp-content/uploads/2019/04/cars-1.jpg](https://www.newkidscar.com/wp-content/uploads/2019/04/cars-1.jpg)
 
 ![https://s3-eu-west-1.amazonaws.com/tdi-website/images/BlogEntry/3/456/mazda-2-skyactiv-tuning.jpg](https://s3-eu-west-1.amazonaws.com/tdi-website/images/BlogEntry/3/456/mazda-2-skyactiv-tuning.jpg)
+
+## Indexws
+
+- try to find a person John Doe The 2nd in 100 page paperback document.
+- imagine there would be also pages that tells in which pages you can fond animals, fruits and persons. It might be faster ti look in the prrson list, than looking into the animal list or just going over the whole document.
+That means making the right index for the right need. 
+
+## Solution tradeoffs 
+* https://cheopys.medium.com/as-always-software-is-about-tradeoffs-fd69c43bc239
+
+I work a lot in cryptography; the most secure system would be unworkable for users and a system easiest for users would be too vulnerable. Tradeoffs.
