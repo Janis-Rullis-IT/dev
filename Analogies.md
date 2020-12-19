@@ -27,10 +27,10 @@ Is just like fixing a car - **you need to get to know the car first** - gears, a
 
 ![https://s3-eu-west-1.amazonaws.com/tdi-website/images/BlogEntry/3/456/mazda-2-skyactiv-tuning.jpg](https://s3-eu-west-1.amazonaws.com/tdi-website/images/BlogEntry/3/456/mazda-2-skyactiv-tuning.jpg)
 
-## Indexws
+## Indexes 
 
-- try to find a person John Doe The 2nd in 100 page paperback document.
-- imagine there would be also pages that tells in which pages you can fond animals, fruits and persons. It might be faster ti look in the prrson list, than looking into the animal list or just going over the whole document.
+- Try to find a person called John Doe The 2nd in 100 page paperback document.
+- Imagine there would also be pages that tells in which pages you can find animals, fruits and persons. It might be faster to look in the person list, than looking into the animal list or just going over the whole document.
 That means making the right index for the right need. 
 
 ## Solution tradeoffs 
