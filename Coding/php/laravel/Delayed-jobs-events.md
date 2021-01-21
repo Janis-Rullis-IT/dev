@@ -1,6 +1,7 @@
 # Delayed-jobs-events.md
 
 *  https://link.medium.com/YT3AV4kJddb
+* https://ohdear.app/blog/how-to-size-scale-your-laravel-queues 
 
 ## Jobs can be Scheduled to run on a certain time 
 One of key differences between the Jobs, Listeners and Notifications, is that Jobs can be Scheduled, where Listeners and Notifications can not. They can be delayed, meaning, the Listener or Notification will be pushed to the queue but it will be processed later.
