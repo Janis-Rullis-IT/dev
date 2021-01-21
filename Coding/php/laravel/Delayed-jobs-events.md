@@ -10,3 +10,7 @@ One of key differences between the Jobs, Listeners and Notifications, is that Jo
 The handle() method of the Listeners receives automatically the Event it listens for, and this is automatically injected by the framework when the Event fires.
 
 If you try to Schedule an Event, it will fail miserably since it won’t receive the Event.
+
+## An example of chaining them 
+
+* The Job fired an Event, that Event was picked up by two Listeners, and one of them used Notifications. 
