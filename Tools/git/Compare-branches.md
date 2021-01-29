@@ -2,8 +2,11 @@
 
 ```shell
 git difftool -d development
+git diff --name-status development
 ```
 
+## Get the commit list
+
 ```shell
-git diff --name-status development
+git log --oneline BRANCH_TO YOUR_NEW_BRANCH
 ```
