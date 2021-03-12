@@ -1,5 +1,10 @@
 # JS
 
+## ES support by years
+
+* https://caniuse.com/?search=es6 + click on the `Date relative`.
+* http://kangax.github.io/compat-table/es2016plus/
+
 ## 2020 ES where are we now? 
 * https://www.strictmode.io/articles/whats-new-es2020/ 
 * https://medium.com/engineered-publicis-sapient/javascript-es6-es7-es10-where-are-we-8ac044dfd964
