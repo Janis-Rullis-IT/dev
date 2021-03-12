@@ -5,6 +5,11 @@
 * https://caniuse.com/?search=es6 + click on the `Date relative`.
 * http://kangax.github.io/compat-table/es2016plus/
 
+## ES 2015+ reads
+
+* https://github.com/lukehoban/es6features
+* https://exploringjs.com/es6/index.html
+
 ## 2020 ES where are we now? 
 * https://www.strictmode.io/articles/whats-new-es2020/ 
 * https://medium.com/engineered-publicis-sapient/javascript-es6-es7-es10-where-are-we-8ac044dfd964
