@@ -4,6 +4,12 @@
 
 * Ctrl + Shift + F
 
+## Geolocation tests
+> Works on services that requires Your location via popup. Won't affect services that uses IP to target the location.
+
+* Ctrl + Shift + P -> show sensors
+* Set Your location, turn on mobile (not sure if this is necessary), and check in https://mycurrentlocation.net/.
+
 ## [16 Ways to Search, Find and Edit with Chrome DevTools (developer.telerik.com)](https://developer.telerik.com/featured/16-ways-to-search-find-and-edit-with-chrome-devtools/)
 
 ## Breakpoints
