@@ -61,3 +61,9 @@ tc --list
 git show HEAD:FILE1 --no-textconv
 ```
 > FsdGVkX1/mkaMGKR9u0Ov
+
+## Fix ` '.gitattributes': 1: .git/crypt/clean: Permission denied`
+
+```shell
+ chmod a+x .git/crypt/ -R
+```
