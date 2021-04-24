@@ -1,5 +1,8 @@
 # JS
 
+## Setup TS project 
+* https://www.metachris.com/2021/04/starting-a-typescript-project-in-2021/ 
+
 ## ES support by years
 
 * https://caniuse.com/?search=es6 + click on the `Date relative`.
