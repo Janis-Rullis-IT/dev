@@ -1,5 +1,7 @@
 # git
 
+## THEEE HELPER https://github.com/k88hudson/git-flight-rules
+
 * https://about.gitlab.com/2018/08/08/git-happens/
 
 ## [Why github is asking username if i have a ssh?](https://stackoverflow.com/a/46337804)
