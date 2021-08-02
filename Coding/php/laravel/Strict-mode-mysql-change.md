@@ -2,6 +2,8 @@
 
 * https://github.com/Janis-Rullis-IT/sql/blob/4651cd55f766dfdb50b501286cbfe68412975b1d/mysql/Strict-disable.md
 
+## In runtime 
+
 ```php
 $sql = "SELECT @@sql_mode as sql_mode;";
 $result = \DB::select(\DB::raw($sql));
@@ -17,4 +19,14 @@ $sql = "SELECT @@sql_mode;";
 $result = \DB::select(\DB::raw($sql));
 dd($result);
 //   "@@sql_mode": "ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+```
+
+## Constant
+
+```php
+'connections' => [
+    'mysql' => [
+           'strict' => false
+    ]
+]
 ```
