@@ -37,3 +37,9 @@ kubectl api-resources
 kubectl describe pods POD_NAME
 kubectl logs POD_NAME
 ```
+
+## Connect
+
+```shell
+kubectl exec -it POD_NAME -c app /bin/bash
+```
