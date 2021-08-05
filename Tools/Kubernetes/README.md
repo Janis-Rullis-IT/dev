@@ -27,4 +27,13 @@ aws-iam-authenticator help
 
 ```shell
 kubectl get svc
+kubectl get pods
+```
+
+## Info
+
+```shell
+kubectl api-resources
+kubectl describe pods POD_NAME
+kubectl logs POD_NAME
 ```
