@@ -22,3 +22,9 @@ mkdir -p $HOME/bin && cp ./aws-iam-authenticator $HOME/bin/aws-iam-authenticator
 echo 'export PATH=$PATH:$HOME/bin' >> ~/.bashrc
 aws-iam-authenticator help
 ```
+
+## List
+
+```shell
+kubectl get svc
+```
