@@ -1,6 +1,7 @@
-# Variables-inside-a-container
+# ARG-ENV-Variables-inside-a-container
 
 ## [Arg vs environment](https://vsupalov.com/docker-arg-vs-env/)
+* https://vsupalov.com/docker-arg-env-variable-guide/
 
 ### ARG
 
