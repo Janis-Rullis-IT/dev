@@ -2,6 +2,14 @@
 
 ## [Arg vs environment](https://vsupalov.com/docker-arg-vs-env/)
 * https://vsupalov.com/docker-arg-env-variable-guide/
+* https://stackoverflow.com/questions/41916386/arg-or-env-which-one-to-use-in-this-case
+
+```
+The ARG instruction defines a variable that users can pass at build-time to the builder with the docker build command using the --build-arg <varname>=<value> flag.
+
+The ENV instruction sets the environment variable <key> to the value <value>.
+The environment variables set using ENV will persist when a container is run from the resulting image.
+```
 
 ### ARG
 
