@@ -18,7 +18,7 @@ The environment variables set using ENV will persist when a container is run fro
 ARG values are not available after the image is built. 
 When building a Docker image from the commandline, you can set ARG values using –build-arg. 
 
-[**When building an image, no other variables apart from those listed in docker-compose.yml “args” are used. **](https://vsupalov.com/docker-env-vars/)
+[**When building an image, no other variables apart from those listed in docker-compose.yml “args” are used.**](https://vsupalov.com/docker-env-vars/)
 
 
 ```yaml
