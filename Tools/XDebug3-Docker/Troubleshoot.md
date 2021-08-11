@@ -9,3 +9,4 @@ php -i
 ```
 > Should not display any xdebug section.
 
+## Check logs
