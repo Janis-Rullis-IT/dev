@@ -8,6 +8,8 @@ By default, Docker will create a bridge network. This default network doesn’t 
 As the host address may change on every request and container then OS + docker has come together to help as
 and create this magical address `host.docker.internal`.
 
+> See this used in practice [Xdebug 3 + Docker](https://github.com/Janis-Rullis-IT/dev/tree/49edba94798ffdb29fb3870ce3dfdc23e74fd8cf/Tools/XDebug3-Docker).
+
 ```yml
 extra_hosts:
       - "host.docker.internal:host-gateway"
