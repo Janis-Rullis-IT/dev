@@ -5,6 +5,8 @@
 * https://github.com/CoenraadS/Bracket-Pair-Colorizer-2 `"bracket-pair-colorizer-2.colors": ["Orchid", "Orchid", "Blue", "Yellow", "Red", "White", "Grey", "Green"]`
 * https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
 * https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
+* https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+* https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
 * git lens
 * YAML.
 * Vetur.
