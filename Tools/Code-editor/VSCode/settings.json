@@ -1,12 +1,33 @@
 {
     "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "Monokai",
-    "editor.tabSize": 2,
     "editor.minimap.enabled": false,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "explorer.confirmDragAndDrop": false,
     "editor.detectIndentation": false,
-    "editor.insertSpaces": true
+    "editor.insertSpaces": true,
+    "window.zoomLevel": -1,
+    "explorer.confirmDelete": false,    
+    "redhat.telemetry.enabled": false,
+    "workbench.colorTheme": "Signed Dark Pro",
+    "editor.fontSize": 26,
+    //"editor.fontFamily": "'Ubuntu Mono',monospace",
+    //"editor.fontFamily": "'Inconsolata', monospace",    
+    "editor.fontFamily": "'Fira code'",    
+    "editor.fontLigatures": true,
+    "editor.fontWeight": 400,
+    "checkpoints.addCheckpointOnSave":true,
+    "checkpoints.askForCheckpointName":false,
+    "bracket-pair-colorizer-2.colors": [
+        "Orchid",
+        "Orchid",
+        "Blue",
+        "Yellow",
+        "Red",
+        "White",
+        "Grey",
+        "Green"
+    ],
+    "workbench.iconTheme": "vscode-icons"
 }
