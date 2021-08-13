@@ -11,7 +11,7 @@
     "explorer.confirmDelete": false,    
     "redhat.telemetry.enabled": false,
     "workbench.colorTheme": "Signed Dark Pro",
-    "editor.fontSize": 26,
+    "editor.fontSize": 18,
     //"editor.fontFamily": "'Ubuntu Mono',monospace",
     //"editor.fontFamily": "'Inconsolata', monospace",    
     "editor.fontFamily": "'Fira code'",    
@@ -29,5 +29,7 @@
         "Grey",
         "Green"
     ],
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 1,
+    "window.menuBarVisibility": "toggle"
 }
