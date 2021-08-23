@@ -7,6 +7,7 @@
 * https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
 * https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
 * https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+* https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker
 * git lens
 * YAML.
 * Vetur.
