@@ -31,7 +31,7 @@ CMD tail -f /dev/null
 and rebuild
 
 ```shell
-docker-compose up --build
+docker-compose build --no-cache ruu-laravel5
 ```
 
 ### Result
