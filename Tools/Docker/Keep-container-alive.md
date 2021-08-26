@@ -32,6 +32,7 @@ and rebuild
 
 ```shell
 docker-compose build --no-cache ruu-laravel5
+docker-compose up ruu-laravel5
 ```
 
 ### Result
@@ -41,5 +42,5 @@ docker-compose build --no-cache ruu-laravel5
 ### Connect
 
 ```shell
-docker exec -it my-container bash
+docker exec -it ruu-laravel5 bash
 ```
