@@ -2,7 +2,7 @@
 
 # [From 5.8](https://github.com/Janis-Rullis-IT/lara5-vue2-api/issues/14)
 
-* [Upgrade Docker to Ubu 20.04 and PHP 7.4.]((https://github.com/Janis-Rullis-IT/lara5-vue2-api/issues/14) or [PHP 8](https://github.com/Janis-Rullis-IT/lara5-vue2-api/issues/17).
+* [Upgrade Docker to Ubu 20.04 and PHP 7.4.](https://github.com/Janis-Rullis-IT/lara5-vue2-api/issues/14) or [PHP 8](https://github.com/Janis-Rullis-IT/lara5-vue2-api/issues/17).
 
 ## Set in `composer.json`
 
