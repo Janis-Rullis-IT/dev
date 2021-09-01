@@ -7,11 +7,10 @@
     "explorer.confirmDragAndDrop": false,
     "editor.detectIndentation": false,
     "editor.insertSpaces": true,
-    "window.zoomLevel": -1,
     "explorer.confirmDelete": false,    
     "redhat.telemetry.enabled": false,
     "workbench.colorTheme": "Signed Dark Pro",
-    "editor.fontSize": 18,
+    "editor.fontSize": 22,
     //"editor.fontFamily": "'Ubuntu Mono',monospace",
     //"editor.fontFamily": "'Inconsolata', monospace",    
     "editor.fontFamily": "'Fira code'",    
@@ -30,6 +29,19 @@
         "Green"
     ],
     "workbench.iconTheme": "material-icon-theme",
-    "window.zoomLevel": 1,
-    "window.menuBarVisibility": "toggle"
+    "window.menuBarVisibility": "toggle",
+    "editor.formatOnType": true,
+    "diffEditor.codeLens": true,
+    "gitlens.advanced.fileHistoryShowAllBranches": true,
+    "gitlens.views.fileHistory.files.layout": "tree",
+    "gitlens.views.fileHistory.files.compact": false,
+    "window.zoomLevel": -1,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "workbench.editorAssociations": {
+        "git-rebase-todo": "default"
+    }
 }
