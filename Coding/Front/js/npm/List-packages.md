@@ -2,4 +2,5 @@
 
 ```shell
 npm list --depth=0
+npm list ts-migrate 
 ```
