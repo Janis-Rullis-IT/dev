@@ -2,6 +2,7 @@
 
 ```shell
 npm info babel-runtime versions
+npm view ts-migrate 
 ```
 
 ```json
