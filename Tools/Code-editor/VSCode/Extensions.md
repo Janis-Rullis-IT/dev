@@ -18,6 +18,14 @@ sudo apt install php7.4-cli
 * https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
 * https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
 * https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker
+
+## PHP CS FIXER
+```json
+     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1631014605532,
+    "php-cs-fixer.rules": "@Symfony,align_multiline_comment,array_indentation,ordered_class_elements"
+```
+
 * YAML.
 * Vetur.
 * PHP Debug.
