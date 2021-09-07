@@ -1,5 +1,14 @@
 # Extensions.md
 
+## Useful before start
+
+On the host machine
+```shel
+sudo apt install php7.4-cli
+```
+
+## List
+
 * git lens
 * https://marketplace.visualstudio.com/items?itemName=huizhou.githd
 * https://marketplace.visualstudio.com/items?itemName=micnil.vscode-checkpoints `"checkpoints.addCheckpointOnSave":true,"checkpoints.askForCheckpointName":false`
