@@ -20,6 +20,7 @@ sudo apt install php7.4-cli
 * https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker
 
 ## PHP CS FIXER
+* https://github.com/Janis-Rullis-IT/flexi-tic-tac-toe/blob/main/symfony5/lint.sh
 ```json
      "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     "php-cs-fixer.lastDownload": 1631014605532,
