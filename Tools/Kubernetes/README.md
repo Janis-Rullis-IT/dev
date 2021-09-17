@@ -23,6 +23,11 @@ echo 'export PATH=$PATH:$HOME/bin' >> ~/.bashrc
 aws-iam-authenticator help
 ```
 
+## Auth with `export` credentials
+
+* Copy them in term.
+* Update the config with `aws eks --region eu-central-1 update-kubeconfig --name INSTANCE_NAME`.
+
 ## List
 
 ```shell
@@ -42,4 +47,13 @@ kubectl logs POD_NAME
 
 ```shell
 kubectl exec -it POD_NAME -c app /bin/bash
+```
+
+## Copy
+
+### From the remote instance
+
+```shell
+kubectl cp INSTANCE_NAME:PATH_ON_THE_INSTANCE LOCAL_PATH
+kubectl cp yolo-123:/var/www/apple.txt apple.txt
 ```
