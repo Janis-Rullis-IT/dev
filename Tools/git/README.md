@@ -43,51 +43,7 @@ git config --global mergetool.prompt false
 ## Change repo's URL and keep the commit history
 Update `url` in `.git/config`.
 
-## [Branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
-* https://dev.to/hardkoded/how-to-organize-your-git-branches-4dci
-
-### Create and switch
-
-```shell
-git checkout -b bugfix/127-homepage-404
-```
-
-### Push to remote
-
-```shell
-git push -u origin bugfix/127-homepage-404
-```
-
-### Switch
-
-```shell
-git checkout bugfix/127-homepage-404
-```
-
-### List
-
-```shell
-git branch
-```
-
-### Delete
-
-#### Remote
-
-```shell
-git push -u origin --delete 1-setup-env
-```
-
-#### Local
-
-```shell
-git branch -d bugfix/127-homepage-404
-```
-
-### Naming
-* feature/662-login-with-facebook
-* bugfix/127-homepage-404
-
+# [Branch](Branch.md)
 
 ## [Fix `Permission denied (publickey).` when cloning from the github](Setup-git-ssh-key.md)
 
