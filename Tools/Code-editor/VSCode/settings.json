@@ -35,7 +35,6 @@
     "gitlens.advanced.fileHistoryShowAllBranches": true,
     "gitlens.views.fileHistory.files.layout": "tree",
     "gitlens.views.fileHistory.files.compact": false,
-    "window.zoomLevel": -1,
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.currentLine.enabled": false,
     "gitlens.codeLens.enabled": false,
@@ -43,5 +42,12 @@
     "gitlens.hovers.enabled": false,
     "workbench.editorAssociations": {
         "git-rebase-todo": "default"
+    },
+    // "php-cs-fixer.rules": "@PSR2",
+    "php-cs-fixer.config": "/home/j/Desktop/www/vendor/.php-cs-fixer.php",
+    "php-cs-fixer.executablePath": "/home/j/Desktop/www/vendor/php-cs-fixer.phar",
+    "php-cs-fixer.onsave": true,
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
     }
 }
