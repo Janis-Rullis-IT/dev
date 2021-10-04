@@ -23,9 +23,13 @@ sudo apt install php7.4-cli
 * https://github.com/Janis-Rullis-IT/flexi-tic-tac-toe/blob/main/symfony5/lint.sh
 * https://mlocati.github.io/php-cs-fixer-configurator/#version:3.1
 ```json
-     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1631014605532,
-    "php-cs-fixer.rules": "@Symfony,align_multiline_comment,array_indentation,ordered_class_elements"
+     // "php-cs-fixer.rules": "@PSR2",
+    "php-cs-fixer.config": "/home/j/Desktop/www/vendor/.php-cs-fixer.php",
+    "php-cs-fixer.executablePath": "/home/j/Desktop/www/vendor/php-cs-fixer.phar",
+    "php-cs-fixer.onsave": true,
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    }
 ```
 
 * YAML.
