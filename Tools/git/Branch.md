@@ -29,7 +29,10 @@ git checkout bugfix/127-homepage-404
 
 ```shell
 git branch
+git branch -r --merged staging
+git branch -r --no-merged staging
 ```
+> -r remote, -a local and rmeote
 
 ## Delete
 
