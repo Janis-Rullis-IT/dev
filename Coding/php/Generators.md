@@ -24,3 +24,22 @@ foreach(customRange(1,1000000000) as $i){
 }
 ```
 
+# [Convert a regular laravel Componant to a lazy load](https://josephsilber.com/posts/2020/07/29/lazy-collections-in-laravel)
+
+```php
+$count = get_all_customers_from_quickbooks()
+    ->lazy()
+    ->where('country', 'FR')
+    ->where('balance', '>', 100)
+    ->count();
+```
+
+```php
+foreach (Flight::lazy() as $flight) {
+    //
+}
+
+foreach (Flight::where('destination', 'Zurich')->cursor() as $flight) {
+    //
+}
+```
