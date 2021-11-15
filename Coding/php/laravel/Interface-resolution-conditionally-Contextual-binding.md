@@ -13,3 +13,19 @@ $this->app->when([VideoController::class, UploadController::class])
               return Storage::disk('s3');
           });
 ```
+
+# Also pass or convert data
+
+```php
+$this->app->when('App\Http\Controllers\UserController')
+          ->needs('$variableName')
+          ->give($value);
+          
+$this->app->when(ReportAggregator::class)
+    ->needs('$reports')
+    ->giveTagged('reports');
+    
+$this->app->when(ReportAggregator::class)
+    ->needs('$timezone')
+    ->giveConfig('app.timezone');
+```
