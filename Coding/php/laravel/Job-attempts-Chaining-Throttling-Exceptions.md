@@ -42,8 +42,6 @@ public function retryUntil()
 }
 ```
 
-
-
 # [Chain like in a transaction](https://laravel.com/docs/8.x/queues#throttling-exceptions)
 
 If one fails, next ones won' be executed.
@@ -54,4 +52,52 @@ Bus::chain([
     new OptimizePodcast,
     new ReleasePodcast,
 ])->dispatch();
+```
+
+# [Stop if the batch has failed](https://laravel.com/docs/8.x/queues#dispatching-batches)
+
+```php
+use App\Jobs\ImportCsv;
+use Illuminate\Bus\Batch;
+use Illuminate\Support\Facades\Bus;
+use Throwable;
+
+$batch = Bus::batch([
+    new ImportCsv(1, 100),
+    new ImportCsv(101, 200),
+    new ImportCsv(201, 300),
+    new ImportCsv(301, 400),
+    new ImportCsv(401, 500),
+])->then(function (Batch $batch) {
+    // All jobs completed successfully...
+})->catch(function (Batch $batch, Throwable $e) {
+    // First batch job failure detected...
+})->finally(function (Batch $batch) {
+    // The batch has finished executing...
+})->dispatch();
+
+return $batch->id;
+```
+
+```php
+class ImportCsv implements ShouldQueue
+{
+    use Batchable, Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
+
+    /**
+     * Execute the job.
+     *
+     * @return void
+     */
+    public function handle()
+    {
+        if ($this->batch()->cancelled()) {
+            // Determine if the batch has been cancelled...
+
+            return;
+        }
+
+        // Import a portion of the CSV file...
+    }
+}
 ```
