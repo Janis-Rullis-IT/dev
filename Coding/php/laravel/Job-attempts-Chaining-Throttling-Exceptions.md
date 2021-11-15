@@ -24,6 +24,21 @@ public function retryUntil()
 }
 ```
 
+# [Attempts and timeouts](https://laravel.com/docs/8.x/queues#max-job-attempts-and-timeout)
+
+```shell
+php artisan queue:work --tries=3
+```
+
+```php
+class ProcessPodcast implements ShouldQueue
+{
+    public $tries = 5;
+}
+```
+
+
+
 # [Chain like in a transaction](https://laravel.com/docs/8.x/queues#throttling-exceptions)
 
 If one fails, next ones won' be executed.
