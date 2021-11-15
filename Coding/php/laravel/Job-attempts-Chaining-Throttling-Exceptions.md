@@ -2,6 +2,12 @@
 
 Linxu process that restarts the queue-worker if it dies.
 
+# [Monitor](https://laravel.com/docs/8.x/queues#monitoring-your-queues)
+
+```shell
+php artisan queue:monitor redis:default,redis:deployments --max=100
+```
+
 # [Job-attempts-Throttling-Exceptions.md](https://laravel.com/docs/8.x/queues#throttling-exceptions)
 
 ```php
