@@ -1,3 +1,7 @@
+# [Supervisor](https://laravel.com/docs/8.x/queues#installing-supervisor)
+
+Linxu process that restarts the queue-worker if it dies.
+
 # [Job-attempts-Throttling-Exceptions.md](https://laravel.com/docs/8.x/queues#throttling-exceptions)
 
 ```php
