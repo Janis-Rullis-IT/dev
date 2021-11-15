@@ -35,6 +35,11 @@ class ProcessPodcast implements ShouldQueue
 {
     public $tries = 5;
 }
+// or
+public function retryUntil()
+{
+    return now()->addMinutes(10);
+}
 ```
 
 
