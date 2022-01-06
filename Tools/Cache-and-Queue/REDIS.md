@@ -13,7 +13,7 @@ php artisan queue:work -h # Start processing jobs on the queue as a daemon
 php artisan queue:failed -h #  List all of the failed queue jobs
 ```
 
-## Select redis DBs
+## [Select redis DBs](https://www.digitalocean.com/community/cheatsheets/how-to-manage-redis-databases-and-keys#managing-databases)
 
 By default it connects to the DB 0. So if You can not find keys then try to switch the db.
 
