@@ -13,6 +13,21 @@ php artisan queue:work -h # Start processing jobs on the queue as a daemon
 php artisan queue:failed -h #  List all of the failed queue jobs
 ```
 
+## Select redis DBs
+
+By default it connects to the DB 0. So if You can not find keys then try to switch the db.
+
+```env
+REDIS_CACHE_DB=2
+REDIS_SESSION_DB=3
+```
+
+```shell
+redis-cli
+select 2
+KEYS *
+```
+
 # It's also smart to add some kind of timeout:
 
 ```shell
