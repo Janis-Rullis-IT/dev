@@ -57,3 +57,10 @@ kubectl exec -it POD_NAME -c app /bin/bash
 kubectl cp INSTANCE_NAME:PATH_ON_THE_INSTANCE LOCAL_PATH
 kubectl cp yolo-123:/var/www/apple.txt apple.txt
 ```
+
+## Multiple clusters / contexts in 1 config
+
+```shell
+kubectl config get-contexts
+kubectl config use-context OTHER_CONTEXT
+```
