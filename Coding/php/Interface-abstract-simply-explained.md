@@ -2,8 +2,9 @@
 
 * https://github.com/Janis-Rullis-IT/dev/blob/master/Infrastructure/Software/Why-use-private-methods.md
 
-List of available public methods ob which You could rely on. They will be documented and won't change that often. 
-Private methods in the implementation classes are can change as much as they want. 
+List of available public methods on which You could rely on. They will be documented and won't change that often. 
+
+Private methods in the implementation classes can change as much as they want. 
 
 # Abstract is a guide with a partial implementation 
 
