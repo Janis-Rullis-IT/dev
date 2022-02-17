@@ -16,3 +16,8 @@ $a = new Tokenizer;
     "(" => "T_OPEN_BRACKET"
     ")" => "T_CLOSE_BRACKET"
 ```
+
+
+## Is-it-necessary-to-include-even-its-in-sublib
+
+Id say yes, because it will just add a reference to the existing one if versions match and will not download a new copy. And it will make sure that nothing breaks if the other lib is removed that contains it as a sublib.
