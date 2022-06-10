@@ -9,6 +9,8 @@ git branch -m old new
 
 ## Create and switch
 
+> `git switch` can now be used to change branches.
+
 ```shell
 git checkout -b bugfix/127-homepage-404
 ```
