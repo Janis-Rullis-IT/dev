@@ -16,6 +16,8 @@ Then run the following command in your working tree to tell Git to use this URL 
 ## [Git ignore](Git-ignore)
 
 ## [Git: revert (reset) a single file](https://www.norbauer.com/rails-consulting/notes/git-revert-reset-a-single-file)
+	
+> `git restore` can be used to reset files to certain revisions, as git checkout -- <path_to_file> does.
 
 ```bash
 git checkout filename
