@@ -49,5 +49,6 @@
     "php-cs-fixer.onsave": true,
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
-    }
+    },
+    "bracket-pair-colorizer-2.depreciation-notice": false
 }
