@@ -13,7 +13,7 @@ const mix = require('laravel-mix');
 mix.webpackConfig({ stats: { children: true } });
 
 function generateJs(paths, desitnationDir, destinationFile) {
-    if (mix.inProduction) {
+    if (mix.inProduction()) {
         mix.combine(paths, desitnationDir + destinationFile)
         return;
     }
