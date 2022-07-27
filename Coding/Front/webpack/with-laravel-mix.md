@@ -1,6 +1,7 @@
 # with-laravel-mix.md
 
 ## With sourcemaps
+> People had similar problems with laravel-mix and sourcemaps() in here https://github.com/laravel-mix/laravel-mix/issues/1793
 
 ```js
 process.env.DISABLE_NOTIFIER = true;
