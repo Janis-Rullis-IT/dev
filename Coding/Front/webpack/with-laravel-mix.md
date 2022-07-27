@@ -34,7 +34,7 @@ function generateJs(paths, desitnationDir, destinationFile) {
 
 generateJs(
     [
-        'resources/assets/js/helpers.js',
+        'resources/assets/js/helpers/*.js',
         'resources/assets/js/loading.js',
     ],
     'public/js/',
@@ -59,7 +59,7 @@ function generateAppJs() {
     const mustCompileToES5 = true;
     mix.combine(
         [
-        'resources/assets/js/helpers.js',
+        'resources/assets/js/helpers/*.js',
         'resources/assets/js/loading.js',
          ],
         'public/js/app.js',
