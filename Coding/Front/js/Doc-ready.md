@@ -1,6 +1,10 @@
 # Document Ready with Vanilla JavaScript
 
-Use `<script defer` [DOM ready events considered harmful | HTTP 203](https://www.youtube.com/watch?v=_iq1fPjeqMQ).
+Use `<script defer` [DOM ready events considered harmful | HTTP 203](https://www.youtube.com/watch?v=_iq1fPjeqMQ) or async.
+
+## For elements
+
+Customelements.
 
 # In the past, I guess
 As this might slow the whole page see - [DOM ready events considered harmful | HTTP 203](https://www.youtube.com/watch?v=_iq1fPjeqMQ).
