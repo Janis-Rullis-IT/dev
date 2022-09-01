@@ -1,6 +1,6 @@
 # detect-pasted-space-or-tab-and-confirm-conv-to-comma.md
 
-https://jsfiddle.net/5tcpds27/61/
+https://jsfiddle.net/janis_rullis/frcobhpg/
 
 ```js
 // Include opreations with delimiters, like replacing one delimiter with another in a string.
