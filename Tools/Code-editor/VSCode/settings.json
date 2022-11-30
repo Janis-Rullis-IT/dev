@@ -2,6 +2,7 @@
     "workbench.sideBar.location": "right",
     "editor.minimap.enabled": false,
     "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.wrapTabs": true,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "explorer.confirmDragAndDrop": false,
@@ -43,12 +44,13 @@
     "workbench.editorAssociations": {
         "git-rebase-todo": "default"
     },
-    // "php-cs-fixer.rules": "@PSR2",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1669178041763,
     "php-cs-fixer.config": "/home/j/Desktop/www/vendor/.php-cs-fixer.php",
-    "php-cs-fixer.executablePath": "/home/j/Desktop/www/vendor/php-cs-fixer.phar",
-    "php-cs-fixer.onsave": true,
-    "[php]": {
-        "editor.defaultFormatter": "junstyle.php-cs-fixer"
-    },
-    "bracket-pair-colorizer-2.depreciation-notice": false
+    "extensions.ignoreRecommendations": true,
+    "editor.formatOnSave": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "[html]": {
+        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+    }
 }
