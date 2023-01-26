@@ -1,5 +1,8 @@
 # Git commit history
 
+* https://www.davidchudzicki.com/posts/first-parent/
+`git log --first-parent`
+
 ## In VSCode or Netbeans
 
 https://github.com/Janis-Rullis-IT/dev/blob/0c1a07677196c8e052cd36c9ef844a445fd1bddc/Tools/Code-editor/VSCode/Git-changes-compare-working-file.md
