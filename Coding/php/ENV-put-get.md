@@ -7,7 +7,7 @@ https://www.php.net/manual/en/function.putenv.php#73308
 putenv('HAHA=');
 
 // Unset 
-putenv('HAHA:');
+putenv('HAHA');
         
 // Get
 env('HAHA');
