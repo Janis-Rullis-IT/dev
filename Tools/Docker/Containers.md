@@ -10,6 +10,14 @@ The docker run command takes the Docker image as a template and produces a conta
 docker container ls
 ```
 
+### Custom columns
+
+```shell
+docker ps --format "table {{.Names}} \t {{.Image}} \t {{.Ports}} \t {{.ID}}"
+
+docker ps --format "table {{.Names}} \t {{.Networks}} \t {{.Mounts}}"
+```
+
 ## See process / status
 
 ```shell
