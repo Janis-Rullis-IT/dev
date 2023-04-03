@@ -7,6 +7,7 @@
 
 * Isolated, simple as possible, fast. [Mock instead of real DB.](https://youtube.com/clip/UgkxfmFIn2KHp4nOMsJSQLxx_LnRKwVlShja)
 * Can run in parallel, in any order, nearly everywhere.
+* Tests exactly ONE (Unit).
 
 * https://www.youtube.com/watch?v=3kzHmaeozDI
 * https://www.youtube.com/watch?v=iWtxEDE1IR4
