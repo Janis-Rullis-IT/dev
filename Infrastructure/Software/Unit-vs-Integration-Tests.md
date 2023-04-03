@@ -35,10 +35,10 @@ def test_login():
     # simulate entering username and password
     login_form.enter_username('test_user')
     login_form.enter_password('test_password')
-    
+
     # simulate clicking the login button
     login_form.click_login_button()
-    
+
     # assert that the user is logged in
     assert user_session.is_logged_in() == True
 ```
@@ -47,10 +47,10 @@ def test_login():
 def test_database_integration():
     # insert test data into the database
     database.insert_data('test_data')
-    
+
     # load the web page that displays the data
     web_page.load_page()
-    
+
     # assert that the data is displayed correctly
     assert web_page.get_data() == 'test_data'
 ```
