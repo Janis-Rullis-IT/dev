@@ -54,3 +54,7 @@ def test_database_integration():
     # assert that the data is displayed correctly
     assert web_page.get_data() == 'test_data'
 ```
+
+## TIPS
+
+* Avoid conditional assertion like if a > 4 assrtA else assert B. Instead move this to a separate test method.
