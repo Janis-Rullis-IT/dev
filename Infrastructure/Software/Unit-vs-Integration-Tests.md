@@ -57,4 +57,6 @@ def test_database_integration():
 
 ## TIPS
 
+* https://youtu.be/fr1E9aVnBxw?t=2438
 * Avoid conditional assertion like if a > 4 assrtA else assert B. Instead move this to a separate test method.
+* If pipeline fails, rollback first, ask questions later
