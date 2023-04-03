@@ -1,6 +1,7 @@
 # Distributed-monolith.md
 Services require each other to be available and cannot function without other services.
 
+* https://www.youtube.com/clip/UgkxkeXLS4l28yp96_L2ansod4FYx2Td8cFU
 * https://codeopinion.com/rest-apis-for-microservices-beware/
 * https://www.youtube.com/watch?v=_4gyR6CBkUE
 * https://betterprogramming.pub/trade-offs-on-monolithic-vs-distributed-architectures-7a04f86d47ad
