@@ -33,12 +33,12 @@ class TemperatureTest extends \PHPUnit\Framework\TestCase
 
     public function testGetsAverageTemperatureFromThreeServiceReadings()
     {
-        $service = Mockery::mock('service');
-        $service->shouldReceive('readTemp')
+        $privClass = Mockery::mock('privClass');
+        $privClass->shouldReceive('readTemp')
             ->times(3)
             ->andReturn(10, 12, 14);
 
-        $temperature = new Temperature($service);
+        $temperature = new Temperature($privClass);
 
         $this->assertEquals(12, $temperature->average());
     }
