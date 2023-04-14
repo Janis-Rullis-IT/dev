@@ -1,4 +1,4 @@
-# What-do-I-need-to-mock?
+# What-I-need-to-mock?
 
  * Mocking allows you to replace the DEPENDENCIES with controlled inputs and outputs.
  * Unreachable method, service. For example, extrenal or not yet implelemted API.
