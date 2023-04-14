@@ -7,6 +7,7 @@ Q: Does the testable code works with?
 * API
 * a mesh of call inside the project
 * or other funky depn.
+Q: The endpoint is not yet imlememnted but You need to rely on it's spec?
 
 A: Then, YES, You need a mock.
 
