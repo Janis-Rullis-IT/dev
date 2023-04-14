@@ -1,17 +1,21 @@
 # Do I need to use a mock in this test?
 
-Q: Does the testable code works with?
+## Q: Does the testable code works with?
 * FS - config, .env file counts.
 * DB
 * Queue
 * API
 * a mesh of call inside the project
 * or other funky depn.
-Q: The endpoint is not yet imlememnted but You need to rely on it's spec? Use common FE scenario.
 
-A: Then, YES, You need a mock.
+## Q: The endpoint is not yet imlememnted but You need to rely on it's spec?
+A very common FE scenario.
 
-## When to use mocks?
+## A: Then, YES.
+You need a mock.
+
+-----
+# When to use mocks?
 
 ### ChatGPT kindly offered reasons
 
