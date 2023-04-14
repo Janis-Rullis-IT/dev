@@ -6,7 +6,7 @@ Mock allows to test how the function works without external dependencies.
 ## Do I need to use a mock in this test?
 
 Q: Does the testable code works with?
-* FS
+* FS - config, .env file counts.
 * DB
 * Queue
 * API
