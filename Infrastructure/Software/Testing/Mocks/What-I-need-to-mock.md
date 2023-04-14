@@ -1,17 +1,16 @@
 # What-I-need-to-mock?
 
-## Replace the DEPENDENCIES
+## 1. Replace the DEPENDENCIES
 Example: Mock the `privObj` used in `TestableClass::construct($privObj)`. Don't mock `TestableClass` as You want to test how it works. Without the `privObj` mock You can not test the `TestableClass`, as it wants to locate that private dependency, which might not be reachable.
  
 ## Example
 * https://github.com/Janis-Rullis-IT/dev/blob/master/Tools/php/Mockery/Mock-priv-class-accepted-in-construct.md
 * https://docs.mockery.io/en/latest/getting_started/simple_example.html
  
-## Unreachable method, service.
+## 2. Unreachable method, service.
 For example, extrenal or not yet implelemted API.
  
-
-# Thanks, ChatGPT
+# More details (Thanks, ChatGPT)
  
 ## In Unit testing - DB, API, libs, etc. deps
 
