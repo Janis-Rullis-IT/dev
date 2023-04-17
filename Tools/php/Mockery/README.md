@@ -50,3 +50,21 @@ public function register(): void
         FrontendRoute::class
     );
 ```
+
+### Mock gets used in the testable code
+> Mock counts meets the usage in here. So if You call the mock method 2 times then set the expectation to `->twice()`.
+```php
+use App\Interfaces\FrontendRouteInterface;
+
+public function __construct(private readonly FrontendRouteInterface $frontendRoute) {}
+
+public function some(){
+$campaignURL = $this->frontendRoute->getPageURL(
+    'user.show',
+    [
+        'name' => $name,
+        'surname' => $surname
+    ]
+);
+}
+```
