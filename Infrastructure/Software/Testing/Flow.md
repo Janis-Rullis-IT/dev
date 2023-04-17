@@ -16,5 +16,5 @@ Something like this:
 3. `UserModel` mocks `DB`.
 
 With this mocking approach, the higher level tests won't be affected if lovwer dependecies changes. 
-* Change, the DB, will affect 3 but not 2. and 3.
+* Change, the `DB`, will affect 3 but not 2. and 3.
 * Change the `UserModel`, will affect 2. but not 1.
