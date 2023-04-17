@@ -8,12 +8,35 @@ https://github.com/Janis-Rullis-IT/dev/blob/master/Infrastructure/Software/Testi
 ### Interface - the ruleset that needs to be met
 
 ```php
-
 interface FrontendRouteInterface
 {
     public function getBaseURL(): string;
     public function getPageURI(string $dotPath, array $params = []): string;
     public function getPageURL(string $dotPath, array $params = []): string;
+}
+```
+
+### The real implementation - that the mock by-passes
+
+```php
+namespace App\Services;
+
+use App\Interfaces\FrontendRouteInterface;
+
+class FrontendRoute implements FrontendRouteInterface
+{
+    public function getBaseURL(): string
+    {
+        return 'todo';
+    }
+    public function getPageURI(string $dotPath, array $params = []): string
+    {
+        return 'todo';
+    }
+    public function getPageURL(string $dotPath, array $params = []): string
+    {
+        return 'todo';
+    }
 }
 ```
 
