@@ -68,3 +68,23 @@ $campaignURL = $this->frontendRoute->getPageURL(
 );
 }
 ```
+
+### Set the mock - expectations
+```php
+ protected function mockFrontendRoute()
+{
+    $this->mock(FrontendRouteInterface::class, function (MockInterface $mock) {
+        $mock->allows()
+            ->getBaseURL()
+            ->andReturn('https://user.local/');
+
+        $mock->allows()
+            ->getPageURI('user.show',  ['name' => 'john', 'surname' => 'doe'])
+            ->andReturn('n/john/s/doe');
+
+        $mock->expects()
+            ->getPageURL('user.show',   ['name' => 'john', 'surname' => 'doe'])
+            ->andReturn('https://user.local/n/john/s/doe');
+    });
+}
+```
