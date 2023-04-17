@@ -88,3 +88,7 @@ $campaignURL = $this->frontendRoute->getPageURL(
     });
 }
 ```
+
+## IMPORTANT!
+The values going through the code should be the same as in the mock expectations. 
+Like this `->getPageURL('user.show',   ['name' => 'john', 'surname' => 'doe'])`. Otherwise, the mock method's definition will be considered as incorrect (cant not find a matching one).
