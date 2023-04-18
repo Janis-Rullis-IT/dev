@@ -94,7 +94,7 @@ $this->mockFrontendRoute()
 
 // Initi DI / fill variable inits in construct.
 app()->make(MyService::class, ['logger' => fn (string $text) => print('e')]);
-// ~~new MyService()~~ would not init the DI and init the Interface.
+// new MyService() would not init the DI and init the Interface.
 ```
 
 ## IMPORTANT!
