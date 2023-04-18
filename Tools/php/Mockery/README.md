@@ -57,8 +57,8 @@ public function register(): void
 class MyService{
     use App\Interfaces\FrontendRouteInterface;
 
-    public function __construct(private readonly FrontendRouteInterface $frontendRoute) {}
-
+    public function __construct(private readonly FrontendRouteInterface $frontendRoute, private readonly ?Closure $logger = null) {}
+    
     public function some(){
     $campaignURL = $this->frontendRoute->getPageURL(
         'user.show',
