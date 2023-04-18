@@ -54,18 +54,20 @@ public function register(): void
 ### Mock gets used in the testable code
 > Mock counts meets the usage in here. So if You call the mock method 2 times then set the expectation to `->twice()`.
 ```php
-use App\Interfaces\FrontendRouteInterface;
+class MyService{
+    use App\Interfaces\FrontendRouteInterface;
 
-public function __construct(private readonly FrontendRouteInterface $frontendRoute) {}
+    public function __construct(private readonly FrontendRouteInterface $frontendRoute) {}
 
-public function some(){
-$campaignURL = $this->frontendRoute->getPageURL(
-    'user.show',
-    [
-        'name' => $name,
-        'surname' => $surname
-    ]
-);
+    public function some(){
+    $campaignURL = $this->frontendRoute->getPageURL(
+        'user.show',
+        [
+            'name' => $name,
+            'surname' => $surname
+        ]
+    );
+    }
 }
 ```
 
@@ -87,6 +89,12 @@ $campaignURL = $this->frontendRoute->getPageURL(
             ->andReturn('https://user.local/n/john/s/doe');
     });
 }
+
+$this->mockFrontendRoute()
+
+// Initi DI / fill variable inits in construct.
+app()->make(MyService::class, ['logger' => fn (string $text) => print('e')]);
+// ~~new MyService()~~ would not init the DI and init the Interface.
 ```
 
 ## IMPORTANT!
