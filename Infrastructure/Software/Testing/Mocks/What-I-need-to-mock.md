@@ -3,7 +3,7 @@
 ## 1. Replace the DEPENDENCIES
 
 ### Example
-* https://github.com/Janis-Rullis-IT/dev/blob/master/Tools/php/Mockery/Mock-priv-class-accepted-in-construct.md
+* https://github.com/Janis-Rullis-IT/dev/tree/644fcc7eb98ff40f5d2ccd3749fc02f841bd5b09/Coding/php/Testing/Mockery
 * https://docs.mockery.io/en/latest/getting_started/simple_example.html
 
 * Mock the `privObj` used in `TestableClass::construct($privObj)`. 
