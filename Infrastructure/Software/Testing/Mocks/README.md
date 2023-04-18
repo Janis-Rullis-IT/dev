@@ -1,5 +1,6 @@
 # Mocks
 Mock allows to test how the function works without external dependencies.
+* https://github.com/Janis-Rullis-IT/dev/tree/644fcc7eb98ff40f5d2ccd3749fc02f841bd5b09/Coding/php/Testing/Mockery
 
 ## Purpose
 
