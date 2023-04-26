@@ -1,4 +1,5 @@
 # git
+* https://www.youtube.com/@DanGitschooldude
 
 ## THEEE HELPER https://github.com/k88hudson/git-flight-rules
 
