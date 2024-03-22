@@ -10,6 +10,8 @@ sudo apt install php7.4-cli
 ## List
 
 * git lens
+* https://marketplace.visualstudio.com/items?itemName=kdcro101.favorites `Favorites: Focus on Explorer view - CTRL + 1`.
+
 * https://marketplace.visualstudio.com/items?itemName=annsk.alignment
 * https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense
 * https://marketplace.visualstudio.com/items?itemName=huizhou.githd
