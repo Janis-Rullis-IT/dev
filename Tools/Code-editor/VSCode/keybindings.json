@@ -58,5 +58,13 @@
     "key": "ctrl+shift+c",
     "command": "editor.action.addCommentLine",
     "when": "editorTextFocus && !editorReadonly"
+},
+{
+    "key": "ctrl+2",
+    "command": "workbench.files.action.showActiveFileInExplorer"
+},
+{
+    "key": "ctrl+2",
+    "command": "-workbench.action.focusSecondEditorGroup"
 }
 ]
