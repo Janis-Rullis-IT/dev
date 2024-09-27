@@ -6,6 +6,15 @@ https://piccalil.li/blog/a-guide-to-destructuring-in-javascript/
 const myArray = [ "goose", "duck", "duck", "goose" ];
 const [ firstElement, , , fourthElement ] = myArray;
 
+
+const myObject = {
+  "key1": "first value",
+  "key2": "second value",
+  "key3": "third value"
+};
+const { key1, ...otherProperties } = myObject;
+
+
 const myImage = {
   "src": "data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs",
   "alt": "A single black pixel.",
