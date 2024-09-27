@@ -25,4 +25,9 @@ const myImage = {
 };
 
 const { src, alt = "", size: { width = 800, height = 450 } } = myImage;
+
+
+function myFunction( firstParameter, ...remainingParameters ) {
+
+};
 ```
