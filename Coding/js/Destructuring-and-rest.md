@@ -30,4 +30,8 @@ const { src, alt = "", size: { width = 800, height = 450 } } = myImage;
 function myFunction( firstParameter, ...remainingParameters ) {
 
 };
+
+
+const myArray = [ 4, 5, 6 ];
+const myMergedArray = [1, 2, 3, ...myArray ];
 ```
