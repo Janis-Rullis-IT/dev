@@ -50,6 +50,19 @@ git push -u origin --delete 1-setup-env
 git branch -d bugfix/127-homepage-404
 ```
 
+## Still see branches when doing `git checkout` auto-suggest?
+* https://www.geeksforgeeks.org/difference-between-git-remote-prune-git-prune-and-git-fetch-prune/
+* https://stackoverflow.com/questions/1072171/how-do-you-remove-an-invalid-remote-branch-reference-from-git#comment10276471_1072178
+> git is verifying which remote branches are done.
+```shell
+git remote prune origin
+```
+```
+Pruning origin
+URL: git@gitlab.example.io:dev/my-repo.git
+ * [pruned] origin/feature/friendly-branch
+```
+
 ## Naming
 * feature/662-login-with-facebook
 * bugfix/127-homepage-404
