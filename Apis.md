@@ -8,3 +8,4 @@
 * https://www.freepublicapis.com/profanity-filter-api
 * https://www.freepublicapis.com/keyval-api
 * https://www.freepublicapis.com/ip-geolocation-api
+* https://www.freepublicapis.com/nationalize-api
