@@ -3,3 +3,5 @@
 * https://www.freepublicapis.com/free-dictionary-api
 * https://www.freepublicapis.com/the-color-api
 * https://www.freepublicapis.com/user-agent-lookup-api
+* https://www.freepublicapis.com/energy-charts-api
+* https://www.freepublicapis.com/math-function-parser
