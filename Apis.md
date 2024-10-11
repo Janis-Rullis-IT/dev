@@ -1,4 +1,5 @@
 # APIs
 * https://www.freepublicapis.com/world-bank-data-api
 * https://www.freepublicapis.com/free-dictionary-api
-* 
+* https://www.freepublicapis.com/the-color-api
+* https://www.freepublicapis.com/user-agent-lookup-api
