@@ -10,3 +10,6 @@
 * https://www.freepublicapis.com/ip-geolocation-api
 * https://www.freepublicapis.com/nationalize-api
 * https://www.freepublicapis.com/random-user-generator
+* https://www.freepublicapis.com/serialif-color-api
+* https://www.freepublicapis.com/public-holiday-api
+* 
