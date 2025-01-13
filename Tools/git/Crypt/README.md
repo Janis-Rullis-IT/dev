@@ -23,6 +23,12 @@ mkdir secrets
 ```shell
 cd cloned_repo
 cat secrets/hello.md
+
+## a separate file.
 git-crypt unlock my-magical-key
+
+## Oooor try the def, that would come when copied manually.
+git-crypt unlock .git/git-crypt/keys/default
+
 cat secrets/hello.md
 ```
