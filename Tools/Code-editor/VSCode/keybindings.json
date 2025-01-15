@@ -1,4 +1,3 @@
-// Place your key bindings in this file to override the defaults
 [
   {
     "key": "ctrl+shift+d",
@@ -46,25 +45,40 @@
     "key": "ctrl+alt+z",
     "command": "workbench.action.toggleZenMode"
   },
-{
+  {
     "key": "ctrl+1",
     "command": "favoritesActivity.focus"
-},
-{
+  },
+  {
     "key": "ctrl+shift+x",
     "command": "copyRelativeFilePath"
-},
-{
-    "key": "ctrl+shift+c",
-    "command": "editor.action.addCommentLine",
-    "when": "editorTextFocus && !editorReadonly"
-},
+  },
 {
     "key": "ctrl+2",
     "command": "workbench.files.action.showActiveFileInExplorer"
-},
-{
+  },
+  {
     "key": "ctrl+2",
     "command": "-workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "-workbench.action.terminal.copySelection",
+    "when": "terminalTextSelectedInFocused || terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected || terminalFocus && terminalTextSelected && terminalTextSelectedInFocused || terminalHasBeenCreated && terminalTextSelected && terminalTextSelectedInFocused || terminalProcessSupported && terminalTextSelected && terminalTextSelectedInFocused"
+},
+{
+    "key": "ctrl+shift+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+},
+{
+    "key": "ctrl+shift+c",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+},
+{
+    "key": "ctrl+/",
+    "command": "-editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
 }
 ]
