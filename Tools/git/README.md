@@ -42,6 +42,7 @@ git config --global difftool.prompt false
 git config --global merge.tool meld
 git config --global mergetool.prompt false
 git config --globalcore.excludesfile /home/j/.gitignore_global
+git config --global pull.rebase false
 git config -l
 ```
 
