@@ -14,10 +14,7 @@ esbenp.prettier-vscode
 formulahendry.auto-close-tag
 formulahendry.auto-complete-tag
 formulahendry.auto-rename-tag
-kdcro101.favorites
 kevinrose.vsc-python-indent
-micnil.vscode-checkpoints
-ms-python.debugpy
 ms-python.python
 ms-python.vscode-pylance
 octref.vetur
