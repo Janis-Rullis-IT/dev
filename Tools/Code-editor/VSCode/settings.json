@@ -1,68 +1,78 @@
 {
-  "workbench.sideBar.location": "right",
-  "editor.minimap.enabled": false,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.editor.wrapTabs": true,
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "explorer.confirmDragAndDrop": false,
-  "editor.detectIndentation": false,
-  "editor.insertSpaces": true,
-  "explorer.confirmDelete": false,
-  "redhat.telemetry.enabled": false,
-  "workbench.colorTheme": "Signed Dark Pro",
-  "editor.fontSize": 22,
-  "editor.fontFamily": "'Fira code'",
-  "editor.fontLigatures": true,
-  "editor.fontWeight": 400,
-  "checkpoints.addCheckpointOnSave": true,
-  "checkpoints.askForCheckpointName": false,
-  "bracket-pair-colorizer-2.colors": ["Orchid", "Orchid", "Blue", "Yellow", "Red", "White", "Grey", "Green"],
-  "workbench.iconTheme": "material-icon-theme",
-  "window.menuBarVisibility": "toggle",
-  "editor.formatOnType": true,
-  "diffEditor.codeLens": true,
-  "gitlens.advanced.fileHistoryShowAllBranches": true,
-  "gitlens.views.fileHistory.files.layout": "tree",
-  "gitlens.views.fileHistory.files.compact": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.currentLine.enabled": false,
-  "gitlens.codeLens.enabled": false,
-  "gitlens.statusBar.enabled": false,
-  "gitlens.hovers.enabled": false,
-  "workbench.editorAssociations": {
-    "git-rebase-todo": "default"
-  },
-  "extensions.ignoreRecommendations": true,
-  "editor.formatOnSave": true,
-  "bracket-pair-colorizer-2.depreciation-notice": false,
-  "prettier.printWidth": 120,
-  "prettier.singleQuote": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "security.workspace.trust.untrustedFiles": "open",
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  "window.zoomLevel": 3,
-  "zenMode.showTabs": "none",
-  "zenMode.centerLayout": false,
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "editor.guides.bracketPairs": true
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": false,
+    "workbench.colorTheme": "Signed Dark Pro",
+    "editor.fontSize": 22,
+    "editor.fontFamily": "'Fira code'",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": 400,
+    "checkpoints.addCheckpointOnSave": true,
+    "checkpoints.askForCheckpointName": false,
+    "bracket-pair-colorizer-2.colors": [
+        "Orchid",
+        "Orchid",
+        "Blue",
+        "Yellow",
+        "Red",
+        "White",
+        "Grey",
+        "Green"
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "window.menuBarVisibility": "toggle",
+    "editor.formatOnType": true,
+    "diffEditor.codeLens": true,
+    "gitlens.advanced.fileHistoryShowAllBranches": true,
+    "gitlens.views.fileHistory.files.layout": "tree",
+    "gitlens.views.fileHistory.files.compact": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "workbench.editorAssociations": {
+        "git-rebase-todo": "default"
+    },
+    "extensions.ignoreRecommendations": true,
+    "editor.formatOnSave": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "prettier.printWidth": 120,
+    "prettier.singleQuote": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "window.zoomLevel": 3,
+    "zenMode.showTabs": "none",
+    "zenMode.centerLayout": false,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "editor.guides.bracketPairs": true,
+    "git.openRepositoryInParentFolders": "never"
 }

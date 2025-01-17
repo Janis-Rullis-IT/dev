@@ -10,7 +10,7 @@
     "when": "textInputFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+0",
+    "key": "ctrl+1",
     "command": "workbench.action.focusActiveEditorGroup"
   },
   {
@@ -46,14 +46,10 @@
     "command": "workbench.action.toggleZenMode"
   },
   {
-    "key": "ctrl+1",
-    "command": "favoritesActivity.focus"
-  },
-  {
     "key": "ctrl+shift+x",
     "command": "copyRelativeFilePath"
   },
-{
+  {
     "key": "ctrl+2",
     "command": "workbench.files.action.showActiveFileInExplorer"
   },
