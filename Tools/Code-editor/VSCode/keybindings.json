@@ -8,17 +8,7 @@
         "key": "cmd+shift+d",
         "command": "editor.action.deleteLines",
         "when": "isMac && textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+k",
-        "command": "-editor.action.deleteLines",
-        "when": "!isMac && textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "cmd+shift+k",
-        "command": "-editor.action.deleteLines",
-        "when": "isMac && textInputFocus && !editorReadonly"
-    },
+    },    
     {
         "key": "ctrl+2",
         "command": "workbench.files.action.showActiveFileInExplorer",
@@ -58,17 +48,7 @@
         "key": "cmd+shift+c",
         "command": "editor.action.commentLine",
         "when": "isMac && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+down",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "!isMac && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+alt+down",
-        "command": "-editor.action.copyLinesDownAction",
-        "when": "!isMac && editorTextFocus && !editorReadonly"
-    },
+    },   
     {
         "key": "ctrl+u u",
         "command": "editor.action.transformToUppercase",
@@ -108,5 +88,45 @@
         "key": "cmd+u t",
         "command": "editor.action.transformToTitlecase",
         "when": "isMac"
-    }
+    },
+    {
+    "key": "ctrl+u c",
+    "command": "editor.action.transformToCamelcase",
+        "when": "!isMac"
+  },
+    {
+    "key": "cmd+u c",
+    "command": "editor.action.transformToCamelcase",
+        "when": "isMac"
+  },
+  {
+    "key": "ctrl+u k",
+    "command": "editor.action.transformToKebabcase",
+      "when": "!isMac"
+  },
+    {
+    "key": "cmd+u k",
+    "command": "editor.action.transformToKebabcase",
+      "when": "isMac"
+  },
+  {
+    "key": "ctrl+alt+z",
+    "command": "workbench.action.toggleZenMode",
+      "when": "!isMac"
+  },
+    {
+    "key": "option+cmd+z",
+    "command": "workbench.action.toggleZenMode",
+      "when": "isMac"
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "copyRelativeFilePath",
+      "when": "!isMac"
+  },
+    {
+    "key": "cmd+shift+x",
+    "command": "copyRelativeFilePath",
+      "when": "isMac"
+  },
 ]
